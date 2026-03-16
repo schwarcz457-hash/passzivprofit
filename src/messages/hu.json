@@ -1,0 +1,147 @@
+{
+  "Navigation": {
+    "home": "Kezdőlap",
+    "benefits": "Előnyök",
+    "calculator": "Kalkulátor",
+    "howItWorks": "Hogyan működik",
+    "contact": "Kapcsolat"
+  },
+  "Hero": {
+    "title": "Vagyonépítés Aranyban",
+    "subtitle": "Biztosítsd a jövőd fizikai arannyal. Védelem az infláció ellen, passzív hozam, válságálló megtartás.",
+    "cta": "Kezdd el most",
+    "secondaryCta": "Tudj meg többet"
+  },
+  "Benefits": {
+    "title": "Miért fizikai arany?",
+    "items": {
+      "inflation": {
+        "title": "Infláció Elleni Védelem",
+        "description": "Az arany évezredek óta megőrzi vásárlóértékét a papírpénzekkel szemben."
+      },
+      "passive": {
+        "title": "Passzív Hozam Célok",
+        "description": "Szerezz akár 10% hűség és ajánlói bónuszt a folyamatos aranyfelhalmozásod után."
+      },
+      "security": {
+        "title": "Fizikai Biztonság",
+        "description": "100%-ban fizikai formában, értékbiztosított trezorokban tárolva Svájcban és Bécsben."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Hogyan Működik az Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Nyiss Számlát",
+        "description": "Regisztrálj díjmentesen, és férj hozzá a prémium vásárlási felülethez."
+      },
+      "step2": {
+        "title": "Vásárolj Aranyat",
+        "description": "Kezdj el rendszeres euró/forint megtakarítással törtaranyat vásárolni havi szinten."
+      },
+      "step3": {
+        "title": "Élvezd a Passzív Profitot",
+        "description": "Nézd, ahogy gyarapszik a vagyonod az 5-8% éves értéknövekedéssel és a 10% hűségbónusszal."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Passzív Profit Kalkulátor",
+    "monthlyInvestment": "Havi Megtakarítás",
+    "timeframe": "Időtáv",
+    "month": "Hónap",
+    "months": "Hónap",
+    "expectedReturnTitle": "Várható Eredmény",
+    "totalInvested": "Összes Befizetés",
+    "goldGrowth": "Arany Értéknövekedése (~6.5% átlag)",
+    "goldGrowthTooltip": "Ez a szám az arany elmúlt évtizedekben tapasztalt átlagos éves értéknövekedésén (CAGR) alapul. Fontos tudni, hogy a múltbéli teljesítmény nem garancia a jövőbeli hozamokra, az arany ára a világpiaci folyamatok függvényében ingadozhat.",
+    "finalValue": "Tervezett Végső Érték",
+    "tierTitle": "Profit Szint Kiválasztása",
+    "tierBasic": "Basic Szint (1% / hó)",
+    "tierStandard": "Standard Szint (2% / hó)",
+    "tierPremium": "Prémium Szint (4% / hó)",
+    "strategyTitle": "Növekedési Stratégia",
+    "strategyPayout": "Havi Kifizetés",
+    "strategyCompound": "Újrabefektetés / Kamatos kamat",
+    "exponentialGrowth": "Kamatos Kamat Ereje!",
+    "minGoldWarning": "Minimum 1 gramm arany",
+    "systemEntryAsset": "Rendszerbelépési eszköz (Back Office)",
+    "systemEntryAssetNote": "Céltartalék képzés (1. fázis)",
+    "loyaltyRefund": "Hűség Visszatérítés (2. fázis)",
+    "netInvestment": "Nettó befektetés",
+    "goldPremium": "Gold Prémium Aktív",
+    "goldGrams": "Gramm Arany",
+    "tierUgyfel": "Ügyfél Alap",
+    "tierVasarloi": "Vásárlói Alap",
+    "tableTitle": "Modellek Összehasonlítása",
+    "tableModelName": "Modell",
+    "tableMonthlyDisc": "Havi kedvezmény",
+    "tableBonus": "Hűség/Extra Bónusz",
+    "tableTotalDisc": "Kedvezmény összesen",
+    "tableDuration": "Futamidő",
+    "tableStopOption": "Leállítható",
+    "tableStopYes": "Igen",
+    "tableStopNo": "Nem",
+    "loyaltyDiscount": "Hűségkedvezmény",
+    "premiumFeeReturn": "Prémium díj visszatérítés",
+    "premiumFee": "Prémium díj (25%)",
+    "tierUgyfelDesc": "Egyenletes, 2%-os havi növekedés, ami 36 hónap után megáll a befektetett tőke 72%-ánál.",
+    "tierVasarloiDesc": "Ugyanaz a 2%-os görbe, de a 36. hónapnál egy látványos 'ugrás' történik a grafikonon (+36% bónusz), így éri el a 108%-ot. Ez a 'jutalom' pillanata.",
+    "tierPremiumDesc": "Itt a 4%-os havi kedvezmény ketyeg, ami a 36. hónapra eléri a 144%-ot, majd onnantól belép a 200%-os díj-visszatérítési szakasz.",
+    "setupAsset": "Kezdeti Díj (25%)",
+    "virtualWallet": "Virtuális Tárca (Készpénz)",
+    "accumulationPot": "Gyűjtőszámla (Arany)",
+    "autoPurchaseProgress": "Következő Automatikus Vásárlás",
+    "totalCashEarned": "Összes Készpénz Bevétel",
+    "totalGoldAccumulated": "Összes Felhalmozott Arany",
+    "investmentTypeTitle": "Befektetés Típusa",
+    "investmentMonthly": "Havi megtakarítás",
+    "investmentLumpSum": "Egyszeri befektetés",
+    "lumpSumPayout": "Havi kifizetés (2/3)",
+    "lumpSumGold": "Havi arany gyarapodás (1/3)",
+    "initialInvestment": "Kezdeti Tőke",
+    "livePrice": "Világpiaci aranyár: {price} €/g (Frissítve: {time})",
+    "tgiLivePrice": "TGI Eladási árfolyam: {price} €/g (+3%)",
+    "tgiPriceNote": "A kalkuláció a TGI aktuális eladási árfolyamán alapul.",
+    "adminOverrideLabel": "Admin: Szorzó felülbírálása (pl. 1.05 = +5%)",
+    "selectedGoldGrams": "Választott arany mennyiség (gramm)",
+    "actualInvestmentValue": "Aktuális befektetési érték"
+  },
+  "TrustSignals": {
+    "title": "Megbízhatóság és Biztonság Mindenek Felett",
+    "goodDelivery": "LBMA Good Delivery minősítésű aranytömbök",
+    "vaults": "Svájci és Bécsi elismert, biztosított trezorok",
+    "audit": "Független könyvvizsgálók által auditálva"
+  },
+  "LeadForm": {
+    "title": "Kezdd El Az Építkezést",
+    "subtitle": "Kérj ingyenes konzultációt szakértőinktől, és tudd meg, hogyan hozhatsz létre válságálló vagyont.",
+    "namePlaceholder": "Teljes Név",
+    "emailPlaceholder": "Email Cím",
+    "phonePlaceholder": "Telefonszám",
+    "submitButton": "Konzultáció igénylése"
+  },
+  "Privacy": {
+    "title": "Adatvédelmi tájékoztató",
+    "lastUpdated": "Utolsó frissítés: 2026 Március",
+    "introduction": "Ez az Adatvédelmi tájékoztató leírja, hogyan gyűjtjük, használjuk és osztjuk meg személyes adatait, amikor meglátogatja az Aranyad oldalát vagy ajánlatot kér.",
+    "dataCollection": "Adatgyűjtés",
+    "dataCollectionText": "Kizárólag a nevét, e-mail címét és telefonszámát gyűjtjük be, amikor Ön ezeket kifejezetten megadja a kapcsolatfelvételi űrlapunk kitöltésével.",
+    "purpose": "Cél és Felhasználás",
+    "purposeText": "Az összegyűjtött információkat szigorúan arra használjuk, hogy kapcsolatba lépjünk Önnel aranymegtakarításokkal, konzultációkkal, és a passzív profit programjainkkal kapcsolatban.",
+    "storage": "Adattárolás és Biztonság",
+    "storageText": "Adatait biztonságosan tároljuk titkosított helyi adatbázisunkban. Személyes adatait soha nem értékesítjük és nem osztjuk meg harmadik felekkel marketing céljából.",
+    "rights": "Törléshez való jog",
+    "rightsText": "A GDPR rendelet értelmében Önnek joga van bármikor kérni személyes adatai törlését. Erre vonatkozó igényét kérjük, jelezze felénk közvetlenül."
+  },
+  "Consent": {
+    "checkboxText": "Elfogadom az Adatvédelmi tájékoztatót, és hozzájárulok a kapcsolatfelvételhez az aranymegtakarítással kapcsolatban.",
+    "privacyLink": "Adatvédelmi tájékoztató",
+    "required": "A folytatáshoz el kell fogadnia az Adatvédelmi tájékoztatót."
+  },
+  "Cookie": {
+    "message": "Weboldalunk cookie-kat használ a legjobb felhasználói élmény biztosítása érdekében.",
+    "accept": "Elfogadom"
+  }
+}

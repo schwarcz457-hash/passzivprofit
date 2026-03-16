@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "benefits": "Benefits",
+    "calculator": "Calculator",
+    "howItWorks": "How it Works",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Wealth Building with Gold",
+    "subtitle": "Secure your future with physical gold. Hedge against inflation, earn passive returns, build crisis-proof wealth.",
+    "cta": "Start Now",
+    "secondaryCta": "Learn More"
+  },
+  "Benefits": {
+    "title": "Why Physical Gold?",
+    "items": {
+      "inflation": {
+        "title": "Hedge Against Inflation",
+        "description": "Gold has preserved its purchasing power against fiat currencies for millennia."
+      },
+      "passive": {
+        "title": "Passive Return Goals",
+        "description": "Earn up to 10% loyalty and referral bonus on your continuous gold accumulation."
+      },
+      "security": {
+        "title": "Physical Security",
+        "description": "Stored 100% in physical form in fully insured vaults in Switzerland and Vienna."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "How Aranyad Works?",
+    "steps": {
+      "step1": {
+        "title": "Open an Account",
+        "description": "Register for free and get access to the premium purchasing platform."
+      },
+      "step2": {
+        "title": "Purchase Gold",
+        "description": "Start buying fractional physical gold with regular monthly EUR/HUF savings."
+      },
+      "step3": {
+        "title": "Enjoy Passive Profits",
+        "description": "Watch your wealth grow with an average 5-8% annual appreciation and the 10% loyalty bonus."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Passive Profit Calculator",
+    "monthlyInvestment": "Monthly Savings",
+    "timeframe": "Timeframe",
+    "month": "Month",
+    "months": "Months",
+    "expectedReturnTitle": "Expected Return",
+    "totalInvested": "Total Invested",
+    "goldGrowth": "Gold Appreciation (~6.5% avg)",
+    "goldGrowthTooltip": "This figure is based on the historical Compound Annual Growth Rate (CAGR) of gold over the past decades. Please note that past performance is not a guarantee of future results; gold prices may fluctuate based on global market conditions.",
+    "finalValue": "Final Projected Value",
+    "tierTitle": "Select Profit Tier",
+    "tierBasic": "Basic Tier (1% / mo)",
+    "tierStandard": "Standard Tier (2% / mo)",
+    "tierPremium": "Premium Tier (4% / mo)",
+    "strategyTitle": "Growth Strategy",
+    "strategyPayout": "Monthly Payout",
+    "strategyCompound": "Reinvest / Compound",
+    "exponentialGrowth": "Exponential Growth Applied!",
+    "minGoldWarning": "Minimum 1 gram of gold",
+    "systemEntryAsset": "System Entry Asset (Back Office)",
+    "systemEntryAssetNote": "Provisioned Asset (Phase 1)",
+    "loyaltyRefund": "Loyalty Refund (Phase 2)",
+    "netInvestment": "Net Investment",
+    "goldPremium": "Gold Premium Tier",
+    "goldGrams": "Grams Gold",
+    "tierUgyfel": "Customer Basic",
+    "tierVasarloi": "Buyer Basic",
+    "tableTitle": "Model Comparison",
+    "tableModelName": "Model Name",
+    "tableMonthlyDisc": "Monthly Discount",
+    "tableBonus": "Loyalty/Extra Bonus",
+    "tableTotalDisc": "Total Discount (36m)",
+    "tableDuration": "Duration",
+    "tableStopOption": "Stop Option",
+    "tableStopYes": "Yes",
+    "tableStopNo": "No",
+    "loyaltyDiscount": "Loyalty Discount",
+    "premiumFeeReturn": "Premium Fee Return",
+    "premiumFee": "Premium Fee (25%)",
+    "tierUgyfelDesc": "Steady 2% monthly growth, capping at 72% of the invested capital after 36 months.",
+    "tierVasarloiDesc": "The same 2% curve, but with a spectacular 'jump' at month 36 (+36% bonus), reaching 108%. This is the 'reward' moment.",
+    "tierPremiumDesc": "The 4% monthly discount tallies here, reaching 144% by month 36, after which the 200% fee-refund phase begins.",
+    "setupAsset": "Setup Asset (25%)",
+    "virtualWallet": "Virtual Wallet (Cash)",
+    "accumulationPot": "Accumulation Pot (Gold)",
+    "autoPurchaseProgress": "Next Auto-Purchase Progress",
+    "totalCashEarned": "Total Cash Earned",
+    "totalGoldAccumulated": "Total Gold Accumulated",
+    "investmentTypeTitle": "Investment Type",
+    "investmentMonthly": "Monthly Savings",
+    "investmentLumpSum": "One-time Investment",
+    "lumpSumPayout": "Monthly Cash Payout (2/3)",
+    "lumpSumGold": "Monthly Gold Growth (1/3)",
+    "initialInvestment": "Initial Principal"
+  },
+  "TrustSignals": {
+    "title": "Reliability and Security Above All",
+    "goodDelivery": "LBMA Good Delivery certified gold bars",
+    "vaults": "Recognized, insured vaults in Switzerland and Vienna",
+    "audit": "Audited by independent accounting firms"
+  },
+  "LeadForm": {
+    "title": "Start Building Your Wealth",
+    "subtitle": "Request a free consultation with our experts and learn how to create crisis-proof assets.",
+    "namePlaceholder": "Full Name",
+    "emailPlaceholder": "Email Address",
+    "phonePlaceholder": "Phone Number",
+    "submitButton": "Request Consultation"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "I agree to the Privacy Policy and consent to being contacted regarding gold savings.",
+    "privacyLink": "Privacy Policy",
+    "required": "You must agree to the Privacy Policy to proceed."
+  },
+  "Cookie": {
+    "message": "We use cookies to ensure you get the best experience on our website.",
+    "accept": "Accept"
+  }
+}

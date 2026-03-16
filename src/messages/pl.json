@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Strona Główna",
+    "benefits": "Korzyści",
+    "calculator": "Kalkulator",
+    "howItWorks": "Jak to działa",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Budowanie Bogactwa ze Złotem",
+    "subtitle": "Zabezpiecz swoją przyszłość fizycznym złotem. Ochrona przed inflacją, pasywne dochody, majątek odporny na kryzysy.",
+    "cta": "Zacznij Teraz",
+    "secondaryCta": "Dowiedz się Więcej"
+  },
+  "Benefits": {
+    "title": "Dlaczego Fizyczne Złoto?",
+    "items": {
+      "inflation": {
+        "title": "Ochrona Przed Inflacją",
+        "description": "Złoto od tysiącleci zachowuje swoją siłę nabywczą w stosunku do walut fiducjarnych."
+      },
+      "passive": {
+        "title": "Pasywne Dochody",
+        "description": "Zdobądź do 10% premii lojalnościowej dzięki ciągłemu gromadzeniu złota."
+      },
+      "security": {
+        "title": "Fizyczne Bezpieczeństwo",
+        "description": "Przechowywane w 100% w formie fizycznej w ubezpieczonych skarbcach w Szwajcarii i Austrii."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Jak działa Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Otwórz Konto",
+        "description": "Zarejestruj się bezpłatnie i uzyskaj dostęp do platformy."
+      },
+      "step2": {
+        "title": "Kup Złoto",
+        "description": "Zacznij kupować fizyczne złoto dzięki regularnym miesięcznym oszczędnościom."
+      },
+      "step3": {
+        "title": "Ciesz się Zyskami",
+        "description": "Obserwuj, jak rośnie Twoje bogactwo dzięki średniemu rocznemu zyskowi 5-8%."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Kalkulator Pasywnego Zysku",
+    "monthlyInvestment": "Miesięczne Oszczędności",
+    "timeframe": "Ramy Czasowe",
+    "month": "Miesiąc",
+    "months": "Miesiące",
+    "expectedReturnTitle": "Oczekiwany Zwrot",
+    "totalInvested": "Łącznie Zainwestowano",
+    "goldGrowth": "Wzrost Wartości Złota (~6.5% średnio)",
+    "goldGrowthTooltip": "Liczba ta opiera się na historycznym skumulowanym rocznym wskaźniku wzrostu (CAGR) złota na przestrzeni ostatnich dziesięcioleci. Należy pamiętać, że wyniki osiągnięte w przeszłości nie stanowią gwarancji przyszłych wyników; ceny złota mogą ulegać wahaniom w zależności od warunków na rynku globalnym.",
+    "finalValue": "Ostateczna Prognozowana Wartość",
+    "tierTitle": "Wybierz Poziom Zysku",
+    "tierBasic": "Poziom Podstawowy (1% / mies.)",
+    "tierStandard": "Poziom Standard (2% / mies.)",
+    "tierPremium": "Poziom Premium (4% / mies.)",
+    "strategyTitle": "Strategia Wzrostu",
+    "strategyPayout": "Miesięczna Wypłata",
+    "strategyCompound": "Reinwestycja / Procent Składany",
+    "exponentialGrowth": "Zastosowano Wzrost Wykładniczy!",
+    "minGoldWarning": "Minimum 1 gram złota",
+    "systemEntryAsset": "Aktywo Wejścia (Back Office)",
+    "systemEntryAssetNote": "Zabezpieczone Aktywo (Faza 1)",
+    "loyaltyRefund": "Zwrot Lojalnościowy",
+    "netInvestment": "Inwestycja Netto",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Gram Złota",
+    "tierUgyfel": "Klient Podstawowy",
+    "tierVasarloi": "Kupujący Podstawowy",
+    "tableTitle": "Porównanie Modeli",
+    "tableModelName": "Model",
+    "tableMonthlyDisc": "Miesięczna Zniżka",
+    "tableBonus": "Bonus Lojalnościowy/Dodatkowy",
+    "tableTotalDisc": "Całkowita Zniżka (36m)",
+    "tableDuration": "Czas trwania",
+    "tableStopOption": "Opcja Zatrzymania",
+    "tableStopYes": "Tak",
+    "tableStopNo": "Nie",
+    "loyaltyDiscount": "Zniżka Lojalnościowa",
+    "premiumFeeReturn": "Zwrot Opłaty Premium",
+    "premiumFee": "Opłata Premium (25%)",
+    "tierUgyfelDesc": "Stabilny miesięczny wzrost o 2%, zatrzymujący się na 72% zainwestowanego kapitału po 36 miesiącach.",
+    "tierVasarloiDesc": "Ta sama krzywa 2%, ale ze spektakularnym 'skokiem' w 36. miesiącu (+36% bonusu), osiągając 108%. To jest moment 'nagrody'.",
+    "tierPremiumDesc": "Tutaj naliczana jest 4% miesięczna zniżka, osiągająca 144% do 36. miesiąca, po czym rozpoczyna się faza 200% zwrotu opłat.",
+    "setupAsset": "Opłata za Konfigurację (25%)",
+    "virtualWallet": "Wirtualny Portfel (Gotówka)",
+    "accumulationPot": "Pula Akumulacji (Złoto)",
+    "autoPurchaseProgress": "Następny Automatyczny Zakup",
+    "totalCashEarned": "Całkowita Zarobiona Gotówka",
+    "totalGoldAccumulated": "Całkowite Zgromadzone Złoto",
+    "investmentTypeTitle": "Rodzaj Inwestycji",
+    "investmentMonthly": "Miesięczne Oszczędności",
+    "investmentLumpSum": "Jednorazowa Inwestycja",
+    "lumpSumPayout": "Miesięczna Wypłata Gotówki (2/3)",
+    "lumpSumGold": "Miesięczny Wzrost Złota (1/3)",
+    "initialInvestment": "Kapitał Początkowy"
+  },
+  "TrustSignals": {
+    "title": "Niezawodność i Bezpieczeństwo Ponad Wszystko",
+    "goodDelivery": "Sztabki złota z certyfikatem LBMA Good Delivery",
+    "vaults": "Uznane, w pełni ubezpieczone skarbce w Szwajcarii i w Wiedniu",
+    "audit": "Audytowane przez niezależne firmy księgowe"
+  },
+  "LeadForm": {
+    "title": "Zacznij Budować Swoje Bogactwo",
+    "subtitle": "Zamów bezpłatną konsultację u naszych ekspertów.",
+    "namePlaceholder": "Imię i Nazwisko",
+    "emailPlaceholder": "Adres Email",
+    "phonePlaceholder": "Numer Telefonu",
+    "submitButton": "Zamów Konsultację"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "Wyrażam zgodę na Politykę prywatności i zgadzam się na kontakt w sprawie oszczędności w złocie.",
+    "privacyLink": "Polityka prywatności",
+    "required": "Musisz zaakceptować Politykę prywatności, aby kontynuować."
+  },
+  "Cookie": {
+    "message": "Używamy plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.",
+    "accept": "Akceptuj"
+  }
+}

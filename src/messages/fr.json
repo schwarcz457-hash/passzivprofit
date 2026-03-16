@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Accueil",
+    "benefits": "Avantages",
+    "calculator": "Calculateur",
+    "howItWorks": "Comment ça marche",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Bâtir son Patrimoine avec l'Or",
+    "subtitle": "Sécurisez votre avenir avec de l'or physique. Protection contre l'inflation, rendements passifs, richesse à l'épreuve des crises.",
+    "cta": "Commencer",
+    "secondaryCta": "En savoir plus"
+  },
+  "Benefits": {
+    "title": "Pourquoi l'Or Physique ?",
+    "items": {
+      "inflation": {
+        "title": "Protection contre l'inflation",
+        "description": "L'or préserve son pouvoir d'achat face aux monnaies fiduciaires depuis des millénaires."
+      },
+      "passive": {
+        "title": "Objectifs de Revenus Passifs",
+        "description": "Gagnez jusqu'à 10 % de bonus de fidélité et de parrainage sur votre accumulation continue d'or."
+      },
+      "security": {
+        "title": "Sécurité Physique",
+        "description": "Stocké à 100 % sous forme physique dans des coffres assurés en Suisse et à Vienne."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Comment fonctionne Aranyad ?",
+    "steps": {
+      "step1": {
+        "title": "Ouvrir un Compte",
+        "description": "Inscrivez-vous gratuitement et accédez à la plateforme d'achat premium."
+      },
+      "step2": {
+        "title": "Acheter de l'Or",
+        "description": "Commencez à acheter des fractions d'or physique avec des économies mensuelles."
+      },
+      "step3": {
+        "title": "Profiter des Profits",
+        "description": "Augmentez votre patrimoine avec une croissance de 5 à 8 % et le bonus de fidélité de 10 %."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Calculateur de Profit Passif",
+    "monthlyInvestment": "Épargne Mensuelle",
+    "timeframe": "Délai",
+    "month": "Mois",
+    "months": "Mois",
+    "expectedReturnTitle": "Rendement Attendu",
+    "totalInvested": "Total Investi",
+    "goldGrowth": "Croissance de l'Or (~6.5 % en moy)",
+    "goldGrowthTooltip": "Ce chiffre correspond au taux de croissance annuel composé (TCAC) historique de l'or au cours des dernières décennies. Les performances passées ne garantissent pas les résultats futurs ; les prix de l'or dépendent des conditions du marché mondial.",
+    "finalValue": "Valeur Projetée Finale",
+    "tierTitle": "Sélectionnez le Niveau de Profit",
+    "tierBasic": "Niveau Basic (1 % / mois)",
+    "tierStandard": "Niveau Standard (2 % / mois)",
+    "tierPremium": "Niveau Premium (4 % / mois)",
+    "strategyTitle": "Stratégie de croissance",
+    "strategyPayout": "Paiement Mensuel",
+    "strategyCompound": "Réinvestir / Intérêts composés",
+    "exponentialGrowth": "Croissance exponentielle appliquée!",
+    "minGoldWarning": "Minimum 1 gramme d'or",
+    "systemEntryAsset": "Actif d'Entrée Système (Back Office)",
+    "systemEntryAssetNote": "Actif Provisionné (Phase 1)",
+    "loyaltyRefund": "Remboursement de Fidélité",
+    "netInvestment": "Investissement Net",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Grammes d'Or",
+    "tierUgyfel": "Client Épargne",
+    "tierVasarloi": "Acheteur Basic",
+    "tableTitle": "Comparaison des Modèles",
+    "tableModelName": "Modèle",
+    "tableMonthlyDisc": "Remise Mensuelle",
+    "tableBonus": "Bonus Fidélité/Extra",
+    "tableTotalDisc": "Remise Totale (36m)",
+    "tableDuration": "Durée",
+    "tableStopOption": "Option d'Arrêt",
+    "tableStopYes": "Oui",
+    "tableStopNo": "Non",
+    "loyaltyDiscount": "Remise de Fidélité",
+    "premiumFeeReturn": "Remboursement Premium",
+    "premiumFee": "Frais Premium (25%)",
+    "tierUgyfelDesc": "Croissance mensuelle régulière de 2 %, plafonnant à 72 % du capital investi après 36 mois.",
+    "tierVasarloiDesc": "La même courbe de 2 %, mais avec un 'bond' spectaculaire au 36ème mois (+36 % de bonus), atteignant 108 %. C'est le moment de la 'récompense'.",
+    "tierPremiumDesc": "La remise mensuelle de 4 % s'applique ici, atteignant 144 % au 36ème mois, après quoi commence la phase de remboursement des frais de 200 %.",
+    "setupAsset": "Frais de Configuration (25 %)",
+    "virtualWallet": "Portefeuille Virtuel (Espèces)",
+    "accumulationPot": "Pot d'Accumulation (Or)",
+    "autoPurchaseProgress": "Prochain Achat Automatique",
+    "totalCashEarned": "Total des Espèces Gagnées",
+    "totalGoldAccumulated": "Total de l'Or Accumulé",
+    "investmentTypeTitle": "Type d'Investissement",
+    "investmentMonthly": "Épargne Mensuelle",
+    "investmentLumpSum": "Investissement Unique",
+    "lumpSumPayout": "Paiement Mensuel en Espèces (2/3)",
+    "lumpSumGold": "Croissance Mensuelle de l'Or (1/3)",
+    "initialInvestment": "Capital Initial"
+  },
+  "TrustSignals": {
+    "title": "Fiabilité et Sécurité Avant Tout",
+    "goodDelivery": "Lingots d'or certifiés LBMA Good Delivery",
+    "vaults": "Coffres reconnus et assurés en Suisse et à Vienne",
+    "audit": "Audités par des cabinets comptables indépendants"
+  },
+  "LeadForm": {
+    "title": "Commencez à Bâtir votre Richesse",
+    "subtitle": "Demandez une consultation gratuite avec nos experts et apprenez à protéger vos actifs.",
+    "namePlaceholder": "Nom Complet",
+    "emailPlaceholder": "Adresse E-mail",
+    "phonePlaceholder": "Numéro de Téléphone",
+    "submitButton": "Demander une Consultation"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "J'accepte la politique de confidentialité et consens à être contacté concernant les économies en or.",
+    "privacyLink": "Politique de confidentialité",
+    "required": "Vous devez accepter la politique de confidentialité pour continuer."
+  },
+  "Cookie": {
+    "message": "Nous utilisons des cookies pour vous garantir la meilleure expérience sur notre site Web.",
+    "accept": "Accepter"
+  }
+}

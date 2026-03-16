@@ -1,0 +1,140 @@
+{
+  "Navigation": {
+    "home": "Domov",
+    "benefits": "Výhody",
+    "calculator": "Kalkulačka",
+    "howItWorks": "Ako to funguje",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Budovanie Bohatstva so Zlatom",
+    "subtitle": "Zabezpečte svoju budúcnosť fyzickým zlatom. Ochrana proti inflácii, pasívne príjmy, bohatstvo odolné voči krízam.",
+    "cta": "Začať Teraz",
+    "secondaryCta": "Zistiť Viac"
+  },
+  "Benefits": {
+    "title": "Prečo fyzické zlato?",
+    "items": {
+      "inflation": {
+        "title": "Ochrana proti inflácii",
+        "description": "Zlato si tisícročia zachovalo kúpnu silu oproti papierovým menám."
+      },
+      "passive": {
+        "title": "Pasívne výnosy",
+        "description": "Získajte až 10% bonus za vernosť prispájajúce k akumulácii zlata."
+      },
+      "security": {
+        "title": "Fyzická Bezpečnosť",
+        "description": "Uložené 100% vo fyzickej forme v poistených trezoroch vo Švajčiarsku a vo Viedni."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Ako funguje Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Otvoriť účet",
+        "description": "Zaregistrujte sa zadarmo a získajte prístup na nákupnú platformu."
+      },
+      "step2": {
+        "title": "Kúpiť Zlato",
+        "description": "Začnite nakupovať fyzické zlato z pravidelných mesačných úspor."
+      },
+      "step3": {
+        "title": "Získavať Výnosy",
+        "description": "Sledujte, ako rastie váš majetok s pravidelným zhodnotením okolo 5-8%."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Vypočítajte si Svoj Pasívny Zisk",
+    "monthlyInvestment": "Mesačné Úspory",
+    "timeframe": "Časový Rámec",
+    "month": "Mesiac",
+    "months": "Mesiace",
+    "expectedReturnTitle": "Investičná Projekcia",
+    "totalInvested": "Celkom Investované",
+    "goldGrowth": "Zhodnotenie Zlata (~6.5% priemer)",
+    "goldGrowthTooltip": "Tento údaj je založený na historickej zloženej ročnej miere rastu (CAGR) zlata za posledné desaťročia. Upozorňujeme, že minulá výkonnosť nezaručuje budúce výsledky; ceny zlata môžu kolísať na základe podmienok na globálnom trhu.",
+    "finalValue": "Konečná Plánovaná Hodnota",
+    "tierTitle": "Vyberte Úroveň Zisku",
+    "tierBasic": "Základná Úroveň (1% / mes.)",
+    "tierStandard": "Štandardná Úroveň (2% / mesiac)",
+    "tierPremium": "Prémiová Úroveň (4% / mesiac)",
+    "strategyPayout": "Mesačná Výplata",
+    "strategyCompound": "Reinvestovať / Zložené Úročenie",
+    "exponentialGrowth": "Spustený Exponenciálny Rast!",
+    "minGoldWarning": "Minimálne 1 gram zlata",
+    "systemEntryAsset": "Aktívum Vstupu do Systému (Back Office)",
+    "systemEntryAssetNote": "Rezervované Aktívum (Fáza 1)",
+    "loyaltyRefund": "Vernostná Refundácia",
+    "netInvestment": "Čistá Investícia",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Gramov Zlata",
+    "tierUgyfel": "Základný Zákazník",
+    "tierVasarloi": "Základný Kupujúci",
+    "tableTitle": "Porovnanie Modelov",
+    "tableModelName": "Model",
+    "tableMonthlyDisc": "Mesačná Zľava",
+    "tableBonus": "Vernostný/Extra Bonus",
+    "tableTotalDisc": "Celková Zľava (36m)",
+    "tableDuration": "Trvanie",
+    "tableStopOption": "Možnosť Zastavenia",
+    "tableStopYes": "Áno",
+    "tableStopNo": "Nie",
+    "loyaltyDiscount": "Vernostná Zľava",
+    "premiumFeeReturn": "Vrátenie Prémiového Poplatku",
+    "premiumFee": "Prémiový Poplatok (25%)",
+    "tierUgyfelDesc": "Stabilný mesačný rast 2%, ktorý sa po 36 mesiacoch zastaví na 72% investovaného kapitálu.",
+    "tierVasarloiDesc": "Rovnaká 2% krivka, ale s veľkolepým 'skokom' v 36. mesiaci (+36% bonus), čím dosiahne 108%. Toto je moment 'odmeny'.",
+    "tierPremiumDesc": "Tu sa uplatňuje 4% mesačná zľava, ktorá v 36. mesiaci dosiahne 144%, po čom začína fáza 200% vrátenia poplatkov.",
+    "setupAsset": "Inštalačný Poplatok (25%)",
+    "virtualWallet": "Virtuálna Peňaženka (Hotovosť)",
+    "accumulationPot": "Akumulačný Účet (Zlato)",
+    "autoPurchaseProgress": "Ďalší Automatický Nákup",
+    "totalCashEarned": "Celková Získaná Hotovosť",
+    "totalGoldAccumulated": "Celkovo Nahromadené Zlato",
+    "investmentTypeTitle": "Typ Investície",
+    "investmentMonthly": "Mesačné Úspory",
+    "investmentLumpSum": "Jednorazová Investícia",
+    "lumpSumPayout": "Mesačná Výplata v Hotovosti (2/3)",
+    "lumpSumGold": "Mesačný Rast Zlata (1/3)",
+    "initialInvestment": "Počiatočný Kapitál"
+  },
+  "TrustSignals": {
+    "title": "Spoľahlivosť a Bezpečnosť Nadovšetko",
+    "goodDelivery": "Zlaté tehly s certifikátom LBMA Good Delivery",
+    "vaults": "Uznávané, poistené trezory vo Švajčiarsku a vo Viedni",
+    "audit": "Auditované nezávislými účtovnými firmami"
+  },
+  "LeadForm": {
+    "title": "Začnite Budovať Svoje Bohatstvo",
+    "subtitle": "Požiadajte o bezplatnú konzultáciu s našimi odborníkmi.",
+    "namePlaceholder": "Celé Meno",
+    "emailPlaceholder": "E-mailová Adresa",
+    "phonePlaceholder": "Telefónne Číslo",
+    "submitButton": "Požiadať o Konzultáciu"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "Súhlasím so Zásadami ochrany osobných údajov a súhlasím s kontaktovaním ohľadom sporenia v zlate.",
+    "privacyLink": "Zásady ochrany osobných údajov",
+    "required": "Ak chcete pokračovať, musíte súhlasiť so Zásadami ochrany osobných údajov."
+  },
+  "Cookie": {
+    "message": "Používame súbory cookie, aby sme vám zaistili čo najlepší zážitok z našich webových stránok.",
+    "accept": "Prijať"
+  }
+}

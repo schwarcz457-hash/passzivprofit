@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Startseite",
+    "benefits": "Vorteile",
+    "calculator": "Rechner",
+    "howItWorks": "So funktioniert's",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Vermögensaufbau mit Gold",
+    "subtitle": "Sichern Sie Ihre Zukunft mit physischem Gold. Schutz vor Inflation, passive Renditen, krisensicherer Wohlstand.",
+    "cta": "Jetzt Starten",
+    "secondaryCta": "Mehr Erfahren"
+  },
+  "Benefits": {
+    "title": "Warum physisches Gold?",
+    "items": {
+      "inflation": {
+        "title": "Schutz vor Inflation",
+        "description": "Gold hat seine Kaufkraft gegenüber Fiat-Währungen seit Jahrtausenden bewahrt."
+      },
+      "passive": {
+        "title": "Passive Renditeziele",
+        "description": "Verdienen Sie bis zu 10% Treue- und Empfehlungsbonus durch kontinuierlichen Vermögensaufbau."
+      },
+      "security": {
+        "title": "Physische Sicherheit",
+        "description": "Ihre Anlagen werden in zu 100% versicherten Tresoren in der Schweiz und in Wien aufbewahrt."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Wie funktioniert Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Konto eröffnen",
+        "description": "Registrieren Sie sich kostenlos und erhalten Sie Zugang zur erstklassigen Einkaufsplattform."
+      },
+      "step2": {
+        "title": "Gold kaufen",
+        "description": "Starten Sie den Aufbau mit monatlichen Sparbeträgen in EUR/HUF."
+      },
+      "step3": {
+        "title": "Passive Gewinne genießen",
+        "description": "Profitieren Sie von ca. 5-8% jährlichem Wachstum und dem exklusiven 10% Treuebonus."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Berechnen Sie Ihren passiven Gewinn",
+    "monthlyInvestment": "Monatliche Ersparnisse",
+    "timeframe": "Zeitrahmen",
+    "month": "Monat",
+    "months": "Monate",
+    "expectedReturnTitle": "Investitionsprognose",
+    "totalInvested": "Gesamtinvestition",
+    "goldGrowth": "Wertsteigerung (~6.5% im Ø)",
+    "goldGrowthTooltip": "Dieser Wert basiert auf der historischen durchschnittlichen jährlichen Wachstumsrate (CAGR) von Gold in den letzten Jahrzehnten. Bitte beachten Sie, dass die Wertentwicklung der Vergangenheit keine Garantie für zukünftige Ergebnisse ist. Goldpreise können aufgrund globaler Marktbedingungen schwanken.",
+    "finalValue": "Endgültiger Projektwert",
+    "tierTitle": "Profitstufe Wählen",
+    "tierBasic": "Basic-Stufe (1% / Mon.)",
+    "tierStandard": "Standard-Stufe (2% / Mon.)",
+    "tierPremium": "Premium-Stufe (4% / Mon.)",
+    "strategyTitle": "Wachstumsstrategie",
+    "strategyPayout": "Monatliche Auszahlung",
+    "strategyCompound": "Reinvestieren / Zinseszins",
+    "exponentialGrowth": "Zinseszinseffekt aktiviert!",
+    "minGoldWarning": "Minimum 1 Gramm Gold",
+    "systemEntryAsset": "Systemeintritts-Asset (Back Office)",
+    "systemEntryAssetNote": "Zurückgestelltes Asset (Phase 1)",
+    "loyaltyRefund": "Treuerückerstattung",
+    "netInvestment": "Nettoinvestition",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Gramm Gold",
+    "tierUgyfel": "Kunden Basis",
+    "tierVasarloi": "Käufer Basis",
+    "tableTitle": "Modellvergleich",
+    "tableModelName": "Modellname",
+    "tableMonthlyDisc": "Monatlicher Rabatt",
+    "tableBonus": "Treue-/Extrabonus",
+    "tableTotalDisc": "Gesamtrabatt (36M)",
+    "tableDuration": "Laufzeit",
+    "tableStopOption": "Stopp-Option",
+    "tableStopYes": "Ja",
+    "tableStopNo": "Nein",
+    "loyaltyDiscount": "Treuerabatt",
+    "premiumFeeReturn": "Premiumgebühr-Rückerstattung",
+    "premiumFee": "Premiumgebühr (25%)",
+    "tierUgyfelDesc": "Stetiges monatliches Wachstum von 2%, das nach 36 Monaten bei 72% des investierten Kapitals endet.",
+    "tierVasarloiDesc": "Dieselbe 2%-Kurve, aber mit einem spektakulären 'Sprung' im 36. Monat (+36% Bonus), wodurch 108% erreicht werden. Das ist der 'Belohnungsmoment'.",
+    "tierPremiumDesc": "Hier tickt der monatliche Rabatt von 4%, der im 36. Monat 144% erreicht, woraufhin die Phase der 200%igen Gebührenrückerstattung beginnt.",
+    "setupAsset": "Einrichtungsgebühr (25%)",
+    "virtualWallet": "Virtuelles Wallet (Bargeld)",
+    "accumulationPot": "Sammeltopf (Gold)",
+    "autoPurchaseProgress": "Nächster Automatischer Kauf",
+    "totalCashEarned": "Gesamter Barertrag",
+    "totalGoldAccumulated": "Gesamtes Angesammeltes Gold",
+    "investmentTypeTitle": "Anlagetyp",
+    "investmentMonthly": "Monatliches Sparen",
+    "investmentLumpSum": "Einmalanlage",
+    "lumpSumPayout": "Monatliche Barauszahlung (2/3)",
+    "lumpSumGold": "Monatliches Goldwachstum (1/3)",
+    "initialInvestment": "Anfangskapital"
+  },
+  "TrustSignals": {
+    "title": "Sicherheit steht an erster Stelle",
+    "goodDelivery": "LBMA Good Delivery zertifizierte Goldbarren",
+    "vaults": "Gesicherte Tresore in der Schweiz und in Wien",
+    "audit": "Unabhängig geprüft von Wirtschaftsprüfern"
+  },
+  "LeadForm": {
+    "title": "Beginnen Sie Ihren Vermögensaufbau",
+    "subtitle": "Fordern Sie Ihre kostenlose Beratung an und bauen Sie sich krisensichere finanzielle Reserven auf.",
+    "namePlaceholder": "Vollständiger Name",
+    "emailPlaceholder": "E-Mail-Adresse",
+    "phonePlaceholder": "Telefonnummer",
+    "submitButton": "Beratung anfordern"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "Ich stimme den Datenschutzbestimmungen zu und bin damit einverstanden, bezüglich Goldersparnissen kontaktiert zu werden.",
+    "privacyLink": "Datenschutzbestimmungen",
+    "required": "Sie müssen den Datenschutzbestimmungen zustimmen, um fortzufahren."
+  },
+  "Cookie": {
+    "message": "Wir verwenden Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website haben.",
+    "accept": "Akzeptieren"
+  }
+}

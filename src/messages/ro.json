@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Acasă",
+    "benefits": "Beneficii",
+    "calculator": "Calculator",
+    "howItWorks": "Cum Funcționează",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Construirea Bogăției cu Aur",
+    "subtitle": "Securizați-vă viitorul cu aur fizic. Protecție împotriva inflației, venituri pasive, avere rezistentă la crize.",
+    "cta": "Începe Acum",
+    "secondaryCta": "Află Mai Multe"
+  },
+  "Benefits": {
+    "title": "De ce Aur Fizic?",
+    "items": {
+      "inflation": {
+        "title": "Protecție Împotriva Inflației",
+        "description": "Aurul și-a păstrat puterea de cumpărare în fața monedelor fiat de milenii."
+      },
+      "passive": {
+        "title": "Obiective de Randament Pasiv",
+        "description": "Câștigați până la 10% bonus de loialitate din acumularea continuă de aur."
+      },
+      "security": {
+        "title": "Securitate Fizică",
+        "description": "Stocat 100% fizic în seifuri asigurate din Elveția și Viena."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Cum funcționează Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Deschide un Cont",
+        "description": "Înregistrează-te gratuit și primești acces la platforma de achiziții premium."
+      },
+      "step2": {
+        "title": "Cumpără Aur",
+        "description": "Începeți să cumpărați aur fizic fracționat cu economii lunare regulate."
+      },
+      "step3": {
+        "title": "Bucură-te de Profit",
+        "description": "Urmăriți cum vă crește averea cu o apreciere de 5-8%."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Calculator Profit Pasiv",
+    "monthlyInvestment": "Economii Lunare",
+    "timeframe": "Perioadă",
+    "month": "Lună",
+    "months": "Luni",
+    "expectedReturnTitle": "Randament Estimat",
+    "totalInvestit": "Total Investit",
+    "goldGrowth": "Aprecierea Aurului (~6.5% mediu)",
+    "goldGrowthTooltip": "Această cifră se bazează pe Rata Anuală Compusă de Creștere (CAGR) istorică a aurului din ultimele decenii. Vă rugăm să rețineți că performanța anterioară nu garantează rezultate viitoare; prețurile aurului pot fluctua în funcție de condițiile pieței globale.",
+    "finalValue": "Valoare Proiectată Finală",
+    "tierTitle": "Selectează Nivelul de Profit",
+    "tierBasic": "Nivel de Bază (1% / lună)",
+    "tierStandard": "Nivel Standard (2% / lună)",
+    "tierPremium": "Nivel Premium (4% / lună)",
+    "strategyTitle": "Strategie de Creștere",
+    "strategyPayout": "Plată Lunară",
+    "strategyCompound": "Reinvestire / Dobândă Compusă",
+    "exponentialGrowth": "Creștere Exponențială!",
+    "minGoldWarning": "Minimum 1 gram de aur",
+    "systemEntryAsset": "Activ de Intrare (Back Office)",
+    "systemEntryAssetNote": "Activ Provizionat (Faza 1)",
+    "loyaltyRefund": "Rambursare de Fidelitate",
+    "netInvestment": "Investiție Netă",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Grame de Aur",
+    "tierUgyfel": "Client Bază",
+    "tierVasarloi": "Cumpărător Bază",
+    "tableTitle": "Comparație Modele",
+    "tableModelName": "Model",
+    "tableMonthlyDisc": "Reducere Lunară",
+    "tableBonus": "Bonus Loialitate/Extra",
+    "tableTotalDisc": "Reducere Totală (36l)",
+    "tableDuration": "Durată",
+    "tableStopOption": "Opțiune de Oprire",
+    "tableStopYes": "Da",
+    "tableStopNo": "Nu",
+    "loyaltyDiscount": "Reducere Loialitate",
+    "premiumFeeReturn": "Returnare Taxă Premium",
+    "premiumFee": "Taxă Premium (25%)",
+    "tierUgyfelDesc": "Creștere lunară constantă de 2%, plafonată la 72% din capitalul investit după 36 de luni.",
+    "tierVasarloiDesc": "Aceeași curbă de 2%, dar cu un 'salt' spectaculos în luna 36 (+36% bonus), ajungând la 108%. Acesta este momentul 'recompensei'.",
+    "tierPremiumDesc": "Aici se aplică reducerea lunară de 4%, ajungând la 144% în luna 36, după care începe faza de rambursare a taxei de 200%.",
+    "setupAsset": "Taxă de Configurare (25%)",
+    "virtualWallet": "Portofel Virtual (Numerar)",
+    "accumulationPot": "Cont de Acumulare (Aur)",
+    "autoPurchaseProgress": "Următoarea Achiziție Automată",
+    "totalCashEarned": "Total Numerar Câștigat",
+    "totalGoldAccumulated": "Total Aur Acumulat",
+    "investmentTypeTitle": "Tipul de Investiție",
+    "investmentMonthly": "Economii Lunare",
+    "investmentLumpSum": "Investiție Unică",
+    "lumpSumPayout": "Plată Lunară în Numerar (2/3)",
+    "lumpSumGold": "Creșterea Lunară a Aurului (1/3)",
+    "initialInvestment": "Capital Inițial"
+  },
+  "TrustSignals": {
+    "title": "Fiabilitate și Securitate mai Presus de Toate",
+    "goodDelivery": "Lingouri certificate LBMA Good Delivery",
+    "vaults": "Seifuri recunoscute și asigurate în Elveția și Viena",
+    "audit": "Auditat de firme de contabilitate independente"
+  },
+  "LeadForm": {
+    "title": "Începe să-ți Construiești Bogăția",
+    "subtitle": "Solicitați o consultație gratuită cu experții noștri.",
+    "namePlaceholder": "Numele Complet",
+    "emailPlaceholder": "Adresă de Email",
+    "phonePlaceholder": "Număr de Telefon",
+    "submitButton": "Solicită Consultație"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "Sunt de acord cu Politica de confidențialitate și consimt să fiu contactat în legătură cu economiile de aur.",
+    "privacyLink": "Politica de confidențialitate",
+    "required": "Trebuie să fiți de acord cu Politica de confidențialitate pentru a continua."
+  },
+  "Cookie": {
+    "message": "Folosim cookie-uri pentru a ne asigura că veți avea cea mai bună experiență pe site-ul nostru.",
+    "accept": "Accept"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "Navigation": {
+    "home": "Inicio",
+    "benefits": "Beneficios",
+    "calculator": "Calculadora",
+    "howItWorks": "Cómo Funciona",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "title": "Construcción de Riqueza con Oro",
+    "subtitle": "Asegure su futuro con oro físico. Protección contra la inflación, ingresos pasivos, riqueza a prueba de crisis.",
+    "cta": "Empezar Ahora",
+    "secondaryCta": "Saber Más"
+  },
+  "Benefits": {
+    "title": "¿Por qué Oro Físico?",
+    "items": {
+      "inflation": {
+        "title": "Protección contra la Inflación",
+        "description": "El oro ha preservado su poder adquisitivo frente a las monedas fiduciarias durante milenios."
+      },
+      "passive": {
+        "title": "Ingresos Pasivos",
+        "description": "Gane hasta un 10% de bono de fidelidad y referencia en su acumulación continua de oro."
+      },
+      "security": {
+        "title": "Seguridad Física",
+        "description": "Almacenado 100% en forma física en bóvedas aseguradas en Suiza y Viena."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "¿Cómo funciona Aranyad?",
+    "steps": {
+      "step1": {
+        "title": "Abrir una Cuenta",
+        "description": "Regístrese gratis y acceda a la plataforma de compras premium."
+      },
+      "step2": {
+        "title": "Comprar Oro",
+        "description": "Comience a comprar oro físico fraccionario con ahorros mensuales regulares."
+      },
+      "step3": {
+        "title": "Disfrutar de las Ganancias",
+        "description": "Observe cómo crece su riqueza con una apreciación del 5-8% y el bono del 10%."
+      }
+    }
+  },
+  "Calculator": {
+    "title": "Calcule Su Beneficio Pasivo",
+    "monthlyInvestment": "Ahorros Mensuales",
+    "timeframe": "Plazo",
+    "month": "Mes",
+    "months": "Meses",
+    "expectedReturnTitle": "Proyección de Inversión",
+    "totalInvested": "Total Invertido",
+    "goldGrowth": "Crecimiento del Oro (~6.5% prom)",
+    "goldGrowthTooltip": "Esta cifra se basa en la Tasa de Crecimiento Anual Compuesto (CAGR) histórica del oro durante las últimas décadas. Tenga en cuenta que el rendimiento pasado no garantiza resultados futuros; los precios del oro pueden fluctuar según las condiciones del mercado global.",
+    "finalValue": "Valor Proyectado Final",
+    "tierTitle": "Seleccione el Nivel de Beneficio",
+    "tierBasic": "Nivel Básico (1% / mes)",
+    "tierStandard": "Nivel Estándar (2% / mes)",
+    "tierPremium": "Nivel Premium (4% / mes)",
+    "strategyTitle": "Estrategia de Crecimiento",
+    "strategyPayout": "Pago Mensual",
+    "strategyCompound": "Reinvertir / Interés Compuesto",
+    "exponentialGrowth": "¡Crecimiento Exponencial Aplicado!",
+    "minGoldWarning": "Mínimo 1 gramo de oro",
+    "systemEntryAsset": "Activo de Entrada (Back Office)",
+    "systemEntryAssetNote": "Activo Provisionado (Fase 1)",
+    "loyaltyRefund": "Reembolso de Lealtad",
+    "netInvestment": "Inversión Neta",
+    "goldPremium": "Gold Premium",
+    "goldGrams": "Gramos de Oro",
+    "tierUgyfel": "Cliente Básico",
+    "tierVasarloi": "Comprador Básico",
+    "tableTitle": "Comparación de Modelos",
+    "tableModelName": "Modelo",
+    "tableMonthlyDisc": "Descuento Mensual",
+    "tableBonus": "Bono Fidelidad/Extra",
+    "tableTotalDisc": "Descuento Total (36m)",
+    "tableDuration": "Duración",
+    "tableStopOption": "Opción de Parada",
+    "tableStopYes": "Sí",
+    "tableStopNo": "No",
+    "loyaltyDiscount": "Descuento de Fidelidad",
+    "premiumFeeReturn": "Devolución Tarifa Premium",
+    "premiumFee": "Tarifa Premium (25%)",
+    "tierUgyfelDesc": "Crecimiento mensual constante del 2%, con un límite del 72% del capital invertido después de 36 meses.",
+    "tierVasarloiDesc": "La misma curva del 2%, pero con un 'salto' espectacular en el mes 36 (+36% de bonificación), alcanzando el 108%. Este es el momento de la 'recompensa'.",
+    "tierPremiumDesc": "Aquí se aplica el descuento mensual del 4%, alcanzando el 144% en el mes 36, tras lo cual comienza la fase de reembolso de tarifas del 200%.",
+    "setupAsset": "Tarifa de Configuración (25%)",
+    "virtualWallet": "Billetera Virtual (Efectivo)",
+    "accumulationPot": "Bote de Acumulación (Oro)",
+    "autoPurchaseProgress": "Próxima Compra Automática",
+    "totalCashEarned": "Efectivo Total Ganado",
+    "totalGoldAccumulated": "Total de Oro Acumulado",
+    "investmentTypeTitle": "Tipo de Inversión",
+    "investmentMonthly": "Ahorro Mensual",
+    "investmentLumpSum": "Inversión Única",
+    "lumpSumPayout": "Pago Mensual en Efectivo (2/3)",
+    "lumpSumGold": "Crecimiento Mensual del Oro (1/3)",
+    "initialInvestment": "Capital Inicial"
+  },
+  "TrustSignals": {
+    "title": "Confiabilidad y Seguridad ante Todo",
+    "goodDelivery": "Lingotes de oro certificados LBMA Good Delivery",
+    "vaults": "Bóvedas reconocidas y aseguradas en Suiza y Viena",
+    "audit": "Auditado por firmas contables independientes"
+  },
+  "LeadForm": {
+    "title": "Comience a Construir su Riqueza",
+    "subtitle": "Solicite una consulta gratuita con nuestros expertos.",
+    "namePlaceholder": "Nombre Completo",
+    "emailPlaceholder": "Correo Electrónico",
+    "phonePlaceholder": "Número de Teléfono",
+    "submitButton": "Solicitar Consulta"
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 2026",
+    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
+    "dataCollection": "Data Collection",
+    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
+    "purpose": "Purpose & Use",
+    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
+    "storage": "Data Storage & Security",
+    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
+    "rights": "Right to Erasure",
+    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+  },
+  "Consent": {
+    "checkboxText": "Acepto la Política de Privacidad y consiento ser contactado en relación con ahorros en oro.",
+    "privacyLink": "Política de Privacidad",
+    "required": "Debe aceptar la Política de Privacidad para continuar."
+  },
+  "Cookie": {
+    "message": "Utilizamos cookies para asegurarnos de que obtenga la mejor experiencia en nuestro sitio web.",
+    "accept": "Aceptar"
+  }
+}

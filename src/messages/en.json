@@ -10,7 +10,8 @@
     "title": "Wealth Building with Gold",
     "subtitle": "Secure your future with physical gold. Hedge against inflation, earn passive returns, build crisis-proof wealth.",
     "cta": "Start Now",
-    "secondaryCta": "Learn More"
+    "secondaryCta": "Learn More",
+    "badgeTooltip": "100% physically backed, tangible and secure gold, free from the counterparty risks of paper gold (e.g. ETFs)."
   },
   "Benefits": {
     "title": "Why Physical Gold?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Passive Return Goals",
-        "description": "Earn up to 10% loyalty and referral bonus on your continuous gold accumulation."
+        "description": "Earn up to 4% monthly cashback on your purchased gold accumulation."
       },
       "security": {
         "title": "Physical Security",
-        "description": "Stored 100% in physical form in fully insured vaults in Switzerland and Vienna."
+        "description": "Stored 100% in physical form in fully insured vaults."
       }
     }
   },
@@ -105,8 +106,11 @@
   "TrustSignals": {
     "title": "Reliability and Security Above All",
     "goodDelivery": "LBMA Good Delivery certified gold bars",
-    "vaults": "Recognized, insured vaults in Switzerland and Vienna",
-    "audit": "Audited by independent accounting firms"
+    "vaults": "Mined from Ghanaian mines",
+    "audit": "Audited by independent accounting firms",
+    "goodDeliveryTooltip": "The highest standard of quality, purity, and reliability set by the London Bullion Market Association, guaranteeing global acceptance.",
+    "vaultsTooltip": "Directly and ethically sourced gold from Ghana's most reliable mines, ensuring complete traceability of origin.",
+    "auditTooltip": "All transactions and inventory are regularly verified by independent international auditing firms to ensure 100% transparency."
   },
   "LeadForm": {
     "title": "Start Building Your Wealth",
@@ -114,7 +118,10 @@
     "namePlaceholder": "Full Name",
     "emailPlaceholder": "Email Address",
     "phonePlaceholder": "Phone Number",
-    "submitButton": "Request Consultation"
+    "submitButton": "Request Consultation",
+    "successTitle": "Thank you!",
+    "successMessage": "Consultation requested successfully!",
+    "submitAnother": "Submit another request"
   },
   "Privacy": {
     "title": "Privacy Policy",
@@ -137,5 +144,28 @@
   "Cookie": {
     "message": "We use cookies to ensure you get the best experience on our website.",
     "accept": "Accept"
+  },
+  "Hub": {
+    "title": "Choose your path to",
+    "titleAccent": "Passive Profit",
+    "description": "Start building your future on stable and innovative pillars. Choose the investment or business direction that best suits your goals.",
+    "pathways": {
+      "gold": {
+        "title": "PassiveProfit Your Gold",
+        "description": "Secure your wealth with physical gold. Monthly savings plan with expected returns and exclusive bonuses.",
+        "cta": "Go to Gold",
+        "badge": "Featured Path"
+      },
+      "bybit": {
+        "title": "PassiveProfit on Bybit",
+        "description": "Join one of the world's leading crypto exchanges and enjoy premium investment opportunities.",
+        "cta": "Registration"
+      },
+      "telecom": {
+        "title": "Take your part in the Hungarian mobile market",
+        "description": "Shape the future of domestic telecommunications in an upcoming exclusive program.",
+        "cta": "Coming Soon"
+      }
+    }
   }
 }

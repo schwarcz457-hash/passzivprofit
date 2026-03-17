@@ -10,7 +10,8 @@
     "title": "Budowanie Bogactwa ze Złotem",
     "subtitle": "Zabezpiecz swoją przyszłość fizycznym złotem. Ochrona przed inflacją, pasywne dochody, majątek odporny na kryzysy.",
     "cta": "Zacznij Teraz",
-    "secondaryCta": "Dowiedz się Więcej"
+    "secondaryCta": "Dowiedz się Więcej",
+    "badgeTooltip": "100% physically backed, tangible and secure gold, free from the counterparty risks of paper gold (e.g. ETFs)."
   },
   "Benefits": {
     "title": "Dlaczego Fizyczne Złoto?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Pasywne Dochody",
-        "description": "Zdobądź do 10% premii lojalnościowej dzięki ciągłemu gromadzeniu złota."
+        "description": "Zdobądź do 4% miesięcznego zwrotu cashback na zgromadzonym zakupionym złocie."
       },
       "security": {
         "title": "Fizyczne Bezpieczeństwo",
-        "description": "Przechowywane w 100% w formie fizycznej w ubezpieczonych skarbcach w Szwajcarii i Austrii."
+        "description": "Przechowywane w 100% w formie fizycznej we w pełni ubezpieczonych skarbcach."
       }
     }
   },
@@ -105,8 +106,11 @@
   "TrustSignals": {
     "title": "Niezawodność i Bezpieczeństwo Ponad Wszystko",
     "goodDelivery": "Sztabki złota z certyfikatem LBMA Good Delivery",
-    "vaults": "Uznane, w pełni ubezpieczone skarbce w Szwajcarii i w Wiedniu",
-    "audit": "Audytowane przez niezależne firmy księgowe"
+    "vaults": "Mined from Ghanaian mines",
+    "audit": "Audytowane przez niezależne firmy księgowe",
+    "goodDeliveryTooltip": "The highest standard of quality, purity, and reliability set by the London Bullion Market Association, guaranteeing global acceptance.",
+    "vaultsTooltip": "Directly and ethically sourced gold from Ghana's most reliable mines, ensuring complete traceability of origin.",
+    "auditTooltip": "All transactions and inventory are regularly verified by independent international auditing firms to ensure 100% transparency."
   },
   "LeadForm": {
     "title": "Zacznij Budować Swoje Bogactwo",
@@ -137,5 +141,28 @@
   "Cookie": {
     "message": "Używamy plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.",
     "accept": "Akceptuj"
+  },
+  "Hub": {
+    "title": "Wybierz swoją drogę do",
+    "titleAccent": "Pasywnego Zysku",
+    "description": "Zacznij budować swoją przyszłość na stabilnych i innowacyjnych filarach. Wybierz kierunek inwestycyjny lub biznesowy, który najlepiej odpowiada Twoim celom.",
+    "pathways": {
+      "gold": {
+        "title": "PassivProfit Twoje Złoto",
+        "description": "Zabezpiecz swój majątek fizycznym złotem. Miesięczny plan oszczędnościowy z oczekiwanymi zwrotami i ekskluzywnymi bonusami.",
+        "cta": "Przejdź do Złota",
+        "badge": "Wyróżniona Droga"
+      },
+      "bybit": {
+        "title": "PassivProfit na Bybit",
+        "description": "Dołącz do jednej z wiodących giełd kryptowalut na świecie i ciesz się możliwościami inwestycyjnymi premium.",
+        "cta": "Rejestracja"
+      },
+      "telecom": {
+        "title": "Weź udział w węgierskim rynku mobilnym",
+        "description": "Kształtuj przyszłość krajowej telekomunikacji w nadchodzącym ekskluzywnym programie.",
+        "cta": "Wkrótce"
+      }
+    }
   }
 }

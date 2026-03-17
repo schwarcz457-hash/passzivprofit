@@ -10,7 +10,8 @@
     "title": "Construirea Bogăției cu Aur",
     "subtitle": "Securizați-vă viitorul cu aur fizic. Protecție împotriva inflației, venituri pasive, avere rezistentă la crize.",
     "cta": "Începe Acum",
-    "secondaryCta": "Află Mai Multe"
+    "secondaryCta": "Află Mai Multe",
+    "badgeTooltip": "100% physically backed, tangible and secure gold, free from the counterparty risks of paper gold (e.g. ETFs)."
   },
   "Benefits": {
     "title": "De ce Aur Fizic?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Obiective de Randament Pasiv",
-        "description": "Câștigați până la 10% bonus de loialitate din acumularea continuă de aur."
+        "description": "Câștigă până la 4% cashback lunar pe acumularea de aur achiziționat."
       },
       "security": {
         "title": "Securitate Fizică",
-        "description": "Stocat 100% fizic în seifuri asigurate din Elveția și Viena."
+        "description": "Stocat 100% în formă fizică în seifuri complet asigurate."
       }
     }
   },
@@ -105,8 +106,11 @@
   "TrustSignals": {
     "title": "Fiabilitate și Securitate mai Presus de Toate",
     "goodDelivery": "Lingouri certificate LBMA Good Delivery",
-    "vaults": "Seifuri recunoscute și asigurate în Elveția și Viena",
-    "audit": "Auditat de firme de contabilitate independente"
+    "vaults": "Mined from Ghanaian mines",
+    "audit": "Auditat de firme de contabilitate independente",
+    "goodDeliveryTooltip": "The highest standard of quality, purity, and reliability set by the London Bullion Market Association, guaranteeing global acceptance.",
+    "vaultsTooltip": "Directly and ethically sourced gold from Ghana's most reliable mines, ensuring complete traceability of origin.",
+    "auditTooltip": "All transactions and inventory are regularly verified by independent international auditing firms to ensure 100% transparency."
   },
   "LeadForm": {
     "title": "Începe să-ți Construiești Bogăția",
@@ -137,5 +141,28 @@
   "Cookie": {
     "message": "Folosim cookie-uri pentru a ne asigura că veți avea cea mai bună experiență pe site-ul nostru.",
     "accept": "Accept"
+  },
+  "Hub": {
+    "title": "Alege-ți calea către",
+    "titleAccent": "Profitul Pasiv",
+    "description": "Începe să-ți construiești viitorul pe piloni stabili și inovatori. Alege direcția de investiții sau de afaceri care se potrivește cel mai bine obiectivelor tale.",
+    "pathways": {
+      "gold": {
+        "title": "PassivProfit Aurul Tău",
+        "description": "Securizează-ți averea cu aur fizic. Plan de economisire lunar cu randamente estimate și bonusuri exclusive.",
+        "cta": "Mergi la Aur",
+        "badge": "Cale Recomandată"
+      },
+      "bybit": {
+        "title": "PassivProfit pe Bybit",
+        "description": "Alătură-te uneia dintre cele mai importante platforme exchange crypto din lume și bucură-te de oportunități de investiții premium.",
+        "cta": "Înregistrare"
+      },
+      "telecom": {
+        "title": "Participă la piața mobilă maghiară",
+        "description": "Modelează viitorul telecomunicațiilor interne într-un program exclusiv care va fi lansat în curând.",
+        "cta": "În curând"
+      }
+    }
   }
 }

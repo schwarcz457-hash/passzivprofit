@@ -26,7 +26,29 @@ export async function submitLead(formData: FormData) {
     console.log(leadData);
     console.log("===============================");
 
-    // 2. Save to a local JSON file
+    // 2. Send to Google Sheets (via Google Apps Script Web App)
+    // Megjegyzés: Ezt a webhook URL-t le kell cserélni a valós Google Apps Script URL-re!
+    const GOOGLE_SHEETS_WEBHOOK_URL = process.env.GOOGLE_SHEETS_WEBHOOK_URL || "";
+    
+    if (GOOGLE_SHEETS_WEBHOOK_URL) {
+      try {
+        await fetch(GOOGLE_SHEETS_WEBHOOK_URL, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(leadData),
+        });
+        console.log("Successfully sent lead to Google Sheets.");
+      } catch (sheetError) {
+        console.error("Failed to send lead to Google Sheets:", sheetError);
+        // Continue to save locally even if Sheets fails
+      }
+    } else {
+      console.log("No Google Sheets Webhook URL configured. Skipping Sheet append.");
+    }
+
+    // 3. Save to a local JSON file (Mint biztonsági másolat)
     const dataDir = path.join(process.cwd(), 'data');
     const filePath = path.join(dataDir, 'leads.json');
 
@@ -50,7 +72,7 @@ export async function submitLead(formData: FormData) {
 
     return { 
       success: true, 
-      message: "Consultation requested successfully!" 
+      message: "successMessage" 
     };
   } catch (error) {
     console.error("Failed to save lead:", error);

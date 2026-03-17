@@ -30,17 +30,22 @@ export function Hero() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-metallicGold/30 bg-metallicGold/5 backdrop-blur-sm mb-8"
-          >
-            <ShieldCheck className="w-4 h-4 text-metallicGold" />
-            <span className="text-sm font-medium text-premiumWhite/90 tracking-wide">
-              Mindenuncia Physical Gold
-            </span>
-          </motion.div>
+          <div className="relative group cursor-help z-50 inline-block">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-metallicGold/30 bg-metallicGold/5 backdrop-blur-sm mb-8"
+            >
+              <ShieldCheck className="w-4 h-4 text-metallicGold" />
+              <span className="text-sm font-medium text-premiumWhite/90 tracking-wide">
+                Mindenuncia Physical Gold
+              </span>
+            </motion.div>
+            <div className="absolute top-1/2 mt-4 left-1/2 -translate-x-1/2 w-72 p-3 bg-neutral-900 border border-metallicGold/20 rounded-lg shadow-2xl text-xs text-premiumWhite/80 text-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none">
+              {t("badgeTooltip")}
+            </div>
+          </div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
@@ -66,8 +71,10 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center gap-6"
           >
-            <Link
-              href="#calculator"
+            <a
+              href="https://my.tgi.li/de/register?sponsor=MTUwNzM1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-metallicGold to-goldLight text-charcoal font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-[0_0_30px_rgba(212,175,55,0.4)] hover:-translate-y-1 w-full sm:w-auto"
             >
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
@@ -75,15 +82,15 @@ export function Hero() {
                 {t("cta")}
                 <TrendingUp className="w-5 h-5" />
               </span>
-            </Link>
+            </a>
 
-            <Link
-              href="#how-it-works"
+            <a
+              href="#contact"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent text-premiumWhite font-medium rounded-full border border-white/20 transition-all duration-300 hover:border-metallicGold/50 hover:bg-white/5 w-full sm:w-auto"
             >
               {t("secondaryCta")}
               <ArrowRight className="w-4 h-4 text-metallicGold group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
           </motion.div>
         </div>
       </div>

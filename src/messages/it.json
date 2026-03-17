@@ -10,7 +10,8 @@
     "title": "Costruzione di Ricchezza con ORO",
     "subtitle": "Assicura il tuo futuro con l'oro fisico. Protezione dall'inflazione, rendite passive, patrimonio a prova di crisi.",
     "cta": "Inizia Ora",
-    "secondaryCta": "Scopri di Più"
+    "secondaryCta": "Scopri di Più",
+    "badgeTooltip": "100% physically backed, tangible and secure gold, free from the counterparty risks of paper gold (e.g. ETFs)."
   },
   "Benefits": {
     "title": "Perché l'Oro Fisico?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Rendimenti Passivi",
-        "description": "Guadagna fino al 10% di bonus fedeltà sulla tua continua accumulazione di oro."
+        "description": "Ottieni fino al 4% di cashback mensile sull'accumulo d'oro acquistato."
       },
       "security": {
         "title": "Sicurezza Fisica",
-        "description": "Conservato al 100% in forma fisica in caveau assicurati in Svizzera e a Vienna."
+        "description": "Conservato al 100% in forma fisica in caveau completamente assicurati."
       }
     }
   },
@@ -105,8 +106,11 @@
   "TrustSignals": {
     "title": "Affidabilità e Sicurezza Prima di Tutto",
     "goodDelivery": "Lingotti d'oro certificati LBMA Good Delivery",
-    "vaults": "Caveau riconosciuti e assicurati in Svizzera e a Vienna",
-    "audit": "Verificato da società contabili indipendenti"
+    "vaults": "Mined from Ghanaian mines",
+    "audit": "Verificato da società contabili indipendenti",
+    "goodDeliveryTooltip": "The highest standard of quality, purity, and reliability set by the London Bullion Market Association, guaranteeing global acceptance.",
+    "vaultsTooltip": "Directly and ethically sourced gold from Ghana's most reliable mines, ensuring complete traceability of origin.",
+    "auditTooltip": "All transactions and inventory are regularly verified by independent international auditing firms to ensure 100% transparency."
   },
   "LeadForm": {
     "title": "Inizia a Costruire la Tua Ricchezza",
@@ -137,5 +141,28 @@
   "Cookie": {
     "message": "Utilizziamo i cookie per garantirti la migliore esperienza sul nostro sito web.",
     "accept": "Accetta"
+  },
+  "Hub": {
+    "title": "Scegli la tua strada per il",
+    "titleAccent": "Profitto Passivo",
+    "description": "Inizia a costruire il tuo futuro su pilastri stabili e innovativi. Scegli la direzione di investimento o di business che meglio si adatta ai tuoi obiettivi.",
+    "pathways": {
+      "gold": {
+        "title": "PassivProfit il Tuo Oro",
+        "description": "Assicura il tuo patrimonio con l'oro fisico. Piano di risparmio mensile con rendimenti attesi e bonus esclusivi.",
+        "cta": "Vai all'Oro",
+        "badge": "Percorso In Evidenza"
+      },
+      "bybit": {
+        "title": "PassivProfit su Bybit",
+        "description": "Unisciti a uno dei principali exchange crypto al mondo e goditi opportunità di investimento premium.",
+        "cta": "Registrazione"
+      },
+      "telecom": {
+        "title": "Partecipa al mercato mobile ungherese",
+        "description": "Modella il futuro delle telecomunicazioni nazionali in un prossimo programma esclusivo.",
+        "cta": "Prossimamente"
+      }
+    }
   }
 }

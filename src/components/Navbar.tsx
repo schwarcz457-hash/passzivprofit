@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { LanguageSelector } from "./LanguageSelector";
-import { LiveGoldTicker } from "./LiveGoldTicker";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
@@ -21,19 +20,16 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "#benefits", label: t("benefits") },
-    { href: "#how-it-works", label: t("howItWorks") },
-    { href: "#calculator", label: t("calculator") },
-    { href: "#contact", label: t("contact") },
+    { href: "/gold#benefits", label: t("benefits") },
+    { href: "/gold#how-it-works", label: t("howItWorks") },
+
+    { href: "/gold#contact", label: t("contact") },
   ];
 
   return (
     <>
-      <div className="fixed top-0 w-full z-[60]">
-        <LiveGoldTicker />
-      </div>
       <header
-        className={`fixed top-[36px] w-full z-50 transition-all duration-300 ${
+        className={`fixed top-0 w-full z-50 transition-all duration-300 ${
           scrolled
             ? "bg-charcoal/80 backdrop-blur-md border-b border-white/10 shadow-lg"
             : "bg-transparent"
@@ -47,7 +43,7 @@ export function Navbar() {
                 <span className="text-charcoal font-playfair font-bold text-lg">A</span>
               </div>
               <span className="font-playfair font-bold text-xl tracking-[0.05em] text-premiumWhite">
-                Aranyad
+                PasszívProfit a Te aranyad
               </span>
             </Link>
 

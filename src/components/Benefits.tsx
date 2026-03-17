@@ -13,19 +13,19 @@ export function Benefits() {
       icon: TrendingUp,
       title: t("items.inflation.title"),
       desc: t("items.inflation.description"),
-      bg: "https://images.unsplash.com/photo-1611974789855-9c2a0a2236b0?q=80&w=1000&auto=format&fit=crop"
+      bg: "https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=1000&auto=format&fit=crop"
     },
     {
       icon: TrendingUp,
       title: t("items.passive.title"),
       desc: t("items.passive.description"),
-      bg: "https://images.unsplash.com/photo-1587825027984-c46764298c8c?q=80&w=1000&auto=format&fit=crop"
+      bg: "/images/uptrend.png"
     },
     {
       icon: ShieldCheck,
       title: t("items.security.title"),
       desc: t("items.security.description"),
-      bg: "https://images.unsplash.com/photo-1621503926887-25e1fe72c676?q=80&w=1000&auto=format&fit=crop"
+      bg: "/images/vault.png"
     }
   ];
 
@@ -60,7 +60,7 @@ export function Benefits() {
                 alt={benefit.title}
                 fill
                 sizes="(max-width: 768px) 100vw, 33vw"
-                className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-30 mix-blend-luminosity hover:mix-blend-normal hover:opacity-40"
+                className="object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-80"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal via-charcoal/80 to-transparent" />
 

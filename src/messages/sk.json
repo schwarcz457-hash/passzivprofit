@@ -10,7 +10,8 @@
     "title": "Budovanie Bohatstva so Zlatom",
     "subtitle": "Zabezpečte svoju budúcnosť fyzickým zlatom. Ochrana proti inflácii, pasívne príjmy, bohatstvo odolné voči krízam.",
     "cta": "Začať Teraz",
-    "secondaryCta": "Zistiť Viac"
+    "secondaryCta": "Zistiť Viac",
+    "badgeTooltip": "100% physically backed, tangible and secure gold, free from the counterparty risks of paper gold (e.g. ETFs)."
   },
   "Benefits": {
     "title": "Prečo fyzické zlato?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Pasívne výnosy",
-        "description": "Získajte až 10% bonus za vernosť prispájajúce k akumulácii zlata."
+        "description": "Získajte až 4 % mesačný cashback na vašom nakúpenom nahromadenom zlate."
       },
       "security": {
         "title": "Fyzická Bezpečnosť",
-        "description": "Uložené 100% vo fyzickej forme v poistených trezoroch vo Švajčiarsku a vo Viedni."
+        "description": "Skladované 100 % vo fyzickej forme v plne poistených trezoroch."
       }
     }
   },
@@ -104,8 +105,11 @@
   "TrustSignals": {
     "title": "Spoľahlivosť a Bezpečnosť Nadovšetko",
     "goodDelivery": "Zlaté tehly s certifikátom LBMA Good Delivery",
-    "vaults": "Uznávané, poistené trezory vo Švajčiarsku a vo Viedni",
-    "audit": "Auditované nezávislými účtovnými firmami"
+    "vaults": "Mined from Ghanaian mines",
+    "audit": "Auditované nezávislými účtovnými firmami",
+    "goodDeliveryTooltip": "The highest standard of quality, purity, and reliability set by the London Bullion Market Association, guaranteeing global acceptance.",
+    "vaultsTooltip": "Directly and ethically sourced gold from Ghana's most reliable mines, ensuring complete traceability of origin.",
+    "auditTooltip": "All transactions and inventory are regularly verified by independent international auditing firms to ensure 100% transparency."
   },
   "LeadForm": {
     "title": "Začnite Budovať Svoje Bohatstvo",
@@ -136,5 +140,28 @@
   "Cookie": {
     "message": "Používame súbory cookie, aby sme vám zaistili čo najlepší zážitok z našich webových stránok.",
     "accept": "Prijať"
+  },
+  "Hub": {
+    "title": "Vyberte si svoju cestu k",
+    "titleAccent": "Pasívnemu Profitu",
+    "description": "Začnite budovať svoju budúcnosť na stabilných a inovatívnych pilieroch. Vyberte si investičný alebo obchodný smer, ktorý najlepšie vyhovuje vašim cieľom.",
+    "pathways": {
+      "gold": {
+        "title": "PassivProfit Vaše Zlato",
+        "description": "Zabezpečte svoj majetok fyzickým zlatom. Mesačný plán sporenia s očakávanými výnosmi a exkluzívnymi bonusmi.",
+        "cta": "Prejsť na Zlato",
+        "badge": "Vybraná Cesta"
+      },
+      "bybit": {
+        "title": "PassivProfit na Bybit",
+        "description": "Pripojte sa k jednej z popredných svetových krypto búrz a užívajte si prémiové investičné príležitosti.",
+        "cta": "Registrácia"
+      },
+      "telecom": {
+        "title": "Zapojte sa do maďarského mobilného trhu",
+        "description": "Formujte budúcnosť domácej telekomunikácie v pripravovanom exkluzívnom programe.",
+        "cta": "Čoskoro"
+      }
+    }
   }
 }

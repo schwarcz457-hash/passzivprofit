@@ -10,7 +10,8 @@
     "title": "Vagyonépítés Aranyban",
     "subtitle": "Biztosítsd a jövőd fizikai arannyal. Védelem az infláció ellen, passzív hozam, válságálló megtartás.",
     "cta": "Kezdd el most",
-    "secondaryCta": "Tudj meg többet"
+    "secondaryCta": "Tudj meg többet",
+    "badgeTooltip": "100%-ban fizikai formában, megfogható és biztonságos aranyban tartott érték, amely mentes a papírarany (pl. ETF-ek) kockázataitól."
   },
   "Benefits": {
     "title": "Miért fizikai arany?",
@@ -21,11 +22,11 @@
       },
       "passive": {
         "title": "Passzív Hozam Célok",
-        "description": "Szerezz akár 10% hűség és ajánlói bónuszt a folyamatos aranyfelhalmozásod után."
+        "description": "Szerezz akár havi 4% visszatérítést a megvásárolt aranyfelhalmozásod után."
       },
       "security": {
         "title": "Fizikai Biztonság",
-        "description": "100%-ban fizikai formában, értékbiztosított trezorokban tárolva Svájcban és Bécsben."
+        "description": "100%-ban fizikai formában, értékbiztosított trezorokban tárolva."
       }
     }
   },
@@ -34,15 +35,15 @@
     "steps": {
       "step1": {
         "title": "Nyiss Számlát",
-        "description": "Regisztrálj díjmentesen, és férj hozzá a prémium vásárlási felülethez."
+        "description": "Regisztrálj, és férj hozzá a prémium vásárlási felülethez."
       },
       "step2": {
         "title": "Vásárolj Aranyat",
-        "description": "Kezdj el rendszeres euró/forint megtakarítással törtaranyat vásárolni havi szinten."
+        "description": "Kezdj el rendszeres euró/forint megtakarítással törtaranyat vásárolni havi szinten, vagy alkalmanként."
       },
       "step3": {
         "title": "Élvezd a Passzív Profitot",
-        "description": "Nézd, ahogy gyarapszik a vagyonod az 5-8% éves értéknövekedéssel és a 10% hűségbónusszal."
+        "description": "Nézd, ahogy gyarapszik a vagyonod az 3-6 éves visszatérítéssel és értéknövekedéssel."
       }
     }
   },
@@ -111,8 +112,11 @@
   "TrustSignals": {
     "title": "Megbízhatóság és Biztonság Mindenek Felett",
     "goodDelivery": "LBMA Good Delivery minősítésű aranytömbök",
-    "vaults": "Svájci és Bécsi elismert, biztosított trezorok",
-    "audit": "Független könyvvizsgálók által auditálva"
+    "vaults": "Ghanai bányából kitermelt",
+    "audit": "Független könyvvizsgálók által auditálva",
+    "goodDeliveryTooltip": "A London Bullion Market Association által támasztott legszigorúbb minőségi, tisztasági és megbízhatósági szabvány, amely garantálja az aranytömbök globális elfogadottságát.",
+    "vaultsTooltip": "Közvetlenül és etikusan kitermelt arany Ghána legmegbízhatóbb bányáiból, biztosítva a származás teljes nyomon követhetőségét.",
+    "auditTooltip": "Minden tranzakciót és készletet rendszeresen, független nemzetközi könyvvizsgáló cégek ellenőriznek a 100%-os átláthatóság érdekében."
   },
   "LeadForm": {
     "title": "Kezdd El Az Építkezést",
@@ -120,7 +124,10 @@
     "namePlaceholder": "Teljes Név",
     "emailPlaceholder": "Email Cím",
     "phonePlaceholder": "Telefonszám",
-    "submitButton": "Konzultáció igénylése"
+    "submitButton": "Konzultáció igénylése",
+    "successTitle": "Köszönjük!",
+    "successMessage": "A konzultáció igénylése sikeresen megtörtént!",
+    "submitAnother": "Új konzultáció kérése"
   },
   "Privacy": {
     "title": "Adatvédelmi tájékoztató",
@@ -143,5 +150,28 @@
   "Cookie": {
     "message": "Weboldalunk cookie-kat használ a legjobb felhasználói élmény biztosítása érdekében.",
     "accept": "Elfogadom"
+  },
+  "Hub": {
+    "title": "Válaszd ki az utad a",
+    "titleAccent": "Passzív Profithoz",
+    "description": "Kezdd el építeni a jövőd stabil és innovatív pilléreken. Válaszd ki azt a befektetési vagy üzleti irányt, ami a leginkább illik a céljaidhoz.",
+    "pathways": {
+      "gold": {
+        "title": "PasszívProfit a Te aranyad",
+        "description": "Biztosítsa vagyonát fizikai arannyal. Havi megtakarítási terv várható hozammal és exkluzív bónuszokkal.",
+        "cta": "Tovább az Aranyhoz",
+        "badge": "Kiemelt Út"
+      },
+      "bybit": {
+        "title": "PasszívProfit a Bybiten",
+        "description": "Csatlakozz a világ egyik vezető kripto tőzsdéjéhez, és élvezd a prémium befektetési lehetőségeket.",
+        "cta": "Regisztráció"
+      },
+      "telecom": {
+        "title": "Vedd ki a részed a Magyar mobilpiacból",
+        "description": "Formáld a hazai telekommunikáció jövőjét egy hamarosan induló exkluzív program keretében.",
+        "cta": "Hamarosan"
+      }
+    }
   }
 }

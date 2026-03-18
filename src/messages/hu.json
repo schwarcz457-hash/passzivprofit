@@ -177,5 +177,32 @@
         "cta": "Hamarosan"
       }
     }
+  },
+  "Details": {
+    "hero": {
+      "title": "A Te aranyad. A Te szabadságod.",
+      "titleAccent": "Okosabban.",
+      "description": "A fizikai arany birtoklása az egyik legstabilabb módja a vagyonmegőrzésnek. A TGI modelljével nem csak biztonságban tudhatja megtakarításait, de aktív előnyökhöz is juthat."
+    },
+    "features": {
+      "security": {
+        "title": "Fizikai Biztonság",
+        "description": "Aranyunkat vegyszermentes bányászatból nyerjük, és közvetlen tulajdonjogot biztosítunk számodra. Nincs papírarany, csak kézzelfogható biztonság."
+      },
+      "discount": {
+        "title": "A Kedvezmény Modell",
+        "description": "Vásárlóink havi árengedményt kapnak az arany árából a kereskedési volumenen keresztül. Ezáltal az aranyad folyamatosan többet ér."
+      },
+      "affiliate": {
+        "title": "Ajánlói Program",
+        "description": "Oszd meg a lehetőséget másokkal, és építs passzív jövedelmet az affiliate rendszerünkön keresztül. Együtt többre vagyunk képesek."
+      }
+    },
+    "video": {
+      "title": "Ismerd meg a folyamatot"
+    },
+    "cta": {
+      "button": "Szeretnék elindulni"
+    }
   }
 }

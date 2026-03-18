@@ -35,10 +35,10 @@ export default function HubPage() {
       title: t("pathways.telecom.title"),
       description: t("pathways.telecom.description"),
       icon: Smartphone,
-      href: "#",
+      href: "/mobilpiac",
       cta: t("pathways.telecom.cta"),
       isExternal: false,
-      isAvailable: false,
+      isAvailable: true,
       popular: false,
     }
   ];

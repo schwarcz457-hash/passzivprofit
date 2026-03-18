@@ -168,7 +168,7 @@
       "telecom": {
         "title": "Take your part in the Hungarian mobile market",
         "description": "Shape the future of domestic telecommunications in an upcoming exclusive program.",
-        "cta": "Coming Soon"
+        "cta": "Learn More"
       }
     }
   },
@@ -197,6 +197,31 @@
     },
     "cta": {
       "button": "I want to start"
+    }
+  },
+  "Mobil": {
+    "hero": {
+      "title": "Take Your Part in the Hungarian Mobile Market!",
+      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+    },
+    "features": {
+      "model": {
+        "title": "Crisis-Proof Business Model",
+        "description": "Mobile usage is no longer a luxury, but a basic necessity. Your income is thus stable, long-term, and independent of economic crises."
+      },
+      "passive": {
+        "title": "Real Passive Income",
+        "description": "Build your own customer base and receive a monthly commission. Continuous usage means continuous income for you."
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "An online training system, ready-made marketing tools, and an experienced support team help you on your way from day one."
+      }
+    },
+    "cta": {
+      "title": "Interested in the Opportunity?",
+      "description": "Provide your details, and our representative will contact you with further information.",
+      "button": "I'm Interested"
     }
   }
 }

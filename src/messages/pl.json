@@ -195,5 +195,30 @@
     "cta": {
       "button": "Chcę zacząć"
     }
+  },
+  "Mobil": {
+    "hero": {
+      "title": "Partake in the Hungarian Mobile Market!",
+      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+    },
+    "features": {
+      "model": {
+        "title": "Crisis-Proof Business Model",
+        "description": "Mobile usage is no longer a luxury, but a basic necessity."
+      },
+      "passive": {
+        "title": "Real Passive Income",
+        "description": "Build your own customer base and receive a monthly commission."
+      },
+      "support": {
+        "title": "Professional Support",
+        "description": "An online training system and an experienced support team help you."
+      }
+    },
+    "cta": {
+      "title": "Interested in the Opportunity?",
+      "description": "Provide your details, and our representative will contact you.",
+      "button": "I'm Interested"
+    }
   }
 }

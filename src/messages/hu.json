@@ -174,7 +174,7 @@
       "telecom": {
         "title": "Vedd ki a részed a Magyar mobilpiacból",
         "description": "Formáld a hazai telekommunikáció jövőjét egy hamarosan induló exkluzív program keretében.",
-        "cta": "Hamarosan"
+        "cta": "Megismerem"
       }
     }
   },
@@ -203,6 +203,31 @@
     },
     "cta": {
       "button": "Szeretnék elindulni"
+    }
+  },
+  "Mobil": {
+    "hero": {
+      "title": "Vedd ki a részed a Magyar mobilpiacból!",
+      "subtitle": "Formáld a hazai telekommunikáció jövőjét egy exkluzív program keretében."
+    },
+    "features": {
+      "model": {
+        "title": "Válságálló üzleti modell",
+        "description": "A mobilhasználat ma már nem luxus, hanem alapvető szükséglet. Jövedelmed így stabil, hosszú távú és független a gazdasági válságoktól."
+      },
+      "passive": {
+        "title": "Valódi Passzív Jövedelem",
+        "description": "Építs saját ügyfélkört, amely után havi rendszerességű jutalékot kapsz. A folyamatos használat folyamatos bevételt jelent számodra."
+      },
+      "support": {
+        "title": "Profi Háttértámogatás",
+        "description": "Online képzési rendszer, kész marketing eszközök és egy tapasztalt támogatói csapat segít az utadon az első naptól kezdve."
+      }
+    },
+    "cta": {
+      "title": "Érdekel a lehetőség?",
+      "description": "Add meg adataidat, és munkatársunk felveszi veled a kapcsolatot a további részletekkel kapcsolatban.",
+      "button": "Érdekel a lehetőség"
     }
   }
 }

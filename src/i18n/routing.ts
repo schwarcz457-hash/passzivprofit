@@ -9,7 +9,8 @@ export const routing = defineRouting({
     '/': '/',
     '/gold': '/gold',
     '/privacy': '/privacy',
-    '/details': '/details'
+    '/details': '/details',
+    '/mobilpiac': '/mobilpiac'
   }
 });
 

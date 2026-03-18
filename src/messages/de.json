@@ -165,7 +165,7 @@
       "telecom": {
         "title": "Beteiligen Sie sich am ungarischen Mobilfunkmarkt",
         "description": "Gestalten Sie die Zukunft der heimischen Telekommunikation in einem kommenden exklusiven Programm.",
-        "cta": "Demnächst"
+        "cta": "Mehr erfahren"
       }
     }
   },
@@ -194,6 +194,31 @@
     },
     "cta": {
       "button": "Ich möchte starten"
+    }
+  },
+  "Mobil": {
+    "hero": {
+      "title": "Nehmen Sie am ungarischen Mobilfunkmarkt teil!",
+      "subtitle": "Gestalten Sie die Zukunft der heimischen Telekommunikation in einem exklusiven Programm."
+    },
+    "features": {
+      "model": {
+        "title": "Krisensicheres Geschäftsmodell",
+        "description": "Die Mobilfunknutzung ist heute kein Luxus mehr, sondern eine Grundnotwendigkeit. Ihr Einkommen ist somit stabil, langfristig und unabhängig von Wirtschaftskrisen."
+      },
+      "passive": {
+        "title": "Echtes passives Einkommen",
+        "description": "Bauen Sie Ihren eigenen Kundenstamm auf und erhalten Sie eine monatliche Provision. Kontinuierliche Nutzung bedeutet für Sie kontinuierliches Einkommen."
+      },
+      "support": {
+        "title": "Professionelle Unterstützung",
+        "description": "Ein Online-Schulungssystem, fertige Marketing-Tools und ein erfahrenes Support-Team helfen Ihnen vom ersten Tag an auf Ihrem Weg."
+      }
+    },
+    "cta": {
+      "title": "Interesse an der Möglichkeit?",
+      "description": "Geben Sie Ihre Daten an, und unser Vertreter wird Sie mit weiteren Informationen kontaktieren.",
+      "button": "Ich bin interessiert"
     }
   }
 }

@@ -7,7 +7,7 @@ import { LanguageSelector } from "./LanguageSelector";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
-  const t = useTranslations("Navigation");
+  const t = useTranslations();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -20,10 +20,10 @@ export function Navbar() {
   }, []);
 
   const navLinks = [
-    { href: "/gold#benefits", label: t("benefits") },
-    { href: "/gold#how-it-works", label: t("howItWorks") },
+    { href: "/gold#benefits", label: t("Navigation.benefits") },
+    { href: "/gold#how-it-works", label: t("Navigation.howItWorks") },
 
-    { href: "/gold#contact", label: t("contact") },
+    { href: "/gold#contact", label: t("Navigation.contact") },
   ];
 
   return (
@@ -43,7 +43,7 @@ export function Navbar() {
                 <span className="text-charcoal font-playfair font-bold text-lg">A</span>
               </div>
               <span className="font-playfair font-bold text-xl tracking-[0.05em] text-premiumWhite">
-                PasszívProfit a Te aranyad
+                {t("Branding.logoText")}
               </span>
             </Link>
 

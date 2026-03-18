@@ -1,12 +1,11 @@
-import { useTranslations } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const t = useTranslations("Privacy");
+  const t = await getTranslations("Privacy");
 
   return (
     <main className="flex flex-col min-h-screen bg-charcoal selection:bg-metallicGold/30 selection:text-premiumWhite">

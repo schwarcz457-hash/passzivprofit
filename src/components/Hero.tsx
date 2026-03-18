@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 export function Hero() {
-  const t = useTranslations("Hero");
+  const t = useTranslations();
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-charcoal pt-20 overflow-hidden">
@@ -39,11 +39,11 @@ export function Hero() {
             >
               <ShieldCheck className="w-4 h-4 text-metallicGold" />
               <span className="text-sm font-medium text-premiumWhite/90 tracking-wide">
-                Mindenuncia Physical Gold
+                {t("Branding.trustBadge")}
               </span>
             </motion.div>
             <div className="absolute top-1/2 mt-4 left-1/2 -translate-x-1/2 w-72 p-3 bg-neutral-900 border border-metallicGold/20 rounded-lg shadow-2xl text-xs text-premiumWhite/80 text-center opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 pointer-events-none">
-              {t("badgeTooltip")}
+              {t("Hero.badgeTooltip")}
             </div>
           </div>
 
@@ -53,7 +53,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-7xl font-playfair font-bold text-premiumWhite tracking-[0.05em] leading-[1.1] mb-6"
           >
-            {t("title")}
+            {t("Hero.title")}
           </motion.h1>
 
           <motion.p
@@ -62,7 +62,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-premiumWhite/70 font-inter max-w-2xl leading-relaxed mb-12"
           >
-            {t("subtitle")}
+            {t("Hero.subtitle")}
           </motion.p>
 
           <motion.div
@@ -79,7 +79,7 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
               <span className="relative text-base tracking-wide z-10 flex items-center gap-2">
-                {t("cta")}
+                {t("Hero.cta")}
                 <TrendingUp className="w-5 h-5" />
               </span>
             </a>
@@ -88,7 +88,7 @@ export function Hero() {
               href="#contact"
               className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-transparent text-premiumWhite font-medium rounded-full border border-white/20 transition-all duration-300 hover:border-metallicGold/50 hover:bg-white/5 w-full sm:w-auto"
             >
-              {t("secondaryCta")}
+              {t("Hero.secondaryCta")}
               <ArrowRight className="w-4 h-4 text-metallicGold group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>

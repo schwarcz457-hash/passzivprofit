@@ -102,8 +102,8 @@ export default function MobilpiacPage() {
             className="w-full lg:w-1/2 relative aspect-square rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.5)] border border-white/5"
           >
             <Image 
-              src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop" 
-              alt="Mobile Market Network"
+              src="https://images.unsplash.com/photo-1556742044-3c64f18bcfe2?q=80&w=1000&auto=format&fit=crop" 
+              alt="Mobile Market Professional"
               fill
               priority
               className="object-cover"

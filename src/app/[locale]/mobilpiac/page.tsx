@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
-import { Smartphone, Globe, TrendingUp, Users, ArrowRight, ShieldCheck } from "lucide-react";
+import { useTranslations, useLocale } from "next-intl";
+import { Link } from "@/i18n/routing";
+import { Smartphone, Globe, TrendingUp, Users, ArrowRight, ShieldCheck, AlertCircle } from "lucide-react";
 import Image from "next/image";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -10,6 +11,38 @@ import { LeadForm } from "@/components/LeadForm";
 
 export default function MobilpiacPage() {
   const t = useTranslations("Mobil");
+  const locale = useLocale();
+
+  if (locale !== 'hu') {
+    return (
+      <main className="min-h-screen bg-charcoal text-premiumWhite font-inter overflow-hidden flex flex-col">
+        <Navbar />
+        <div className="flex-grow flex items-center justify-center px-6">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="max-w-xl w-full p-12 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl text-center"
+          >
+            <div className="w-20 h-20 rounded-full bg-metallicGold/10 flex items-center justify-center mx-auto mb-8 border border-metallicGold/20">
+              <AlertCircle className="w-10 h-10 text-metallicGold" />
+            </div>
+            <h1 className="text-3xl font-playfair font-bold mb-6">
+              {t("restriction")}
+            </h1>
+            <div className="w-12 h-1 bg-metallicGold mx-auto mb-8 opacity-50" />
+            <Link 
+              href="/"
+              className="inline-flex items-center gap-2 text-metallicGold hover:text-goldLight transition-colors font-medium"
+            >
+              <ArrowRight className="w-4 h-4 rotate-180" />
+              Vissza a főoldalra
+            </Link>
+          </motion.div>
+        </div>
+        <Footer />
+      </main>
+    );
+  }
 
   const features = [
     {

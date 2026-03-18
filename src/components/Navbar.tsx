@@ -1,13 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { LanguageSelector } from "./LanguageSelector";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
   const t = useTranslations();
+  const locale = useLocale();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -22,7 +23,7 @@ export function Navbar() {
   const navLinks = [
     { href: "/gold#benefits", label: t("Navigation.benefits") },
     { href: "/gold#how-it-works", label: t("Navigation.howItWorks") },
-
+    ...(locale === 'hu' ? [{ href: "/mobilpiac", label: t("Hub.pathways.telecom.cta") }] : []),
     { href: "/gold#contact", label: t("Navigation.contact") },
   ];
 

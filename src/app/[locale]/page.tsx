@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Coins, TrendingUp, Smartphone, ArrowRight, ExternalLink } from "lucide-react";
 import { LanguageSelector } from "@/components/LanguageSelector";
 
 export default function HubPage() {
   const t = useTranslations("Hub");
+  const locale = useLocale();
   
   const pathways = [
     {
@@ -42,6 +43,11 @@ export default function HubPage() {
       popular: false,
     }
   ];
+
+  // Filter out telecom if not in Hungarian locale
+  const activePathways = pathways.filter(path => 
+    path.href !== "/mobilpiac" || locale === 'hu'
+  );
 
   return (
     <main className="min-h-screen bg-charcoal flex flex-col items-center justify-center py-20 px-6 relative overflow-hidden">
@@ -87,7 +93,7 @@ export default function HubPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-20">
-          {pathways.map((path, index) => {
+          {activePathways.map((path, index) => {
             const Icon = path.icon;
             
             return (

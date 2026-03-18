@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import NextImage from "next/image";
 import { Shield, TrendingUp, Users, ArrowRight } from "lucide-react";
 import { LanguageSelector } from "@/components/LanguageSelector";
 
@@ -69,10 +70,13 @@ export default function DetailsPage() {
             transition={{ duration: 0.8 }}
             className="w-full lg:w-1/2 relative aspect-square md:aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.5)] border border-white/5"
           >
-            <img 
-              src="https://images.unsplash.com/photo-1610375461246-83dfaf8fd3a7?q=80&w=2100&auto=format&fit=crop" 
-              alt="Physical Gold Bars"
-              className="w-full h-full object-cover"
+            <NextImage 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1000" 
+              alt={t("hero.title")}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
             {/* Elegant overlay gradient */}
             <div className="absolute inset-0 bg-gradient-to-tr from-charcoal/40 to-transparent" />

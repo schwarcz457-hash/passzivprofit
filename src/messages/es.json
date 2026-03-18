@@ -171,29 +171,29 @@
   },
   "Details": {
     "hero": {
-      "title": "Your Gold. Your Freedom.",
-      "titleAccent": "Smarter.",
-      "description": "Owning physical gold is one of the most stable ways to preserve wealth. With the TGI model, you can not only keep your savings safe but also gain active benefits."
+      "title": "Tu oro. Tu libertad.",
+      "titleAccent": "De forma más inteligente.",
+      "description": "Poseer oro físico es una de las formas más estables de preservar la riqueza. Con el modelo TGI, no solo puedes mantener tus ahorros seguros, sino también obtener beneficios activos."
     },
     "features": {
       "security": {
-        "title": "Physical Security",
-        "description": "Our gold is sourced from chemical-free mining, providing direct ownership for you. No paper gold, only tangible security."
+        "title": "Seguridad Física",
+        "description": "Nuestro oro proviene de minería sin químicos y le proporcionamos la propiedad directa. Sin oro de papel, solo seguridad tangible."
       },
       "discount": {
-        "title": "The Discount Model",
-        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+        "title": "El Modelo de Descuento",
+        "description": "Nuestros clientes reciben un descuento mensual en el precio del oro a través del volumen de comercio. Esto hace que su oro valga continuamente más."
       },
       "affiliate": {
-        "title": "Referral Program",
-        "description": "Share the opportunity with others and build passive income through our affiliate system. Together we can achieve more."
+        "title": "Programa de Referidos",
+        "description": "Comparte la oportunidad con otros y construye ingresos pasivos a través de nuestro sistema de afiliados. Juntos podemos lograr más."
       }
     },
     "video": {
-      "title": "Learn how it works"
+      "title": "Conoce el proceso"
     },
     "cta": {
-      "button": "I want to start"
+      "button": "Quiero empezar"
     }
   }
 }

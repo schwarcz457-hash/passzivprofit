@@ -171,29 +171,29 @@
   },
   "Details": {
     "hero": {
-      "title": "Your Gold. Your Freedom.",
-      "titleAccent": "Smarter.",
-      "description": "Owning physical gold is one of the most stable ways to preserve wealth. With the TGI model, you can not only keep your savings safe but also gain active benefits."
+      "title": "Twoje złoto. Twoja wolność.",
+      "titleAccent": "Mądrzej.",
+      "description": "Posiadanie fizycznego złota to jeden z najstabilniejszych sposobów na zachowanie majątku. Dzięki modelowi TGI możesz nie tylko bezpiecznie przechowywać swoje oszczędności, ale także zyskać aktywne korzyści."
     },
     "features": {
       "security": {
-        "title": "Physical Security",
-        "description": "Our gold is sourced from chemical-free mining, providing direct ownership for you. No paper gold, only tangible security."
+        "title": "Bezpieczeństwo fizyczne",
+        "description": "Nasze złoto pochodzi z wydobycia wolnego od chemikaliów, co zapewnia Ci bezpośrednią własność. Żadnego papierowego złota, tylko namacalne bezpieczeństwo."
       },
       "discount": {
-        "title": "The Discount Model",
-        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+        "title": "Model rabatowy",
+        "description": "Nasi klienci otrzymują miesięczny rabat na cenę złota poprzez wolumen obrotu. Dzięki temu Twoje złoto jest stale warte więcej."
       },
       "affiliate": {
-        "title": "Referral Program",
-        "description": "Share the opportunity with others and build passive income through our affiliate system. Together we can achieve more."
+        "title": "Program poleceń",
+        "description": "Podziel się możliwością z innymi i buduj pasywny dochód dzięki naszemu systemowi partnerskiemu. Razem możemy osiągnąć więcej."
       }
     },
     "video": {
-      "title": "Learn how it works"
+      "title": "Poznaj proces"
     },
     "cta": {
-      "button": "I want to start"
+      "button": "Chcę zacząć"
     }
   }
 }

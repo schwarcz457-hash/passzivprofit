@@ -170,29 +170,29 @@
   },
   "Details": {
     "hero": {
-      "title": "Your Gold. Your Freedom.",
-      "titleAccent": "Smarter.",
-      "description": "Owning physical gold is one of the most stable ways to preserve wealth. With the TGI model, you can not only keep your savings safe but also gain active benefits."
+      "title": "Vaše zlato. Vaša sloboda.",
+      "titleAccent": "Inteligentnejšie.",
+      "description": "Vlastníctvo fyzického zlata je jedným z najstabilnejších spôsobov zachovania majetku. S modelom TGI môžete nielen uchovávať svoje úspory v bezpečí, ale aj získať aktívne výhody."
     },
     "features": {
       "security": {
-        "title": "Physical Security",
-        "description": "Our gold is sourced from chemical-free mining, providing direct ownership for you. No paper gold, only tangible security."
+        "title": "Fyzická bezpečnosť",
+        "description": "Naše zlato pochádza z ťažby bez chemikálií, čo vám poskytuje priame vlastníctvo. Žiadne papierové zlato, len hmatateľná bezpečnosť."
       },
       "discount": {
-        "title": "The Discount Model",
-        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+        "title": "Zľavový model",
+        "description": "Naši zákazníci získavajú mesačnú zľavu z ceny zlata prostredníctvom objemu obchodov. Vďaka tomu má vaše zlato neustále vyššiu hodnotu."
       },
       "affiliate": {
-        "title": "Referral Program",
-        "description": "Share the opportunity with others and build passive income through our affiliate system. Together we can achieve more."
+        "title": "Partnerský program",
+        "description": "Zdieľajte príležitosť s ostatnými a budujte si pasívny príjem prostredníctvom nášho affilliat systému. Spoločne dokážeme viac."
       }
     },
     "video": {
-      "title": "Learn how it works"
+      "title": "Zistite, ako to funguje"
     },
     "cta": {
-      "button": "I want to start"
+      "button": "Chcem začať"
     }
   }
 }

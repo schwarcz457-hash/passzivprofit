@@ -171,29 +171,29 @@
   },
   "Details": {
     "hero": {
-      "title": "Your Gold. Your Freedom.",
-      "titleAccent": "Smarter.",
-      "description": "Owning physical gold is one of the most stable ways to preserve wealth. With the TGI model, you can not only keep your savings safe but also gain active benefits."
+      "title": "Aurul tău. Libertatea ta.",
+      "titleAccent": "Mai inteligent.",
+      "description": "Deținerea de aur fizic este una dintre cele mai stabile modalități de a conserva averea. Cu modelul TGI, nu numai că vă puteți păstra economiile în siguranță, dar puteți obține și beneficii active."
     },
     "features": {
       "security": {
-        "title": "Physical Security",
-        "description": "Our gold is sourced from chemical-free mining, providing direct ownership for you. No paper gold, only tangible security."
+        "title": "Securitate fizică",
+        "description": "Aurul nostru provine din exploatări miniere fără substanțe chimice, oferindu-vă proprietatea directă. Fără aur de hârtie, doar securitate tangibilă."
       },
       "discount": {
-        "title": "The Discount Model",
-        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+        "title": "Modelul de reducere",
+        "description": "Clienții noștri primesc o reducere lunară la prețul aurului prin volumul de tranzacționare. Acest lucru face ca aurul tău să valoreze continuu mai mult."
       },
       "affiliate": {
-        "title": "Referral Program",
-        "description": "Share the opportunity with others and build passive income through our affiliate system. Together we can achieve more."
+        "title": "Program de recomandare",
+        "description": "Împărtășiți oportunitatea cu alții și construiți un venit pasiv prin sistemul nostru de afiliere. Împreună putem obține mai mult."
       }
     },
     "video": {
-      "title": "Learn how it works"
+      "title": "Aflați cum funcționează"
     },
     "cta": {
-      "button": "I want to start"
+      "button": "Vreau să încep"
     }
   }
 }

@@ -167,6 +167,32 @@
         "description": "Façonnez l'avenir des télécommunications nationales dans un prochain programme exclusif.",
         "cta": "Bientôt disponible"
       }
+    },
+  "Details": {
+    "hero": {
+      "title": "Votre or. Votre liberté.",
+      "titleAccent": "Plus intelligemment.",
+      "description": "Posséder de l’or physique est l’un des moyens les plus stables de préserver son patrimoine. Avec le modèle TGI, vous pouvez non seulement mettre vos économies en sécurité, mais aussi bénéficier d’avantages actifs."
+    },
+    "features": {
+      "security": {
+        "title": "Sécurité physique",
+        "description": "Notre or provient de mines sans produits chimiques, vous offrant une propriété directe. Pas d’or papier, seulement une sécurité tangible."
+      },
+      "discount": {
+        "title": "Le modèle de remise",
+        "description": "Nos clients reçoivent une remise mensuelle sur le prix de l'or grâce au volume de transactions. Cela donne continuellement plus de valeur à votre or."
+      },
+      "affiliate": {
+        "title": "Programme de parrainage",
+        "description": "Partagez l'opportunité avec d'autres et créez un revenu passif grâce à notre système d'affiliation. Ensemble, nous pouvons faire plus."
+      }
+    },
+    "video": {
+      "title": "Découvrez comment ça marche"
+    },
+    "cta": {
+      "button": "Je veux commencer"
     }
   }
 }

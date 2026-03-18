@@ -167,6 +167,32 @@
         "description": "Kształtuj przyszłość krajowej telekomunikacji w nadchodzącym ekskluzywnym programie.",
         "cta": "Wkrótce"
       }
+    },
+  "Details": {
+    "hero": {
+      "title": "Your Gold. Your Freedom.",
+      "titleAccent": "Smarter.",
+      "description": "Owning physical gold is one of the most stable ways to preserve wealth. With the TGI model, you can not only keep your savings safe but also gain active benefits."
+    },
+    "features": {
+      "security": {
+        "title": "Physical Security",
+        "description": "Our gold is sourced from chemical-free mining, providing direct ownership for you. No paper gold, only tangible security."
+      },
+      "discount": {
+        "title": "The Discount Model",
+        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+      },
+      "affiliate": {
+        "title": "Referral Program",
+        "description": "Share the opportunity with others and build passive income through our affiliate system. Together we can achieve more."
+      }
+    },
+    "video": {
+      "title": "Learn how it works"
+    },
+    "cta": {
+      "button": "I want to start"
     }
   }
 }

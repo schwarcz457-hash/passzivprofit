@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { Shield, TrendingUp, Users, Play, ArrowRight } from "lucide-react";
+import { Shield, TrendingUp, Users, ArrowRight } from "lucide-react";
 import { LanguageSelector } from "@/components/LanguageSelector";
 
 export default function DetailsPage() {

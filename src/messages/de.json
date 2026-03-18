@@ -167,6 +167,32 @@
         "description": "Gestalten Sie die Zukunft der heimischen Telekommunikation in einem kommenden exklusiven Programm.",
         "cta": "Demnächst"
       }
+    },
+  "Details": {
+    "hero": {
+      "title": "Ihr Gold. Ihre Freiheit.",
+      "titleAccent": "Schlauer.",
+      "description": "Der Besitz von physischem Gold ist eine der stabilsten Möglichkeiten, Vermögen zu bewahren. Mit dem TGI-Modell können Sie nicht nur Ihre Ersparnisse sicher verwahren, sondern auch aktive Vorteile erzielen."
+    },
+    "features": {
+      "security": {
+        "title": "Physische Sicherheit",
+        "description": "Unser Gold stammt aus chemiefreiem Bergbau und bietet Ihnen direktes Eigentum. Kein Papiergold, nur greifbare Sicherheit."
+      },
+      "discount": {
+        "title": "Das Rabattmodell",
+        "description": "Unsere Kunden erhalten durch das Handelsvolumen einen monatlichen Rabatt auf den Goldpreis. Dadurch wird Ihr Gold kontinuierlich mehr wert."
+      },
+      "affiliate": {
+        "title": "Empfehlungsprogramm",
+        "description": "Teilen Sie die Chance mit anderen und bauen Sie über unser Affiliate-System ein passives Einkommen auf. Gemeinsam können wir mehr erreichen."
+      }
+    },
+    "video": {
+      "title": "Erfahren Sie, wie es funktioniert"
+    },
+    "cta": {
+      "button": "Ich möchte starten"
     }
   }
 }

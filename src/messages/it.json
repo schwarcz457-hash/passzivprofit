@@ -167,6 +167,32 @@
         "description": "Modella il futuro delle telecomunicazioni nazionali in un prossimo programma esclusivo.",
         "cta": "Prossimamente"
       }
+    },
+  "Details": {
+    "hero": {
+      "title": "Il tuo oro. La tua libertà.",
+      "titleAccent": "Più intelligentemente.",
+      "description": "Possedere oro fisico è uno dei modi più stabili per preservare la ricchezza. Con il modello TGI, non solo puoi tenere al sicuro i tuoi risparmi, ma anche ottenere vantaggi attivi."
+    },
+    "features": {
+      "security": {
+        "title": "Sicurezza fisica",
+        "description": "Il nostro oro proviene da miniere prive di sostanze chimiche, offrendoti la proprietà diretta. Niente oro cartaceo, solo sicurezza tangibile."
+      },
+      "discount": {
+        "title": "Il modello di sconto",
+        "description": "I nostri clienti ricevono uno sconto mensile sul prezzo dell'oro attraverso il volume di scambi. Questo rende il tuo oro continuamente di maggior valore."
+      },
+      "affiliate": {
+        "title": "Programma di affiliazione",
+        "description": "Condividi l'opportunità con gli altri e costruisci un reddito passivo attraverso il nostro sistema di affiliazione. Insieme possiamo ottenere di più."
+      }
+    },
+    "video": {
+      "title": "Scopri come funziona"
+    },
+    "cta": {
+      "button": "Voglio iniziare"
     }
   }
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { Footer } from "@/components/Footer";
 import { CookieBanner } from "@/components/CookieBanner";
 import "./globals.css";
@@ -62,6 +62,9 @@ export default async function RootLayout({
 }) {
   // A params feloldása statikus módban
   const { locale } = await params;
+
+  // Enable static rendering
+  setRequestLocale(locale);
 
   // Üzenetek betöltése (next-intl automatikusan tudja, melyiket kell a locale alapján)
   const messages = await getMessages();

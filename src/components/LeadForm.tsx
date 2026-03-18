@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { useState } from "react";
@@ -8,6 +8,7 @@ import { useState } from "react";
 export function LeadForm() {
   const t = useTranslations("LeadForm");
   const tConsent = useTranslations("Consent");
+  const locale = useLocale(); // Kinyeri az aktuális nyelvet (pl. "hu", "en")
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -18,12 +19,18 @@ export function LeadForm() {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
+    // Összefűzzük az űrlap adatait az aktuális nyelvvel
+    const payload = {
+      ...data,
+      lang: locale
+    };
+
     try {
       await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL!, {
         method: "POST",
         mode: "no-cors",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: JSON.stringify(payload), // Most már a nyelvet is tartalmazó objektumot küldjük
       });
       setStatus("success");
       setMessage("successMessage");

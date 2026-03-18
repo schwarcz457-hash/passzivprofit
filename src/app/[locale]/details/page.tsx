@@ -100,7 +100,7 @@ export default function DetailsPage() {
                     <h3 className="text-2xl font-playfair font-bold text-premiumWhite mb-2 group-hover:text-metallicGold transition-colors">
                       {feature.title}
                     </h3>
-                    <p className="text-premiumWhite/60 leading-relaxed font-light text-lg">
+                    <p className="text-premiumWhite/60 leading-relaxed font-light text-lg whitespace-pre-line">
                       {feature.description}
                     </p>
                   </div>

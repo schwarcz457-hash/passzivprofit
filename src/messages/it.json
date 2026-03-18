@@ -182,7 +182,7 @@
       },
       "discount": {
         "title": "Il modello di sconto",
-        "description": "I nostri clienti ricevono uno sconto mensile sul prezzo dell'oro attraverso il volume di scambi. Questo rende il tuo oro continuamente di maggior valore."
+        "description": "I nostri clienti ricevono uno sconto mensile sul prezzo dell'oro, con un rimborso mensile del 2% o 4% su 36+36 mesi. 4 tipi di opzioni di acquisto:\n\n1. Acquisto di oro fisico: Acquistate l'oro selezionato, che vi viene consegnato. In questo caso, non c'è alcun profitto extra.\n2. Consegna differita di 36 mesi (2%): Con un ritardo nella consegna di 36 mesi, ricevi un rimborso mensile del 2% sul prezzo dell'oro. Può essere annullato in qualsiasi momento, il rimborso viene mantenuto e, alla fine, può essere richiesta la consegna o il riacquisto.\n3. Sconto sulla consegna (3%): Ricevi mensilmente il 2% dell'importo pagatp al momento dell'acquisto in EUR per 3 anni. Alla scadenza, viene concesso un ulteriore sconto del 36% (per un totale del 3% al mese), quindi TGI AG consegna l'oro.\n4. Servizio Premium (4%): Acquisti l'oro con un pacchetto premium e TGI AG paga mensilmente il 4% dell'importo pagato in oro ed EUR. Dopo 3 anni, ricevi anche il doppio del prezzo premium, oppure l'intero inventario può essere rivenduto all'azienda."
       },
       "affiliate": {
         "title": "Programma di affiliazione",

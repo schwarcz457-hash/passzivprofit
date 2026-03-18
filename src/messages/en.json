@@ -185,7 +185,7 @@
       },
       "discount": {
         "title": "The Discount Model",
-        "description": "Our customers receive a monthly discount on the gold price through trading volume. This makes your gold continuously worth more."
+        "description": "Our customers receive a monthly discount on the gold price, with a 2% or 4% monthly discount refund over 36+36 months. 4 types of purchase options:\n\n1. Purchase of physical gold: You buy the selected gold, which is delivered to you. In this case, there is no extra profit.\n2. 36-month deferred delivery (2%): With a 36-month delivery delay, you receive a 2% monthly refund on the gold price. Can be canceled at any time, the refund is kept, and at the end, delivery or buyback can be requested.\n3. Delivery discount (3%): You receive 2% of the amount paid at purchase monthly in EUR for 3 years. Upon maturity, an additional 36% discount is given (totaling 3% per month), and then TGI AG delivers the gold.\n4. Premium service (4%): You purchase the gold with a premium package, and TGI AG pays 4% of the amount paid monthly in gold and EUR. After 3 years, you also get the premium price back doubled, or the entire inventory can be sold back to the company."
       },
       "affiliate": {
         "title": "Referral Program",

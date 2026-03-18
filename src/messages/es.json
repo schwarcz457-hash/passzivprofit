@@ -182,7 +182,7 @@
       },
       "discount": {
         "title": "El Modelo de Descuento",
-        "description": "Nuestros clientes reciben un descuento mensual en el precio del oro a través del volumen de comercio. Esto hace que su oro valga continuamente más."
+        "description": "Nuestros clientes reciben un descuento mensual en el precio del oro, con un reembolso mensual del 2% o 4% durante 36+36 meses. 4 tipos de opciones de compra:\n\n1. Compra de oro físico: Usted compra el oro seleccionado, que se le entrega. En este caso, no hay beneficio adicional.\n2. Entrega diferida de 36 meses (2%): Con un retraso en la entrega de 36 meses, recibe un reembolso mensual del 2% sobre el precio del oro. Se puede cancelar en cualquier momento, el reembolso se mantiene, y al final, se puede solicitar la entrega o la recompra.\n3. Descuento de entrega (3%): Recibe mensualmente el 2% del importe pagado en la compra en EUR durante 3 años. Al vencimiento, se otorga un descuento adicional del 36% (totalizando un 3% mensual), y luego TGI AG entrega el oro.\n4. Servicio Premium (4%): Usted adquiere el oro con un paquete premium, y TGI AG paga mensualmente el 4% del importe pagado en oro y EUR. Después de 3 años, también recupera el doble del precio premium, o todo el inventario puede ser vendido de nuevo a la empresa."
       },
       "affiliate": {
         "title": "Programa de Referidos",

@@ -191,7 +191,7 @@
       },
       "discount": {
         "title": "A Kedvezmény Modell",
-        "description": "Vásárlóink havi árengedményt kapnak az arany árából a kereskedési volumenen keresztül. Ezáltal az aranyad folyamatosan többet ér."
+        "description": "Vásárlóink havi árengedményt kapnak az arany árából, 2% vagy 4% havi árengedmény visszatérítéssel 36+36 hónapon keresztül. 4 féle vásárlási lehetőség:\n\n1. Fizikai arany megvásárlása: Megveszi a kiválasztott aranyat, amit kiszállítanak Önnek. Ebben az esetben nincs extra profit.\n2. 36 hónapos halasztott szállítás (2%): 36 hónapos szállítási késleltetéssel havi 2% visszatérítést kap az arany árából. Bármikor felmondható, a visszatérítés megtartható, a végén kérhető kiszállítás vagy visszavásárlás.\n3. Szállítási kedvezmény (3%): A vásárláskor fizetett összeg 2%-át kapja havonta euróban 3 éven át. A lejáratkor további 36% kedvezmény jár (így összesen havi 3%), majd a TGI AG szállítja az aranyat.\n4. Prémium szolgáltatás (4%): Megvásárolja az aranyat prémium csomaggal, a TGI AG pedig a befizetett összeg 4%-át fizeti ki havonta aranyban és euróban. A 3 év után a prémium árát is visszakapja duplán, vagy az egész készlet eladható a cégnek."
       },
       "affiliate": {
         "title": "Ajánlói Program",

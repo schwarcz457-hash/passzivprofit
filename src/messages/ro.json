@@ -182,7 +182,7 @@
       },
       "discount": {
         "title": "Modelul de reducere",
-        "description": "Clienții noștri primesc o reducere lunară la prețul aurului prin volumul de tranzacționare. Acest lucru face ca aurul tău să valoreze continuu mai mult."
+        "description": "Clienții noștri primesc o reducere lunară la prețul aurului, cu o rambursare lunară de 2% sau 4% pe parcursul a 36+36 luni. 4 tipuri de opțiuni de cumpărare:\n\n1. Cumpărarea de aur fizic: Cumpărați aurul selectat, care vă este livrat. În acest caz, nu există profit suplimentar.\n2. Livrare amânată de 36 de luni (2%): Cu o întârziere a livrării de 36 de luni, primiți o rambursare lunară de 2% din prețul aurului. Poate fi anulată în orice moment, rambursarea este păstrată, iar la final se poate solicita livrarea sau răscumpărarea.\n3. Reducere la livrare (3%): Primiți lunar 2% din suma plătită la achiziție în EUR timp de 3 ani. La scadență, se acordă o reducere suplimentară de 36% (totalizând 3% pe lună), iar apoi TGI AG livrează aurul.\n4. Serviciu Premium (4%): Achiziționați aurul cu un pachet premium, iar TGI AG plătește lunar 4% din suma plătită în aur și EUR. După 3 ani, primiți înapoi și prețul premium dublat, sau întregul stoc poate fi vândut înapoi companiei."
       },
       "affiliate": {
         "title": "Program de recomandare",

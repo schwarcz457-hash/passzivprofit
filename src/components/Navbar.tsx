@@ -50,13 +50,13 @@ export function Navbar() {
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
+                  href={link.href as any}
                   className="text-sm font-medium text-premiumWhite/80 hover:text-metallicGold transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
               <div className="w-px h-5 bg-white/20 mx-2"></div>
               <LanguageSelector />
@@ -78,14 +78,14 @@ export function Navbar() {
           {mobileMenuOpen && (
             <nav className="md:hidden pt-6 pb-4 border-t border-white/10 mt-4 flex flex-col gap-4 animate-in slide-in-from-top-4 fade-in bg-charcoal/95 p-4 rounded-b-2xl">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
+                  href={link.href as any}
                   onClick={() => setMobileMenuOpen(false)}
                   className="text-base font-medium text-premiumWhite/90 hover:text-metallicGold tracking-wide"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </nav>
           )}

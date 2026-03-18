@@ -71,7 +71,7 @@ export default function DetailsPage() {
             className="w-full lg:w-1/2 relative aspect-square md:aspect-video lg:aspect-square rounded-3xl overflow-hidden shadow-[0_20px_60px_rgba(0,0,0,0.5)] border border-white/5"
           >
             <NextImage 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1000" 
+              src="https://images.unsplash.com/photo-1610374792793-f016b17da554?q=80&w=1000&auto=format&fit=crop" 
               alt={t("hero.title")}
               fill
               priority

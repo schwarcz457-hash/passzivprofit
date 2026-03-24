@@ -252,5 +252,16 @@
       "description": "Add meg adataidat, és munkatársunk felveszi veled a kapcsolatot a további részletekkel kapcsolatban.",
       "button": "Érdekel a lehetőség"
     }
+  },
+  "Email": {
+    "customerSubject": "Köszönjük az érdeklődést - Passzív Profit",
+    "customerTitle": "Kedves {name}!",
+    "customerSubtitle": "Örömmel vettük érdeklődésedet. Szakértőnk hamarosan felveszi veled a kapcsolatot az alábbi folyamat mentén:",
+    "step1": "Igényfelmérés: Megismerjük a pénzügyi céljaidat.",
+    "step2": "Technikai háttér: Bemutatjuk a mobilpiaci és arany befektetési rendszert.",
+    "step3": "Személyre szabott terv: Kidolgozzuk a számodra legideálisabb stratégiát.",
+    "button": "TOVÁBBI INFORMÁCIÓK",
+    "footer": "Ez egy automatikus üzenet, kérjük ne válaszolj rá.",
+    "adminSubject": "Új érdeklődő érkezett: {name} ({locale})"
   }
 }

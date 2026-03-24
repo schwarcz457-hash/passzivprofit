@@ -238,9 +238,20 @@
       }
     },
     "cta": {
-      "title": "Interested in the Opportunity?",
-      "description": "Provide your details, and our representative will contact you.",
-      "button": "I'm Interested"
+      "title": "Máte záujem o príležitosť?",
+      "description": "Uveďte svoje údaje a náš zástupca vás bude kontaktovať s ďalšími informáciami.",
+      "button": "Mám záujem"
     }
+  },
+  "Email": {
+    "customerSubject": "Ďakujeme za váš záujem - Passive Profit",
+    "customerTitle": "Vážený/á {name}!",
+    "customerSubtitle": "Teší nás váš záujem. Náš expert vás bude čoskoro kontaktovať podľa nasledujúceho procesu:",
+    "step1": "Analýza potrieb: Spoznáme vaše finančné ciele.",
+    "step2": "Technické pozadie: Predstavíme systém mobilného trhu a investícií do zlata.",
+    "step3": "Personalizovaný plán: Vypracujeme pre vás najideálnejšiu stratégiu.",
+    "button": "VIAC INFORMÁCIÍ",
+    "footer": "Toto je automatická správa, prosím neodpovedajte na ňu.",
+    "adminSubject": "Prijatý nový záujemca: {name} ({locale})"
   }
 }

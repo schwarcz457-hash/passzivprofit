@@ -246,5 +246,16 @@
       "description": "Provide your details, and our representative will contact you with further information.",
       "button": "I'm Interested"
     }
+  },
+  "Email": {
+    "customerSubject": "Thank you for your interest - Passive Profit",
+    "customerTitle": "Dear {name}!",
+    "customerSubtitle": "We are delighted with your interest. Our expert will contact you shortly following this process:",
+    "step1": "Needs Assessment: We get to know your financial goals.",
+    "step2": "Technical Background: We present the mobile market and gold investment system.",
+    "step3": "Personalized Plan: We develop the most ideal strategy for you.",
+    "button": "MORE INFORMATION",
+    "footer": "This is an automated message, please do not reply.",
+    "adminSubject": "New lead received: {name} ({locale})"
   }
 }

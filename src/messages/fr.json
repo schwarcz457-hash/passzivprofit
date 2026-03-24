@@ -239,9 +239,20 @@
       }
     },
     "cta": {
-      "title": "Interested in the Opportunity?",
-      "description": "Provide your details, and our representative will contact you.",
-      "button": "I'm Interested"
+      "title": "Intéressé par l'opportunité ?",
+      "description": "Fournissez vos coordonnées et notre représentant vous contactera pour plus d'informations.",
+      "button": "Je suis intéressé"
     }
+  },
+  "Email": {
+    "customerSubject": "Merci de votre intérêt - Passive Profit",
+    "customerTitle": "Cher/Chère {name} !",
+    "customerSubtitle": "Nous sommes ravis de votre intérêt. Notre expert vous contactera prochainement selon le processus suivant :",
+    "step1": "Évaluation des besoins : Nous apprenons à connaître vos objectifs financiers.",
+    "step2": "Contexte technique : Nous présentons le marché mobile et le système d'investissement en or.",
+    "step3": "Plan personnalisé : Nous élaborons la stratégie la plus idéale pour vous.",
+    "button": "PLUS D'INFORMATIONS",
+    "footer": "Ceci est un message automatique, veuillez ne pas y répondre.",
+    "adminSubject": "Nouveau prospect reçu : {name} ({locale})"
   }
 }

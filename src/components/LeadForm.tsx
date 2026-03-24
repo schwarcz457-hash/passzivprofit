@@ -26,12 +26,14 @@ export function LeadForm() {
     };
 
     try {
-      await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL!, {
+      const response = await fetch("/api/lead", {
         method: "POST",
-        mode: "no-cors",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload), // Most már a nyelvet is tartalmazó objektumot küldjük
+        body: JSON.stringify(payload),
       });
+
+      if (!response.ok) throw new Error("API request failed");
+
       setStatus("success");
       setMessage("successMessage");
     } catch (error) {

@@ -243,5 +243,16 @@
       "description": "Geben Sie Ihre Daten an, und unser Vertreter wird Sie mit weiteren Informationen kontaktieren.",
       "button": "Ich bin interessiert"
     }
+  },
+  "Email": {
+    "customerSubject": "Vielen Dank für Ihr Interesse - Passiv Profit",
+    "customerTitle": "Sehr geehrte(r) {name}!",
+    "customerSubtitle": "Wir freuen uns über Ihr Interesse. Unser Experte wird Sie in Kürze nach folgendem Prozess kontaktieren:",
+    "step1": "Bedarfsanalyse: Wir lernen Ihre finanziellen Ziele kennen.",
+    "step2": "Technischer Hintergrund: Wir präsentieren das Mobilfunkmarkt- und Goldinvestitionssystem.",
+    "step3": "Personalisierter Plan: Wir entwickeln die ideale Strategie für Sie.",
+    "button": "WEITERE INFORMATIONEN",
+    "footer": "Dies ist eine automatische Nachricht, bitte antworten Sie nicht darauf.",
+    "adminSubject": "Neuer Lead eingegangen: {name} ({locale})"
   }
 }

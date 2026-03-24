@@ -239,9 +239,20 @@
       }
     },
     "cta": {
-      "title": "Interested in the Opportunity?",
-      "description": "Provide your details, and our representative will contact you.",
-      "button": "I'm Interested"
+      "title": "¿Interesado en la oportunidad?",
+      "description": "Proporciona tus datos y nuestro representante se pondrá en contacto contigo para obtener más información.",
+      "button": "Estoy interesado"
     }
+  },
+  "Email": {
+    "customerSubject": "Gracias por su interés - Passive Profit",
+    "customerTitle": "Estimado/a {name}:",
+    "customerSubtitle": "Estamos encantados con su interés. Nuestro experto se pondrá en contacto con usted en breve siguiendo este proceso:",
+    "step1": "Evaluación de necesidades: Conocemos sus objetivos financieros.",
+    "step2": "Antecedentes técnicos: Presentamos el mercado móvil y el sistema de inversión en oro.",
+    "step3": "Plan personalizado: Desarrollamos la estrategia más ideal para usted.",
+    "button": "MÁS INFORMACIÓN",
+    "footer": "Este es un mensaje automático, por favor no responda.",
+    "adminSubject": "Nuevo cliente potencial recibido: {name} ({locale})"
   }
 }

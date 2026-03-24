@@ -239,9 +239,20 @@
       }
     },
     "cta": {
-      "title": "Interested in the Opportunity?",
-      "description": "Provide your details, and our representative will contact you.",
-      "button": "I'm Interested"
+      "title": "Interesat de oportunitate?",
+      "description": "Furnizați-ne datele dumneavoastră și reprezentantul nostru vă va contacta pentru mai multe informații.",
+      "button": "Sunt interesat"
     }
+  },
+  "Email": {
+    "customerSubject": "Vă mulțumim pentru interes - Passive Profit",
+    "customerTitle": "Dragă {name}!",
+    "customerSubtitle": "Ne bucurăm de interesul dumneavoastră. Expertul nostru vă va contacta în curând urmând acest proces:",
+    "step1": "Evaluarea nevoilor: Vă cunoaștem obiectivele financiare.",
+    "step2": "Context tehnic: Vă prezentăm piața de telefonie mobilă și sistemul de investiții în aur.",
+    "step3": "Plan personalizat: Elaborăm cea mai ideală strategie pentru dumneavoastră.",
+    "button": "MAI MULTE INFORMAȚII",
+    "footer": "Acesta este un mesaj automat, vă rugăm să nu răspundeți.",
+    "adminSubject": "Lead nou primit: {name} ({locale})"
   }
 }

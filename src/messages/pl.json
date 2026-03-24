@@ -243,9 +243,20 @@
       }
     },
     "cta": {
-      "title": "Interested in the Opportunity?",
-      "description": "Provide your details, and our representative will contact you.",
-      "button": "I'm Interested"
+      "title": "Zainteresowany możliwością?",
+      "description": "Podaj swoje dane, a nasz przedstawiciel skontaktuje się z Tobą w celu przekazania dalszych informacji.",
+      "button": "Jestem zainteresowany"
     }
+  },
+  "Email": {
+    "customerSubject": "Dziękujemy za zainteresowanie - Passive Profit",
+    "customerTitle": "Szanowny/a {name}!",
+    "customerSubtitle": "Cieszymy się z Twojego zainteresowania. Nasz ekspert skontaktuje się z Tobą wkrótce, postępując zgodnie z poniższym procesem:",
+    "step1": "Ocena potrzeb: Poznajemy Twoje cele finansowe.",
+    "step2": "Zaplecze techniczne: Przedstawiamy rynek mobilny i system inwestowania w złoto.",
+    "step3": "Spersonalizowany plan: Opracowujemy najbardziej idealną dla Ciebie strategię.",
+    "button": "WIĘCEJ INFORMACJI",
+    "footer": "To jest wiadomość automatyczna, prosimy na nią nie odpowiadać.",
+    "adminSubject": "Otrzymano nowego leada: {name} ({locale})"
   }
 }

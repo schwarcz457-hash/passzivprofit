@@ -219,9 +219,10 @@
     }
   },
   "Mobil": {
-    "hero": {
-      "title": "Partake in the Hungarian Mobile Market!",
-      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+    "telecom": {
+      "title": "Extindere globală și inovație",
+      "description": "Faceți parte din ecosistemul nostru în creștere și descoperiți noi modalități de a construi bogăție pasivă la scară globală.",
+      "cta": "Mai multe detalii"
     },
     "restriction": "Această oportunitate este disponibilă în prezent doar în Ungaria.",
     "features": {

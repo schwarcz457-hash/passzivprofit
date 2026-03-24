@@ -188,8 +188,8 @@
         "cta": "Registration"
       },
       "telecom": {
-        "title": "Take your part in the Hungarian mobile market",
-        "description": "Shape the future of domestic telecommunications in an upcoming exclusive program.",
+        "title": "Global Expansion & Innovation",
+        "description": "Be part of our growing ecosystem and discover new ways to build passive wealth on a global scale.",
         "cta": "Learn More"
       }
     }
@@ -223,8 +223,8 @@
   },
   "Mobil": {
     "hero": {
-      "title": "Take Your Part in the Hungarian Mobile Market!",
-      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+      "title": "Global Expansion & Innovation",
+      "subtitle": "Be part of our growing ecosystem and discover new ways to build passive wealth on a global scale."
     },
     "restriction": "This opportunity is currently available in Hungary only.",
     "features": {

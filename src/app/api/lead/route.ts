@@ -27,6 +27,7 @@ export async function POST(req: Request) {
       resend.emails.send({
         from: "Passzív Profit | Ügyfélszolgálat <info@passzivprofit.com>",
         to: email, // Real customer email
+        reply_to: "schwarcz457@gmail.com",
         subject: `${t("customerSubject")} [ID:${requestId}]`,
         html: customerEmailHtml,
       }),

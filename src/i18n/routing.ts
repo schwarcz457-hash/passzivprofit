@@ -9,6 +9,7 @@ export const routing = defineRouting({
     '/': '/',
     '/gold': '/gold',
     '/privacy': '/privacy',
+    '/adatvedelem': '/adatvedelem',
     '/details': '/details',
     '/mobilpiac': '/mobilpiac'
   }

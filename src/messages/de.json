@@ -125,22 +125,35 @@
     "submitButton": "Beratung anfordern"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: March 2026",
-    "introduction": "This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a request on Aranyad.",
-    "dataCollection": "Data Collection",
-    "dataCollectionText": "We collect your Name, Email Address, and Phone Number only when you explicitly provide it by filling out our contact forms.",
-    "purpose": "Purpose & Use",
-    "purposeText": "The information collected is used strictly for contacting you regarding gold savings, providing consultations, and offering information about our passive profit programs.",
-    "storage": "Data Storage & Security",
-    "storageText": "Your data is stored securely in our local encrypted database. We do not sell or share your personal information with third parties for marketing purposes.",
-    "rights": "Right to Erasure",
-    "rightsText": "Under GDPR regulations, you have the right to request the deletion of your personal data at any time. To do so, please contact us directly."
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Letzte Aktualisierung: 24. März 2026",
+    "controller": {
+      "title": "Daten des Verantwortlichen",
+      "name": "Name: Schwarcz Attila E.V.",
+      "address": "Sitz: 9400 Sopron, Ógabona tér 36., Ungarn",
+      "taxNumber": "Steuernummer: 68957885-1-28",
+      "email": "E-Mail: schwarcz@mobilcomgsm.hu"
+    },
+    "dataCollection": {
+      "title": "Verarbeitete Daten und Zwecke",
+      "personal": "Name, E-Mail-Adresse, Telefonnummer: Diese werden mit der freiwilligen Einwilligung des Nutzers zum Zwecke der Newsletter-Anmeldung, der Goldanlageberatung, der Informationen zum Mobilfunkmarkt und der Durchführung der 25-EUR-Airdrop-Aktion erhoben.",
+      "technical": "Technische Daten (IP, Cookies): Für den Betrieb der Website und Besuchsstatistiken."
+    },
+    "processors": {
+      "title": "Auftragsverarbeiter (Technische Partner)",
+      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
+      "bluehost": "Bluehost Inc. (Endpunkt/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
+      "google": "Google LLC: Die Analyse und Speicherung der Daten erfolgt in Google-Systemen."
+    },
+    "rights": {
+      "title": "Ihre Rechte",
+      "text": "Gemäß der DSGVO haben Sie das Recht auf Auskunft über Ihre personenbezogenen Daten, deren Berichtigung, Löschung oder Einschränkung der Verarbeitung sowie das Recht auf Widerspruch gegen die Verarbeitung."
+    }
   },
   "Consent": {
-    "checkboxText": "Ich stimme den Datenschutzbestimmungen zu und bin damit einverstanden, bezüglich Goldersparnissen kontaktiert zu werden.",
-    "privacyLink": "Datenschutzbestimmungen",
-    "required": "Sie müssen den Datenschutzbestimmungen zustimmen, um fortzufahren."
+    "checkboxText": "Ich stimme der Datenschutzerklärung zu und bin damit einverstanden, bezüglich Goldersparnissen kontaktiert zu werden.",
+    "privacyLink": "Datenschutzerklärung",
+    "required": "Sie müssen der Datenschutzerklärung zustimmen, um fortzufahren."
   },
   "Cookie": {
     "message": "Wir verwenden Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website haben.",

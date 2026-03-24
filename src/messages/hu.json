@@ -134,22 +134,35 @@
     "submitAnother": "Új konzultáció kérése"
   },
   "Privacy": {
-    "title": "Adatvédelmi tájékoztató",
-    "lastUpdated": "Utolsó frissítés: 2026 Március",
-    "introduction": "Ez az Adatvédelmi tájékoztató leírja, hogyan gyűjtjük, használjuk és osztjuk meg személyes adatait, amikor meglátogatja az Aranyad oldalát vagy ajánlatot kér.",
-    "dataCollection": "Adatgyűjtés",
-    "dataCollectionText": "Kizárólag a nevét, e-mail címét és telefonszámát gyűjtjük be, amikor Ön ezeket kifejezetten megadja a kapcsolatfelvételi űrlapunk kitöltésével.",
-    "purpose": "Cél és Felhasználás",
-    "purposeText": "Az összegyűjtött információkat szigorúan arra használjuk, hogy kapcsolatba lépjünk Önnel aranymegtakarításokkal, konzultációkkal, és a passzív profit programjainkkal kapcsolatban.",
-    "storage": "Adattárolás és Biztonság",
-    "storageText": "Adatait biztonságosan tároljuk titkosított helyi adatbázisunkban. Személyes adatait soha nem értékesítjük és nem osztjuk meg harmadik felekkel marketing céljából.",
-    "rights": "Törléshez való jog",
-    "rightsText": "A GDPR rendelet értelmében Önnek joga van bármikor kérni személyes adatai törlését. Erre vonatkozó igényét kérjük, jelezze felénk közvetlenül."
+    "title": "Adatkezelési Tájékoztató",
+    "lastUpdated": "Utolsó frissítés: 2026. március 24.",
+    "controller": {
+      "title": "Adatkezelő adatai",
+      "name": "Név: Schwarcz Attila E.V.",
+      "address": "Székhely: 9400 Sopron, Ógabona tér 36.",
+      "taxNumber": "Adószám: 68957885-1-28",
+      "email": "E-mail: schwarcz@mobilcomgsm.hu"
+    },
+    "dataCollection": {
+      "title": "Kezelt adatok és célok",
+      "personal": "Név, E-mail cím, Telefonszám: Ezeket a felhasználó önkéntes hozzájárulásával gyűjtjük hírlevél-feliratkozás, aranybefektetési tanácsadás, mobilpiaci tájékoztatás és a 25 EUR airdrop promóció lebonyolítása céljából.",
+      "technical": "Technikai adatok (IP, sütik): A weboldal működéséhez és látogatottsági statisztikákhoz."
+    },
+    "processors": {
+      "title": "Adatfeldolgozók (Technikai partnerek)",
+      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
+      "bluehost": "Bluehost Inc. (Végpont/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
+      "google": "Google LLC: Az adatok elemzése és tárolása a Google rendszereiben történik."
+    },
+    "rights": {
+      "title": "Az Ön jogai",
+      "text": "A GDPR értelmében Önnek joga van hozzáférni személyes adataihoz, kérheti azok helyesbítését, törlését vagy kezelésének korlátozását, valamint tiltakozhat az adatkezelés ellen."
+    }
   },
   "Consent": {
-    "checkboxText": "Elfogadom az Adatvédelmi tájékoztatót, és hozzájárulok a kapcsolatfelvételhez az aranymegtakarítással kapcsolatban.",
-    "privacyLink": "Adatvédelmi tájékoztató",
-    "required": "A folytatáshoz el kell fogadnia az Adatvédelmi tájékoztatót."
+    "checkboxText": "Elfogadom az Adatkezelési Tájékoztatót, és hozzájárulok a kapcsolatfelvételhez az aranymegtakarítással kapcsolatban.",
+    "privacyLink": "Adatkezelési Tájékoztató",
+    "required": "A folytatáshoz el kell fogadnia az Adatkezelési Tájékoztatót."
   },
   "Cookie": {
     "message": "Weboldalunk cookie-kat használ a legjobb felhasználói élmény biztosítása érdekében.",

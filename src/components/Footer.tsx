@@ -14,7 +14,7 @@ export function Footer() {
         
         <div className="flex items-center gap-6">
           <Link 
-            href="/privacy" 
+            href="/adatvedelem" 
             className="text-sm font-inter text-premiumWhite/60 hover:text-metallicGold transition-colors"
           >
             {t("privacyLink")}

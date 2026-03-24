@@ -18,38 +18,60 @@ export async function POST(req: Request) {
     const messages = (await import(`@/messages/${safeLang}.json`)).default;
     const t = (key: string) => messages.Email ? (messages.Email[key] || key) : key;
 
-    // 2. Prepare Emails
-    const customerEmailHtml = await render(CustomerConfirmation({ name, email, locale: safeLang, t }));
+    // 2. Prepare Emails (Admin only, customer handled by Brevo)
+    // No longer rendering CustomerConfirmation for Resend
     
-    // 3. Send Emails in Parallel
-    console.log(`>>> [API LEAD - ${requestId}] Dispatching emails...`);
-    await Promise.all([
-      resend.emails.send({
-        from: "Passzív Profit | Ügyfélszolgálat <info@passzivprofit.com>",
-        to: email, // Real customer email
-        replyTo: "schwarcz457@gmail.com",
-        subject: `${t("customerSubject")} [ID:${requestId}]`,
-        html: customerEmailHtml,
-      }),
+    // 3. Parallel Dispatch: Brevo Contact + Resend Admin Notify + Google Sheets
+    console.log(`>>> [API LEAD - ${requestId}] Dispatching to CRM and Notify...`);
+    
+    const operations = [];
+
+    // 3a. Brevo Contact Sync
+    if (process.env.BREVO_API_KEY) {
+      operations.push(
+        fetch("https://api.brevo.com/v3/contacts", {
+          method: "POST",
+          headers: {
+            "accept": "application/json",
+            "api-key": process.env.BREVO_API_KEY,
+            "content-type": "application/json"
+          },
+          body: JSON.stringify({
+            email: email,
+            listIds: [2],
+            updateEnabled: true,
+            attributes: {
+              FIRSTNAME: name,
+              SMS: phone, // or SMS_NUMBER depending on Brevo config
+              LANGUAGE: safeLang,
+              REQUEST_ID: requestId
+            }
+          })
+        }).then(res => res.json()).then(data => console.log(`>>> [API LEAD - ${requestId}] Brevo Response:`, data))
+      );
+    }
+
+    // 3b. Resend Admin Notification
+    operations.push(
       resend.emails.send({
         from: "Passzív Profit | Rendszer <system@passzivprofit.com>",
-        to: "schwarcz457@gmail.com", // Admin email
+        to: "schwarcz457@gmail.com",
         subject: `Érdeklődő: ${name} [ID:${requestId}]`,
         html: `<p>Név: ${name}</p><p>Email: ${email}</p><p>Telefon: ${phone}</p><p>Nyelv: ${safeLang}</p><p>Request ID: ${requestId}</p>`,
       })
-    ]);
+    );
 
-    // 4. Google Sheets (Persistence)
+    // 3c. Google Sheets Persistence
     if (process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL) {
-      try {
-        await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
+      operations.push(
+        fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
           method: "POST",
           body: JSON.stringify({ name, email, phone, lang: safeLang, requestId }),
-        });
-      } catch (gsError) {
-        console.error(`[API LEAD - ${requestId}] GS Error:`, gsError);
-      }
+        })
+      );
     }
+
+    await Promise.allSettled(operations);
 
     return NextResponse.json({ success: true, requestId });
   } catch (error) {

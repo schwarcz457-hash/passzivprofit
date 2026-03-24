@@ -21,7 +21,7 @@ export async function POST(req: Request) {
     );
 
     await resend.emails.send({
-      from: "Passzív Profit | Ügyfélszolgálat <info@passzivprofit.com>", // Verify this domain in Resend
+      from: "Passzív Profit | Ügyfélszolgálat <onboarding@resend.dev>",
       to: email,
       subject: t("customerSubject"),
       html: customerEmailHtml,
@@ -29,7 +29,7 @@ export async function POST(req: Request) {
 
     // 3. Send Admin Notification Email
     await resend.emails.send({
-      from: "Passzív Profit | Rendszer <system@passzivprofit.com>",
+      from: "Passzív Profit | Rendszer <onboarding@resend.dev>",
       to: "schwarcz@mobilcomgsm.hu", // User's email from the prompt
       subject: t("adminSubject").replace("{name}", name).replace("{locale}", lang),
       html: `

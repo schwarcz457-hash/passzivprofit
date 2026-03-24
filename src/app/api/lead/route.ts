@@ -7,85 +7,42 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
-    const { name, email, phone, lang } = body;
-    console.log(">>> [API LEAD] Incoming request:", { name, email, phone, lang });
-
-    // 0. Validate language
+    const { name, email, phone, lang } = await req.json();
     const validLocales = ['hu', 'en', 'de', 'fr', 'ro', 'es', 'it', 'sk', 'pl'];
     const safeLang = validLocales.includes(lang) ? lang : 'en';
 
-    // 1. Get translations for the specific locale
-    let messages;
-    try {
-      console.log(">>> [API LEAD] Loading messages for:", safeLang);
-      messages = (await import(`@/messages/${safeLang}.json`)).default;
-    } catch (importError) {
-      console.error(">>> [API LEAD] FAILED to load translations:", importError);
-      return NextResponse.json({ error: "Translation load failed" }, { status: 500 });
-    }
-    
-    const t = (key: string) => {
-      if (!messages || !messages.Email) return key;
-      return messages.Email[key] || key;
-    }
+    // 1. Get translations
+    const messages = (await import(`@/messages/${safeLang}.json`)).default;
+    const t = (key: string) => messages.Email ? (messages.Email[key] || key) : key;
 
-    // 2. Send Customer Confirmation Email
-    try {
-      console.log(">>> [API LEAD] Sending customer email");
-      const customerEmailHtml = await render(
-        CustomerConfirmation({ name, locale: safeLang, t })
-      );
+    // 2. Customer Email (Professional)
+    const customerEmailHtml = await render(CustomerConfirmation({ name, locale: safeLang, t }));
+    await resend.emails.send({
+      from: "Passzív Profit | Ügyfélszolgálat <onboarding@resend.dev>",
+      to: "schwarcz457@gmail.com",
+      subject: t("customerSubject"),
+      html: customerEmailHtml,
+    });
 
-      await resend.emails.send({
-        from: "Passzív Profit | Ügyfélszolgálat <onboarding@resend.dev>",
-        to: "schwarcz457@gmail.com", // Test mode recipient
-        subject: t("customerSubject"),
-        html: customerEmailHtml,
-      });
-    } catch (customerEmailError) {
-      console.error(">>> [API LEAD] CUSTOMER EMAIL ERROR:", customerEmailError);
-    }
+    // 3. Admin Email (Simple)
+    await resend.emails.send({
+      from: "Passzív Profit | Rendszer <onboarding@resend.dev>",
+      to: "schwarcz457@gmail.com",
+      subject: `Érdeklődő: ${name}`,
+      html: `<p>Név: ${name}</p><p>Email: ${email}</p><p>Telefon: ${phone}</p><p>Nyelv: ${safeLang}</p>`,
+    });
 
-    // 3. Send Admin Notification Email
-    try {
-      console.log(">>> [API LEAD] Sending admin notification");
-      await resend.emails.send({
-        from: "Passzív Profit | Rendszer <onboarding@resend.dev>",
-        to: "schwarcz457@gmail.com", // Test mode recipient
-        subject: `Új érdeklődő: ${name} (${safeLang})`,
-        html: `
-          <div style="font-family: sans-serif; padding: 20px; background: #f9f9f9;">
-            <h2>Új érdeklődő érkezett!</h2>
-            <p><strong>Név:</strong> ${name}</p>
-            <p><strong>Email:</strong> ${email}</p>
-            <p><strong>Telefon:</strong> ${phone}</p>
-            <p><strong>Nyelv:</strong> ${safeLang}</p>
-            <hr />
-            <p>Ez egy automatikus értesítés a Passzív Profit rendszertől.</p>
-          </div>
-        `,
-      });
-    } catch (adminEmailError) {
-      console.error(">>> [API LEAD] ADMIN EMAIL ERROR:", adminEmailError);
-    }
-
-    // 4. Forward to Google Sheets
+    // 4. Google Sheets (Persistence)
     if (process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL) {
-      console.log(">>> [API LEAD] Forwarding to Google Sheets");
-      try {
-        await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
-          method: "POST",
-          body: JSON.stringify({ name, email, phone, lang: safeLang }),
-        });
-      } catch (gsError) {
-        console.error(">>> [API LEAD] Google Sheets error:", gsError);
-      }
+      await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
+        method: "POST",
+        body: JSON.stringify({ name, email, phone, lang: safeLang }),
+      });
     }
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error(">>> [API LEAD] CRITICAL ERROR:", error);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
+    console.error("Critical API Error:", error);
+    return NextResponse.json({ error: "Service Unavailable" }, { status: 500 });
   }
 }

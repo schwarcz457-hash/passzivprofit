@@ -185,9 +185,9 @@
         "cta": "Registro"
       },
       "telecom": {
-        "title": "Participa en el mercado móvil húngaro",
-        "description": "Forma el futuro de las telecomunicaciones nacionales en un próximo programa exclusivo.",
-        "cta": "Próximamente"
+        "title": "Expansión Global e Innovación",
+        "description": "Sea parte de nuestro ecosistema en crecimiento y descubra nuevas formas de construir riqueza pasiva a escala global.",
+        "cta": "Leer más"
       }
     }
   },
@@ -220,8 +220,8 @@
   },
   "Mobil": {
     "hero": {
-      "title": "Partake in the Hungarian Mobile Market!",
-      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+      "title": "Expansión Global e Innovación",
+      "subtitle": "Sea parte de nuestro ecosistema en crecimiento y descubra nuevas formas de construir riqueza pasiva a escala global."
     },
     "restriction": "Esta oportunidad actualmente solo está disponible en Hungría.",
     "features": {

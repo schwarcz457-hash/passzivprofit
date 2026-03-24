@@ -184,9 +184,9 @@
         "cta": "Registrácia"
       },
       "telecom": {
-        "title": "Zapojte sa do maďarského mobilného trhu",
-        "description": "Formujte budúcnosť domácej telekomunikácie v pripravovanom exkluzívnom programe.",
-        "cta": "Čoskoro"
+        "title": "Globálna expanzia a inovácia",
+        "description": "Staňte sa súčasťou nášho rastúceho ekosystému a objavte nové spôsoby budovania pasívneho bohatstva v globálnom meradle.",
+        "cta": "Dozvedieť sa viac"
       }
     }
   },
@@ -219,8 +219,8 @@
   },
   "Mobil": {
     "hero": {
-      "title": "Partake in the Hungarian Mobile Market!",
-      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+      "title": "Globálna expanzia a inovácia",
+      "subtitle": "Staňte sa súčasťou nášho rastúceho ekosystému a objavte nové spôsoby budovania pasívneho bohatstva v globálnom meradle."
     },
     "restriction": "Táto príležitosť je momentálne dostupná iba v Maďarsku.",
     "features": {

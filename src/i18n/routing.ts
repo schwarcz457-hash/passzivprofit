@@ -8,8 +8,11 @@ export const routing = defineRouting({
   pathnames: {
     '/': '/',
     '/gold': '/gold',
-    '/privacy': '/privacy',
-    '/adatvedelem': '/adatvedelem',
+    '/privacy': {
+      hu: '/adatvedelem',
+      en: '/privacy-policy',
+      de: '/datenschutz'
+    },
     '/details': '/details',
     '/mobilpiac': '/mobilpiac'
   }

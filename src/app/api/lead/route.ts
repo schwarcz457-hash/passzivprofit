@@ -32,35 +32,33 @@ export async function POST(req: Request) {
 
     // 2. Send Customer Confirmation Email
     try {
-      console.log(">>> [API LEAD] Rendering and sending customer email");
+      console.log(">>> [API LEAD] Sending customer email");
       const customerEmailHtml = await render(
         CustomerConfirmation({ name, locale: safeLang, t })
       );
 
-      const customerResult = await resend.emails.send({
+      await resend.emails.send({
         from: "Passzív Profit | Ügyfélszolgálat <onboarding@resend.dev>",
         to: "schwarcz457@gmail.com", // Test mode recipient
         subject: t("customerSubject"),
         html: customerEmailHtml,
       });
-      console.log(">>> [API LEAD] Customer email result:", customerResult);
     } catch (customerEmailError) {
       console.error(">>> [API LEAD] CUSTOMER EMAIL ERROR:", customerEmailError);
-      // We don't return here so admin email still has a chance
     }
 
     // 3. Send Admin Notification Email
     try {
       console.log(">>> [API LEAD] Sending admin notification");
-      const adminResult = await resend.emails.send({
+      await resend.emails.send({
         from: "Passzív Profit | Rendszer <onboarding@resend.dev>",
         to: "schwarcz457@gmail.com", // Test mode recipient
-        subject: t("adminSubject").replace("{name}", name).replace("{locale}", safeLang),
+        subject: `Új érdeklődő: ${name} (${safeLang})`,
         html: `
           <div style="font-family: sans-serif; padding: 20px; background: #f9f9f9;">
             <h2>Új érdeklődő érkezett!</h2>
             <p><strong>Név:</strong> ${name}</p>
-            <p><strong>Email:</strong> ${email} (Eredeti cím)</p>
+            <p><strong>Email:</strong> ${email}</p>
             <p><strong>Telefon:</strong> ${phone}</p>
             <p><strong>Nyelv:</strong> ${safeLang}</p>
             <hr />
@@ -68,23 +66,8 @@ export async function POST(req: Request) {
           </div>
         `,
       });
-      console.log(">>> [API LEAD] Admin email result:", adminResult);
     } catch (adminEmailError) {
       console.error(">>> [API LEAD] ADMIN EMAIL ERROR:", adminEmailError);
-    }
-
-    // 4. Forward to Google Sheets
-    if (process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL) {
-      console.log(">>> [API LEAD] Forwarding to Google Sheets");
-      try {
-        const gsResponse = await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
-          method: "POST",
-          body: JSON.stringify({ name, email, phone, lang: safeLang }),
-        });
-        console.log(">>> [API LEAD] Google Sheets response status:", gsResponse.status);
-      } catch (gsError) {
-        console.error(">>> [API LEAD] Google Sheets error:", gsError);
-      }
     }
 
     return NextResponse.json({ success: true });

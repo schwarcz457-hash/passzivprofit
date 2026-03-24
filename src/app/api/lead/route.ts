@@ -70,6 +70,19 @@ export async function POST(req: Request) {
       console.error(">>> [API LEAD] ADMIN EMAIL ERROR:", adminEmailError);
     }
 
+    // 4. Forward to Google Sheets
+    if (process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL) {
+      console.log(">>> [API LEAD] Forwarding to Google Sheets");
+      try {
+        await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          body: JSON.stringify({ name, email, phone, lang: safeLang }),
+        });
+      } catch (gsError) {
+        console.error(">>> [API LEAD] Google Sheets error:", gsError);
+      }
+    }
+
     return NextResponse.json({ success: true });
   } catch (error) {
     console.error(">>> [API LEAD] CRITICAL ERROR:", error);

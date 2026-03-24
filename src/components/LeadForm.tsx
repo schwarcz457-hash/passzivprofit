@@ -84,7 +84,13 @@ export function LeadForm() {
             <div className="flex items-start gap-3 mt-2 pl-1">
               <input required type="checkbox" id="consent" name="consent" className="mt-1 w-5 h-5 rounded border-white/20 bg-charcoal text-metallicGold" />
               <label htmlFor="consent" className="text-sm font-medium text-white/60 leading-relaxed">
-                {tConsent("checkboxText")} <Link href="/privacy" className="text-metallicGold hover:underline ml-1">({tConsent("privacyLink")})</Link>
+                {tConsent.rich("checkboxText", {
+                  link: (chunks: React.ReactNode) => (
+                    <Link href="/privacy" className="text-metallicGold hover:underline">
+                      {chunks}
+                    </Link>
+                  )
+                })}
               </label>
             </div>
 

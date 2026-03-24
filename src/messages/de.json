@@ -160,8 +160,7 @@
     }
   },
   "Consent": {
-    "checkboxText": "Ich stimme der Datenschutzerklärung zu und bin damit einverstanden, bezüglich Goldersparnissen kontaktiert zu werden.",
-    "privacyLink": "Datenschutzerklärung",
+    "checkboxText": "Ich stimme der <link>Datenschutzerklärung</link> zu und bin damit einverstanden, bezüglich Goldersparnissen kontaktiert zu werden.",
     "required": "Sie müssen der Datenschutzerklärung zustimmen, um fortzufahren."
   },
   "Cookie": {

@@ -164,8 +164,7 @@
     }
   },
   "Consent": {
-    "checkboxText": "Akceptuję politykę prywatności i wyrażam zgodę na kontakt w sprawie oszczędności w złocie.",
-    "privacyLink": "Polityka prywatności",
+    "checkboxText": "Zgadzam się z <link>Polityką prywatności</link> i wyrażam zgodę na kontakt w sprawie oszczędności w złocie.",
     "required": "Musisz zaakceptować politykę prywatności, aby kontynuować."
   },
   "Cookie": {

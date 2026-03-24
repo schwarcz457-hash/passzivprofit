@@ -160,8 +160,7 @@
     }
   },
   "Consent": {
-    "checkboxText": "Accetto l'informativa sulla privacy e acconsento a essere contattato in merito ai risparmi in oro.",
-    "privacyLink": "Informativa sulla privacy",
+    "checkboxText": "Accetto l'<link>informativa sulla privacy</link> e acconsento a essere contattato in merito ai risparmi in oro.",
     "required": "È necessario accettare l'informativa sulla privacy per procedere."
   },
   "Cookie": {

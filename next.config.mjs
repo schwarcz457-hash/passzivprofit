@@ -6,11 +6,8 @@ const withNextIntl = createNextIntlPlugin(
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 1. Ez hozza létre az 'out' mappát a build végén
-  output: 'export',
-
   images: {
-    // 2. Statikus exportnál a Next.js nem tudja átméretezni a képeket, 
+    // Statikus exportnál a Next.js nem tudja átméretezni a képeket, 
     // ezért ezt ki kell kapcsolni
     unoptimized: true,
 

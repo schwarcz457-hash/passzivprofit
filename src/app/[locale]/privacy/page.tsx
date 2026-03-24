@@ -1,6 +1,20 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Navbar } from "@/components/Navbar";
 
+export function generateStaticParams() {
+  return [
+    { locale: 'hu' },
+    { locale: 'en' },
+    { locale: 'de' },
+    { locale: 'fr' },
+    { locale: 'ro' },
+    { locale: 'es' },
+    { locale: 'it' },
+    { locale: 'sk' },
+    { locale: 'pl' }
+  ];
+}
+
 export default async function PrivacyPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);

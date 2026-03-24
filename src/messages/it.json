@@ -226,12 +226,16 @@
     "restriction": "Questa opportunità è attualmente disponibile solo in Ungheria.",
     "features": {
       "model": {
-        "title": "Real Passive Income",
-        "description": "Build your own customer base and receive a monthly commission."
+        "title": "Modello di business a prova di crisi",
+        "description": "L'uso del cellulare non è più un lusso, ma una necessità fondamentale. Il tuo reddito è quindi stabile, a lungo termine e indipendente dalle crisi economiche."
+      },
+      "passive": {
+        "title": "Vero reddito passivo",
+        "description": "Costruisci la tua base clienti e ricevi una commissione mensile. L'uso continuo significa entrate continue per te."
       },
       "support": {
-        "title": "Professional Support",
-        "description": "An online training system and an experienced support team help you."
+        "title": "Supporto professionale",
+        "description": "Un sistema di formazione online, strumenti di marketing pronti e un team di supporto esperto ti aiutano fin dal primo giorno."
       }
     },
     "cta": {

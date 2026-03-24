@@ -256,7 +256,7 @@
     "step2": "Zaplecze techniczne: Przedstawiamy rynek mobilny i system inwestowania w złoto.",
     "step3": "Spersonalizowany plan: Opracowujemy najbardziej idealną dla Ciebie strategię.",
     "button": "WIĘCEJ INFORMACJI",
-    "footer": "To jest wiadomość automatyczna, prosimy na nią nie odpowiadać.",
+    "unsubscribe": "Wypisz się",
     "adminSubject": "Otrzymano nowego leada: {name} ({locale})"
   }
 }

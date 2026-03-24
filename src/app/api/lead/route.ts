@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     const t = (key: string) => messages.Email ? (messages.Email[key] || key) : key;
 
     // 2. Prepare Emails
-    const customerEmailHtml = await render(CustomerConfirmation({ name, locale: safeLang, t }));
+    const customerEmailHtml = await render(CustomerConfirmation({ name, email, locale: safeLang, t }));
     
     // 3. Send Emails in Parallel
     console.log(`>>> [API LEAD - ${requestId}] Dispatching emails...`);

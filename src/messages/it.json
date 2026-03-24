@@ -253,6 +253,7 @@
     "step3": "Piano personalizzato: Sviluppiamo la strategia più ideale per te.",
     "button": "ULTERIORI INFORMAZIONI",
     "footer": "Questo è un messaggio automatico, si prega di non rispondere.",
+    "unsubscribe": "Disiscriviti",
     "adminSubject": "Nuovo lead ricevuto: {name} ({locale})"
   }
 }

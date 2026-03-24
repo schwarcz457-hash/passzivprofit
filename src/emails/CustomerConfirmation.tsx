@@ -14,11 +14,12 @@ import * as React from "react";
 
 interface EmailProps {
   name: string;
+  email: string; // Adott ügyfél email címe
   locale: string;
   t: (key: string) => string;
 }
 
-export const CustomerConfirmation = ({ name, t }: EmailProps) => (
+export const CustomerConfirmation = ({ name, email, t }: EmailProps) => (
   <Html>
     <Head />
     <Preview>{t("customerSubject")}</Preview>
@@ -48,6 +49,14 @@ export const CustomerConfirmation = ({ name, t }: EmailProps) => (
         </Section>
         <Hr style={hr} />
         <Text style={footer}>{t("footer")}</Text>
+        <Section style={unsubSection}>
+          <Button 
+            style={unsubLink} 
+            href={`mailto:schwarcz457@gmail.com?subject=Leiratkozas - ${email}`}
+          >
+            {t("unsubscribe")}
+          </Button>
+        </Section>
       </Container>
     </Body>
   </Html>
@@ -105,3 +114,12 @@ const button = {
 
 const hr = { borderColor: "#333333", margin: "40px 0" };
 const footer = { color: "#666666", fontSize: "12px", textAlign: "center" as const };
+const unsubSection = { textAlign: "center" as const, marginTop: "10px" };
+const unsubLink = { 
+  color: "#D4AF37", 
+  fontSize: "11px", 
+  textDecoration: "underline", 
+  backgroundColor: "transparent",
+  padding: "0",
+  display: "inline-block"
+};

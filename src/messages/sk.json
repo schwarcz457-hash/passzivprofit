@@ -252,6 +252,7 @@
     "step3": "Personalizovaný plán: Vypracujeme pre vás najideálnejšiu stratégiu.",
     "button": "VIAC INFORMÁCIÍ",
     "footer": "Toto je automatická správa, prosím neodpovedajte na ňu.",
+    "unsubscribe": "Odhlásiť sa",
     "adminSubject": "Prijatý nový záujemca: {name} ({locale})"
   }
 }

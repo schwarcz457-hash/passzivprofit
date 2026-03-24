@@ -253,6 +253,7 @@
     "step3": "Plan personalizat: Elaborăm cea mai ideală strategie pentru dumneavoastră.",
     "button": "MAI MULTE INFORMAȚII",
     "footer": "Acesta este un mesaj automat, vă rugăm să nu răspundeți.",
+    "unsubscribe": "Dezabonare",
     "adminSubject": "Lead nou primit: {name} ({locale})"
   }
 }

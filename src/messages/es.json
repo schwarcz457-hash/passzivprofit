@@ -253,6 +253,7 @@
     "step3": "Plan personalizado: Desarrollamos la estrategia más ideal para usted.",
     "button": "MÁS INFORMACIÓN",
     "footer": "Este es un mensaje automático, por favor no responda.",
+    "unsubscribe": "Darse de baja",
     "adminSubject": "Nuevo cliente potencial recibido: {name} ({locale})"
   }
 }

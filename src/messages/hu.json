@@ -261,7 +261,7 @@
     "step2": "Technikai háttér: Bemutatjuk a mobilpiaci és arany befektetési rendszert.",
     "step3": "Személyre szabott terv: Kidolgozzuk a számodra legideálisabb stratégiát.",
     "button": "TOVÁBBI INFORMÁCIÓK",
-    "footer": "Ez egy automatikus üzenet, kérjük ne válaszolj rá.",
+    "unsubscribe": "Leiratkozás",
     "adminSubject": "Új érdeklődő érkezett: {name} ({locale})"
   }
 }

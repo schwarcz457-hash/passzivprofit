@@ -256,6 +256,7 @@
     "step3": "Personalized Plan: We develop the most ideal strategy for you.",
     "button": "MORE INFORMATION",
     "footer": "This is an automated message, please do not reply.",
+    "unsubscribe": "Unsubscribe",
     "adminSubject": "New lead received: {name} ({locale})"
   }
 }

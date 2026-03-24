@@ -252,7 +252,7 @@
     "step2": "Contexte technique : Nous présentons le marché mobile et le système d'investissement en or.",
     "step3": "Plan personnalisé : Nous élaborons la stratégie la plus idéale pour vous.",
     "button": "PLUS D'INFORMATIONS",
-    "footer": "Ceci est un message automatique, veuillez ne pas y répondre.",
+    "unsubscribe": "Se désabonner",
     "adminSubject": "Nouveau prospect reçu : {name} ({locale})"
   }
 }

@@ -253,6 +253,7 @@
     "step3": "Personalisierter Plan: Wir entwickeln die ideale Strategie für Sie.",
     "button": "WEITERE INFORMATIONEN",
     "footer": "Dies ist eine automatische Nachricht, bitte antworten Sie nicht darauf.",
+    "unsubscribe": "Abmelden",
     "adminSubject": "Neuer Lead eingegangen: {name} ({locale})"
   }
 }

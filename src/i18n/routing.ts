@@ -11,7 +11,13 @@ export const routing = defineRouting({
     '/privacy': {
       hu: '/adatvedelem',
       en: '/privacy-policy',
-      de: '/datenschutz'
+      de: '/datenschutz',
+      fr: '/politique-de-confidentialite',
+      ro: '/politica-de-confidentialitate',
+      es: '/politica-de-privacidad',
+      it: '/informativa-sulla-privacy',
+      sk: '/zasady-ochrany-osobnych-udajov',
+      pl: '/polityka-prywatnosci'
     },
     '/details': '/details',
     '/mobilpiac': '/mobilpiac'

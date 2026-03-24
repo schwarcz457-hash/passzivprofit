@@ -125,35 +125,44 @@
     "submitButton": "Solicitar Consulta"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 24, 2026",
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: 24 de marzo de 2026",
     "controller": {
-      "title": "Data Controller details",
-      "name": "Name: Schwarcz Attila E.V.",
-      "address": "Headquarters: 9400 Sopron, Ógabona tér 36., Hungary",
-      "taxNumber": "Tax number: 68957885-1-28",
-      "email": "E-mail: schwarcz@mobilcomgsm.hu"
+      "title": "Detalles del responsable del tratamiento",
+      "name": "Nombre: Schwarcz Attila E.V.",
+      "address": "Sede: 9400 Sopron, Ógabona tér 36., Hungría",
+      "taxNumber": "Número de identificación fiscal: 68957885-1-28",
+      "email": "Correo electrónico: schwarcz@mobilcomgsm.hu"
     },
     "dataCollection": {
-      "title": "Processed data and purposes",
-      "personal": "Name, Email address, Phone number: These are collected with the user's voluntary consent for the purpose of newsletter subscription, gold investment consultation, mobile market information, and the 25 EUR airdrop promotion.",
-      "technical": "Technical data (IP, cookies): For website operation and visitor statistics."
+      "title": "Datos tratados y finalidades",
+      "personal": "Nombre, dirección de correo electrónico, número de teléfono: Estos se recopilan con el consentimiento voluntario del usuario para la suscripción al boletín, consulta sobre inversión en oro, información sobre el mercado móvil y la promoción airdrop de 25 EUR.",
+      "technical": "Datos técnicos (IP, cookies): Para el funcionamiento del sitio web y estadísticas de visitas."
     },
     "processors": {
-      "title": "Data processors (Technical partners)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Endpoint/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Data analysis and storage take place in Google's systems."
+      "title": "Procesadores de datos (Socios técnicos)",
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Dominio)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "El análisis y el almacenamiento de datos se llevan a cabo en los sistemas de Google."
+      }
     },
     "rights": {
-      "title": "Your rights",
-      "text": "Under the GDPR, you have the right to access your personal data, request its rectification, erasure or restriction of processing, and object to the processing."
+      "title": "Sus derechos",
+      "text": "De acuerdo con el RGPD, tiene derecho a acceder a sus datos personales, solicitar su rectificación, supresión o limitación del tratamiento, y oponerse al tratamiento."
     }
   },
   "Consent": {
-    "checkboxText": "I agree to the Privacy Policy and consent to being contacted regarding gold savings.",
-    "privacyLink": "Privacy Policy",
-    "required": "You must agree to the Privacy Policy to proceed."
+    "checkboxText": "Acepto la política de privacidad y doy mi consentimiento para ser contactado en relación con los ahorros en oro.",
+    "privacyLink": "Política de privacidad",
+    "required": "Debe aceptar la política de privacidad para continuar."
   },
   "Cookie": {
     "message": "Utilizamos cookies para asegurarnos de que obtenga la mejor experiencia en nuestro sitio web.",

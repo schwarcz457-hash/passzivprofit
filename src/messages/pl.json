@@ -125,35 +125,48 @@
     "submitButton": "Zamów Konsultację"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 24, 2026",
+    "title": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja: 24 marca 2026",
     "controller": {
-      "title": "Data Controller details",
-      "name": "Name: Schwarcz Attila E.V.",
-      "address": "Headquarters: 9400 Sopron, Ógabona tér 36., Hungary",
-      "taxNumber": "Tax number: 68957885-1-28",
+      "title": "Dane administratora",
+      "name": "Imię i nazwisko: Schwarcz Attila E.V.",
+      "address": "Siedziba: 9400 Sopron, Ógabona tér 36., Węgry",
+      "taxNumber": "NIP: 68957885-1-28",
       "email": "E-mail: schwarcz@mobilcomgsm.hu"
     },
     "dataCollection": {
-      "title": "Processed data and purposes",
-      "personal": "Name, Email address, Phone number: These are collected with the user's voluntary consent for the purpose of newsletter subscription, gold investment consultation, mobile market information, and the 25 EUR airdrop promotion.",
-      "technical": "Technical data (IP, cookies): For website operation and visitor statistics."
+      "title": "Przetwarzane dane i cele",
+      "personal": "Imię, adres e-mail, numer telefonu: Są one zbierane za dobrowolną zgodą użytkownika w celu subskrypcji newslettera, doradztwa w zakresie inwestycji w złoto, informacji o rynku mobilnym oraz przeprowadzenia promocji airdrop o wartości 25 EUR.",
+      "technical": "Dane techniczne (IP, pliki cookie): Do działania strony internetowej i statystyk odwiedzin.",
+      "purpose": "Cel i zastosowanie",
+      "purposeText": "Zebrane informacje są wykorzystywane wyłącznie do kontaktu z Państwem w sprawie oszczędności w złocie, udzielania konsultacji oraz oferowania informacji o naszych programach pasywnego zysku.",
+      "storage": "Przechowywanie danych i bezpieczeństwo",
+      "storageText": "Twoje dane są bezpiecznie przechowywane w naszej lokalnej szyfrowanej bazie danych. Nie sprzedajemy ani nie udostępniamy Twoich danych osobowych osobom trzecim w celach marketingowych."
     },
     "processors": {
-      "title": "Data processors (Technical partners)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Endpoint/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Data analysis and storage take place in Google's systems."
+      "title": "Podmioty przetwarzające (Partnerzy techniczni)",
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Domena)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "Analiza i przechowywanie danych odbywają się w systemach Google."
+      }
     },
     "rights": {
-      "title": "Your rights",
-      "text": "Under the GDPR, you have the right to access your personal data, request its rectification, erasure or restriction of processing, and object to the processing."
+      "title": "Twoje prawa",
+      "text": "Zgodnie z RODO masz prawo do dostępu do swoich danych osobowych, żądania ich sprostowania, usunięcia lub ograniczenia przetwarzania oraz wniesienia sprzeciwu wobec przetwarzania."
     }
   },
   "Consent": {
-    "checkboxText": "I agree to the Privacy Policy and consent to being contacted regarding gold savings.",
-    "privacyLink": "Privacy Policy",
-    "required": "You must agree to the Privacy Policy to proceed."
+    "checkboxText": "Akceptuję politykę prywatności i wyrażam zgodę na kontakt w sprawie oszczędności w złocie.",
+    "privacyLink": "Polityka prywatności",
+    "required": "Musisz zaakceptować politykę prywatności, aby kontynuować."
   },
   "Cookie": {
     "message": "Używamy plików cookie, aby zapewnić najlepszą jakość korzystania z naszej witryny.",

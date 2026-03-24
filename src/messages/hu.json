@@ -150,9 +150,18 @@
     },
     "processors": {
       "title": "Adatfeldolgozók (Technikai partnerek)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Végpont/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Az adatok elemzése és tárolása a Google rendszereiben történik."
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Domain)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "Az adatok elemzése és tárolása a Google rendszereiben történik."
+      }
     },
     "rights": {
       "title": "Az Ön jogai",

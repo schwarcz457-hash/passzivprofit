@@ -125,35 +125,44 @@
     "submitButton": "Solicită Consultație"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 24, 2026",
+    "title": "Politica de confidențialitate",
+    "lastUpdated": "Ultima actualizare: 24 martie 2026",
     "controller": {
-      "title": "Data Controller details",
-      "name": "Name: Schwarcz Attila E.V.",
-      "address": "Headquarters: 9400 Sopron, Ógabona tér 36., Hungary",
-      "taxNumber": "Tax number: 68957885-1-28",
+      "title": "Datele operatorului",
+      "name": "Nume: Schwarcz Attila E.V.",
+      "address": "Sediu: 9400 Sopron, Ógabona tér 36., Ungaria",
+      "taxNumber": "Cod de înregistrare fiscală: 68957885-1-28",
       "email": "E-mail: schwarcz@mobilcomgsm.hu"
     },
     "dataCollection": {
-      "title": "Processed data and purposes",
-      "personal": "Name, Email address, Phone number: These are collected with the user's voluntary consent for the purpose of newsletter subscription, gold investment consultation, mobile market information, and the 25 EUR airdrop promotion.",
-      "technical": "Technical data (IP, cookies): For website operation and visitor statistics."
+      "title": "Date prelucrate și scopuri",
+      "personal": "Nume, adresă de e-mail, număr de telefon: Acestea sunt colectate cu consimțământul voluntar al utilizatorului în scopul abonării la newsletter, consultanței pentru investiții în aur, informării despre piața de mobil și derulării promoției airdrop de 25 EUR.",
+      "technical": "Date tehnice (IP, cookie-uri): Pentru funcționarea site-ului web și statistici de vizitare."
     },
     "processors": {
-      "title": "Data processors (Technical partners)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Endpoint/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Data analysis and storage take place in Google's systems."
+      "title": "Împuterniciți (Parteneri tehnici)",
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Domeniu)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "Analiza și stocarea datelor au loc în sistemele Google."
+      }
     },
     "rights": {
-      "title": "Your rights",
-      "text": "Under the GDPR, you have the right to access your personal data, request its rectification, erasure or restriction of processing, and object to the processing."
+      "title": "Drepturile dumneavoastră",
+      "text": "Conform GDPR, aveți dreptul de a accesa datele dumneavoastră cu caracter personal, de a solicita rectificarea, ștergerea sau restricționarea prelucrării acestora și de a vă opune prelucrării."
     }
   },
   "Consent": {
-    "checkboxText": "I agree to the Privacy Policy and consent to being contacted regarding gold savings.",
-    "privacyLink": "Privacy Policy",
-    "required": "You must agree to the Privacy Policy to proceed."
+    "checkboxText": "Sunt de acord cu Politica de confidențialitate și consimt să fiu contactat în legătură cu economiile de aur.",
+    "privacyLink": "Politica de confidențialitate",
+    "required": "Trebuie să fiți de acord cu Politica de confidențialitate pentru a continua."
   },
   "Cookie": {
     "message": "Folosim cookie-uri pentru a ne asigura că veți avea cea mai bună experiență pe site-ul nostru.",

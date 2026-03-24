@@ -124,35 +124,44 @@
     "submitButton": "Požiadať o Konzultáciu"
   },
   "Privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: March 24, 2026",
+    "title": "Zásady ochrany osobných údajov",
+    "lastUpdated": "Posledná aktualizácia: 24. marec 2026",
     "controller": {
-      "title": "Data Controller details",
-      "name": "Name: Schwarcz Attila E.V.",
-      "address": "Headquarters: 9400 Sopron, Ógabona tér 36., Hungary",
-      "taxNumber": "Tax number: 68957885-1-28",
+      "title": "Údaje prevádzkovateľa",
+      "name": "Meno: Schwarcz Attila E.V.",
+      "address": "Sídlo: 9400 Sopron, Ógabona tér 36., Maďarsko",
+      "taxNumber": "Daňové identifikačné číslo: 68957885-1-28",
       "email": "E-mail: schwarcz@mobilcomgsm.hu"
     },
     "dataCollection": {
-      "title": "Processed data and purposes",
-      "personal": "Name, Email address, Phone number: These are collected with the user's voluntary consent for the purpose of newsletter subscription, gold investment consultation, mobile market information, and the 25 EUR airdrop promotion.",
-      "technical": "Technical data (IP, cookies): For website operation and visitor statistics."
+      "title": "Spracúvané údaje a účely",
+      "personal": "Meno, e-mailová adresa, telefónne číslo: Tieto údaje sa zhromažďujú s dobrovoľným súhlasom používateľa na účely prihlásenia sa na odber noviniek, poradenstva v oblasti investovania do zlata, informácií o mobilnom trhu a realizácie akcie 25 EUR airdrop.",
+      "technical": "Technické údaje (IP, cookies): Pre fungovanie webovej stránky a štatistiky návštevnosti."
     },
     "processors": {
-      "title": "Data processors (Technical partners)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Endpoint/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Data analysis and storage take place in Google's systems."
+      "title": "Sprostredkovatelia (Technickí partneri)",
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Doména)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "Analýza a uchovávanie údajov prebiehajú v systémoch spoločnosti Google."
+      }
     },
     "rights": {
-      "title": "Your rights",
-      "text": "Under the GDPR, you have the right to access your personal data, request its rectification, erasure or restriction of processing, and object to the processing."
+      "title": "Vaše práva",
+      "text": "Podľa GDPR máte právo na prístup k svojim osobným údajom, požiadať o ich opravu, vymazanie alebo obmedzenie spracúvania a namietať proti spracúvaniu."
     }
   },
   "Consent": {
-    "checkboxText": "I agree to the Privacy Policy and consent to being contacted regarding gold savings.",
-    "privacyLink": "Privacy Policy",
-    "required": "You must agree to the Privacy Policy to proceed."
+    "checkboxText": "Súhlasím so zásadami ochrany osobných údajov a súhlasím s kontaktovaním v súvislosti so sparením v zlate.",
+    "privacyLink": "Zásady ochrany osobných údajov",
+    "required": "Ak chcete pokračovať, musíte súhlasiť so zásadami ochrany osobných údajov."
   },
   "Cookie": {
     "message": "Používame súbory cookie, aby sme vám zaistili čo najlepší zážitok z našich webových stránok.",

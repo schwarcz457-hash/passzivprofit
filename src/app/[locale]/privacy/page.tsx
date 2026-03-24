@@ -51,16 +51,16 @@ export default async function PrivacyPage({ params }: { params: Promise<{ locale
             </h2>
             <ul className="space-y-4 text-premiumWhite/80">
               <li className="flex flex-col">
-                <span className="font-semibold text-premiumWhite">Vercel Inc.</span>
-                <span className="text-sm opacity-70">440 N Barranca Ave #4133, Covina, CA 91723, USA</span>
+                <span className="font-semibold text-premiumWhite">{t("processors.vercel.name")}</span>
+                <span className="text-sm opacity-70">{t("processors.vercel.address")}</span>
               </li>
               <li className="flex flex-col">
-                <span className="font-semibold text-premiumWhite">Bluehost Inc.</span>
-                <span className="text-sm opacity-70">5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA</span>
+                <span className="font-semibold text-premiumWhite">{t("processors.bluehost.name")}</span>
+                <span className="text-sm opacity-70">{t("processors.bluehost.address")}</span>
               </li>
               <li className="flex flex-col">
-                <span className="font-semibold text-premiumWhite">Google LLC</span>
-                <span className="text-sm opacity-70">{t("processors.google")}</span>
+                <span className="font-semibold text-premiumWhite">{t("processors.google.name")}</span>
+                <span className="text-sm opacity-70">{t("processors.google.text")}</span>
               </li>
             </ul>
           </section>

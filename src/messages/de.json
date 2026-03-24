@@ -141,9 +141,18 @@
     },
     "processors": {
       "title": "Auftragsverarbeiter (Technische Partner)",
-      "vercel": "Vercel Inc. (Hosting): 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
-      "bluehost": "Bluehost Inc. (Endpunkt/Domain): 5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA.",
-      "google": "Google LLC: Die Analyse und Speicherung der Daten erfolgt in Google-Systemen."
+      "vercel": {
+        "name": "Vercel Inc. (Hosting)",
+        "address": "440 N Barranca Ave #4133, Covina, CA 91723, USA"
+      },
+      "bluehost": {
+        "name": "Bluehost Inc. (Domain)",
+        "address": "5335 Gate Pkwy, 2nd Floor, Jacksonville, FL 32256, USA"
+      },
+      "google": {
+        "name": "Google LLC",
+        "text": "Die Analyse und Speicherung der Daten erfolgt in Google-Systemen."
+      }
     },
     "rights": {
       "title": "Ihre Rechte",

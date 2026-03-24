@@ -185,9 +185,9 @@
         "cta": "Inscription"
       },
       "telecom": {
-        "title": "Participez au marché mobile hongrois",
-        "description": "Façonnez l'avenir des télécommunications nationales dans un prochain programme exclusif.",
-        "cta": "Bientôt disponible"
+        "title": "Expansion mondiale et innovation",
+        "description": "Faites partie de notre écosystème en pleine croissance et découvrez de nouvelles façons de générer des revenus passifs à l'échelle mondiale.",
+        "cta": "En savoir plus"
       }
     }
   },
@@ -220,8 +220,8 @@
   },
   "Mobil": {
     "hero": {
-      "title": "Partake in the Hungarian Mobile Market!",
-      "subtitle": "Shape the future of domestic telecommunications in an exclusive program."
+      "title": "Expansion mondiale et innovation",
+      "subtitle": "Faites partie de notre écosystème en pleine croissance et découvrez de nouvelles façons de générer des revenus passifs à l'échelle mondiale."
     },
     "restriction": "Cette opportunité est actuellement disponible uniquement en Hongrie.",
     "features": {

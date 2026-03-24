@@ -41,15 +41,19 @@ export async function POST(req: Request) {
 
     // 4. Google Sheets (Persistence)
     if (process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL) {
-      fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
-        method: "POST",
-        body: JSON.stringify({ name, email, phone, lang: safeLang, requestId }),
-      }).catch(err => console.error(`[API LEAD - ${requestId}] GS Error:`, err));
+      try {
+        await fetch(process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL, {
+          method: "POST",
+          body: JSON.stringify({ name, email, phone, lang: safeLang, requestId }),
+        });
+      } catch (gsError) {
+        console.error(`[API LEAD - ${requestId}] GS Error:`, gsError);
+      }
     }
 
     return NextResponse.json({ success: true, requestId });
   } catch (error) {
-    console.error(`[API LEAD - ${requestId}] CRITICAL ERROR:`, error);
+    console.error(`[API LEAD - ${requestId}] Critical Error:`, error);
     return NextResponse.json({ error: "Service Unavailable", requestId }, { status: 500 });
   }
 }

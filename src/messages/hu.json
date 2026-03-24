@@ -170,6 +170,7 @@
   },
   "Consent": {
     "checkboxText": "Elfogadom az <link>Adatkezelési Tájékoztatót</link>, és hozzájárulok a kapcsolatfelvételhez az aranymegtakarítással kapcsolatban.",
+    "privacyLink": "Adatkezelési Tájékoztató",
     "required": "A folytatáshoz el kell fogadnia az Adatkezelési Tájékoztatót."
   },
   "Cookie": {

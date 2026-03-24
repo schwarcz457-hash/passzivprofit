@@ -160,6 +160,7 @@
   },
   "Consent": {
     "checkboxText": "Súhlasím so <link>Zásadami ochrany osobných údajov</link> a súhlasím s tým, aby ma kontaktovali v súvislosti s úsporami v zlate.",
+    "privacyLink": "Zásady ochrany osobných údajov",
     "required": "Ak chcete pokračovať, musíte súhlasiť so zásadami ochrany osobných údajov."
   },
   "Cookie": {

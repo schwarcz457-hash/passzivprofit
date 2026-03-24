@@ -161,6 +161,7 @@
   },
   "Consent": {
     "checkboxText": "J'accepte la <link>politique de confidentialité</link> et je consens à être contacté au sujet de l'épargne en or.",
+    "privacyLink": "Politique de confidentialité",
     "required": "Vous devez accepter la politique de confidentialité pour continuer."
   },
   "Cookie": {

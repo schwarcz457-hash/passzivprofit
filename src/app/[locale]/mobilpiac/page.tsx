@@ -6,7 +6,6 @@ import { Link } from "@/i18n/routing";
 import { Smartphone, Globe, TrendingUp, Users, ArrowRight, ShieldCheck, AlertCircle } from "lucide-react";
 import Image from "next/image";
 import { Navbar } from "@/components/Navbar";
-import { Footer } from "@/components/Footer";
 import { LeadForm } from "@/components/LeadForm";
 
 export default function MobilpiacPage() {
@@ -39,7 +38,6 @@ export default function MobilpiacPage() {
             </Link>
           </motion.div>
         </div>
-        <Footer />
       </main>
     );
   }
@@ -166,7 +164,6 @@ export default function MobilpiacPage() {
         <LeadForm />
       </section>
 
-      <Footer />
     </main>
   );
 }

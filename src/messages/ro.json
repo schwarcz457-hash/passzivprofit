@@ -161,6 +161,7 @@
   },
   "Consent": {
     "checkboxText": "Sunt de acord cu <link>Politica de confidențialitate</link> și consimt să fiu contactat în legătură cu economiile în aur.",
+    "privacyLink": "Politica de confidențialitate",
     "required": "Trebuie să fiți de acord cu Politica de confidențialitate pentru a continua."
   },
   "Cookie": {

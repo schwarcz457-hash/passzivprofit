@@ -164,6 +164,7 @@
   },
   "Consent": {
     "checkboxText": "I agree to the <link>Privacy Policy</link> and consent to being contacted regarding gold savings.",
+    "privacyLink": "Privacy Policy",
     "required": "You must agree to the Privacy Policy to proceed."
   },
   "Cookie": {

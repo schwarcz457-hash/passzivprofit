@@ -161,6 +161,7 @@
   },
   "Consent": {
     "checkboxText": "Acepto la <link>Política de privacidad</link> y doy mi consentimiento para ser contactado en relación con los ahorros en oro.",
+    "privacyLink": "Política de privacidad",
     "required": "Debe aceptar la política de privacidad para continuar."
   },
   "Cookie": {

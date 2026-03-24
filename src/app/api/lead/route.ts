@@ -25,14 +25,14 @@ export async function POST(req: Request) {
     console.log(`>>> [API LEAD - ${requestId}] Dispatching emails...`);
     await Promise.all([
       resend.emails.send({
-        from: "Passzív Profit | Ügyfélszolgálat <onboarding@resend.dev>",
-        to: "schwarcz457@gmail.com",
+        from: "Passzív Profit | Ügyfélszolgálat <info@passzivprofit.com>",
+        to: email, // Real customer email
         subject: `${t("customerSubject")} [ID:${requestId}]`,
         html: customerEmailHtml,
       }),
       resend.emails.send({
-        from: "Passzív Profit | Rendszer <onboarding@resend.dev>",
-        to: "schwarcz457@gmail.com",
+        from: "Passzív Profit | Rendszer <system@passzivprofit.com>",
+        to: "schwarcz457@gmail.com", // Admin email
         subject: `Érdeklődő: ${name} [ID:${requestId}]`,
         html: `<p>Név: ${name}</p><p>Email: ${email}</p><p>Telefon: ${phone}</p><p>Nyelv: ${safeLang}</p><p>Request ID: ${requestId}</p>`,
       })

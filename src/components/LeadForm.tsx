@@ -39,12 +39,17 @@ export function LeadForm() {
         body: JSON.stringify(payload),
       });
 
-      if (!response.ok) throw new Error("API request failed");
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({}));
+        console.error(">>> [FRONTEND] API error response:", errorData);
+        throw new Error("API request failed");
+      }
 
+      console.log(">>> [FRONTEND] Submission SUCCESS, setting status to success");
       setStatus("success");
       setMessage("successMessage");
     } catch (error) {
-      console.error("Submission error:", error);
+      console.error(">>> [FRONTEND] Submission EXCEPTION:", error);
       setStatus("error");
       setMessage("errorMessage");
     }

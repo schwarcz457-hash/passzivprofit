@@ -4,11 +4,16 @@ import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { useState } from "react";
+import { useParams } from "next/navigation";
 
 export function LeadForm() {
   const t = useTranslations("LeadForm");
   const tConsent = useTranslations("Consent");
-  const locale = useLocale(); // Kinyeri az aktuális nyelvet (pl. "hu", "en")
+  const locale = useLocale();
+  const params = useParams();
+  
+  // Robust locale detection: URL parameter first, then next-intl hook, then default
+  const currentLocale = (params?.locale as string) || locale || "en";
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -19,11 +24,13 @@ export function LeadForm() {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
-    // Összefűzzük az űrlap adatait az aktuális nyelvvel
+    // Összefűzzük az űrlap adatait az aktuális nyelvvel (kényszerített nagybetűs kód)
     const payload = {
       ...data,
-      lang: locale
+      lang: (currentLocale || "en").toUpperCase()
     };
+
+    console.log(">>> [FRONTEND] Submitting LeadForm payload:", payload);
 
     try {
       const response = await fetch("/api/lead", {

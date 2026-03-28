@@ -1,9 +1,4 @@
-import { Resend } from "resend";
-import { CustomerConfirmation } from "@/emails/CustomerConfirmation";
 import { NextResponse } from "next/server";
-import { render } from "@react-email/render";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function POST(req: Request) {
   const requestId = Math.random().toString(36).substring(7);
@@ -137,33 +132,6 @@ else {
     } else {
       console.error(`>>> [API LEAD - ${requestId}] BREVO_API_KEY is missing from environment variables.`);
     }
-
-    // 3b & 3c. Parallel Notifications (Admin Notify + Google Sheets)
-    // We start these but don't strictly block the CRM success on them if they fail
-    const backgroundOps = [];
-
-    // Resend Admin Notification
-    backgroundOps.push(
-      resend.emails.send({
-        from: "Passzív Profit | Rendszer <system@passzivprofit.com>",
-        to: "schwarcz457@gmail.com",
-        subject: `Érdeklődő: ${name} [ID:${requestId}]`,
-        html: `<p>Név: ${name}</p><p>Email: ${email}</p><p>Telefon: ${phone}</p><p>Nyelv: ${safeLang}</p><p>Request ID: ${requestId}</p>`,
-      })
-    );
-
-    // Google Sheets Persistence
-    if (process.env.GOOGLE_SHEETS_WEBHOOK_URL) {
-      backgroundOps.push(
-        fetch(process.env.GOOGLE_SHEETS_WEBHOOK_URL, {
-          method: "POST",
-          body: JSON.stringify({ name, email, phone, lang: safeLang, requestId }),
-        })
-      );
-    }
-
-    // Wait for background ops but we primarily care about Brevo for the response
-    await Promise.allSettled(backgroundOps);
 
     if (brevoSuccess) {
       return NextResponse.json({ success: true, requestId });

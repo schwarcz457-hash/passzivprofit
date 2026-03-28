@@ -30,14 +30,7 @@ export async function POST(req: Request) {
       console.warn(`>>> [API LEAD - ${requestId}] Invalid Phone formatting skip for Brevo but continuing.`);
     }
 
-    // 1. Get translations
-    const messages = (await import(`@/messages/${safeLang.toLowerCase()}.json`)).default;
-    const t = (key: string) => messages.Email ? (messages.Email[key] || key) : key;
-
-    // 2. Prepare Emails (Admin only, customer handled by Brevo)
-    // No longer rendering CustomerConfirmation for Resend
-    
-    // 3. Dispatch: Brevo Contact (Blocking) + Resend Admin Notify & Google Sheets (Parallel)
+    // Note: Translations removed as emails are no longer handled by Resend here.
     
     let brevoSuccess = false;
     let brevoResponseData = null;

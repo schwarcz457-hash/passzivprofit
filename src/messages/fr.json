@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Commencez à Bâtir votre Richesse",
-    "subtitle": "Demandez une consultation gratuite avec nos experts et apprenez à protéger vos actifs.",
+    "subtitle": "Demandez des informations gratuites et apprenez à créer des actifs à l'épreuve des crises.",
     "namePlaceholder": "Nom Complet",
     "emailPlaceholder": "Adresse E-mail",
-    "phonePlaceholder": "Numéro de Téléphone",
-    "submitButton": "Demander une Consultation"
+    "submitButton": "Demander des informations",
+    "successTitle": "Merci !",
+    "successMessage": "Demande d'informations réussie !",
+    "submitAnother": "Envoyer une autre demande"
   },
   "Privacy": {
     "title": "Politique de confidentialité",

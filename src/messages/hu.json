@@ -124,14 +124,13 @@
   },
   "LeadForm": {
     "title": "Kezdd El Az Építkezést",
-    "subtitle": "Kérj ingyenes konzultációt szakértőinktől, és tudd meg, hogyan hozhatsz létre válságálló vagyont.",
+    "subtitle": "Kérj ingyenes tájékoztatást, és tudd meg, hogyan hozhatsz létre válságálló vagyont.",
     "namePlaceholder": "Teljes Név",
     "emailPlaceholder": "Email Cím",
-    "phonePlaceholder": "Telefonszám",
-    "submitButton": "Konzultáció igénylése",
+    "submitButton": "Tájékoztatás kérése",
     "successTitle": "Köszönjük!",
-    "successMessage": "A konzultáció igénylése sikeresen megtörtént!",
-    "submitAnother": "Új konzultáció kérése"
+    "successMessage": "A tájékoztatás kérése sikeresen megtörtént!",
+    "submitAnother": "Új tájékoztatás kérése"
   },
   "Privacy": {
     "title": "Adatkezelési Tájékoztató",

@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Inizia a Costruire la Tua Ricchezza",
-    "subtitle": "Richiedi una consulenza gratuita con i nostri esperti.",
+    "subtitle": "Richiedi informazioni gratuite e scopri come creare asset a prova di crisi.",
     "namePlaceholder": "Nome e Cognome",
     "emailPlaceholder": "Indirizzo Email",
-    "phonePlaceholder": "Numero di Telefono",
-    "submitButton": "Richiedi Consulenza"
+    "submitButton": "Richiedi informazioni",
+    "successTitle": "Grazie!",
+    "successMessage": "Richiesta di informazioni inviata con successo!",
+    "submitAnother": "Invia un'altra richiesta"
   },
   "Privacy": {
     "title": "Informativa sulla privacy",

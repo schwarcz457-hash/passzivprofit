@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Beginnen Sie Ihren Vermögensaufbau",
-    "subtitle": "Fordern Sie Ihre kostenlose Beratung an und bauen Sie sich krisensichere finanzielle Reserven auf.",
+    "subtitle": "Fordern Sie kostenlose Informationen an und erfahren Sie, wie Sie krisenfeste finanzielle Reserven aufbauen.",
     "namePlaceholder": "Vollständiger Name",
     "emailPlaceholder": "E-Mail-Adresse",
-    "phonePlaceholder": "Telefonnummer",
-    "submitButton": "Beratung anfordern"
+    "submitButton": "Informationen anfordern",
+    "successTitle": "Vielen Dank!",
+    "successMessage": "Informationen erfolgreich angefordert!",
+    "submitAnother": "Weitere Anfrage senden"
   },
   "Privacy": {
     "title": "Datenschutzerklärung",

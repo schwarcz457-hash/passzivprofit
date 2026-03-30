@@ -117,11 +117,13 @@
   },
   "LeadForm": {
     "title": "Začnite Budovať Svoje Bohatstvo",
-    "subtitle": "Požiadajte o bezplatnú konzultáciu s našimi odborníkmi.",
+    "subtitle": "Požiadajte o bezplatné informácie a zistite, ako si vytvoriť majetok odolný voči krízam.",
     "namePlaceholder": "Celé Meno",
     "emailPlaceholder": "E-mailová Adresa",
-    "phonePlaceholder": "Telefónne Číslo",
-    "submitButton": "Požiadať o Konzultáciu"
+    "submitButton": "Požiadať o informácie",
+    "successTitle": "Ďakujeme!",
+    "successMessage": "Žiadosť o informácie bola úspešne odoslaná!",
+    "submitAnother": "Poslať ďalšiu žiadosť"
   },
   "Privacy": {
     "title": "Zásady ochrany osobných údajov",

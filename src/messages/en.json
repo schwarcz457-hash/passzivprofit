@@ -118,13 +118,12 @@
   },
   "LeadForm": {
     "title": "Start Building Your Wealth",
-    "subtitle": "Request a free consultation with our experts and learn how to create crisis-proof assets.",
+    "subtitle": "Request free information and learn how to create crisis-proof assets.",
     "namePlaceholder": "Full Name",
     "emailPlaceholder": "Email Address",
-    "phonePlaceholder": "Phone Number",
-    "submitButton": "Request Consultation",
+    "submitButton": "Request Information",
     "successTitle": "Thank you!",
-    "successMessage": "Consultation requested successfully!",
+    "successMessage": "Information requested successfully!",
     "submitAnother": "Submit another request"
   },
   "Privacy": {

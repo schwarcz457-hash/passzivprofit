@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Comience a Construir su Riqueza",
-    "subtitle": "Solicite una consulta gratuita con nuestros expertos.",
+    "subtitle": "Solicite información gratuita y aprenda a crear activos a prueba de crisis.",
     "namePlaceholder": "Nombre Completo",
     "emailPlaceholder": "Correo Electrónico",
-    "phonePlaceholder": "Número de Teléfono",
-    "submitButton": "Solicitar Consulta"
+    "submitButton": "Solicitar información",
+    "successTitle": "¡Gracias!",
+    "successMessage": "¡Solicitud de información realizada con éxito!",
+    "submitAnother": "Enviar otra solicitud"
   },
   "Privacy": {
     "title": "Política de privacidad",

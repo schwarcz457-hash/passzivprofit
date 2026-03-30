@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Zacznij Budować Swoje Bogactwo",
-    "subtitle": "Zamów bezpłatną konsultację u naszych ekspertów.",
+    "subtitle": "Poproś o bezpłatne informacje i dowiedz się, jak budować majątek odporny na kryzysy.",
     "namePlaceholder": "Imię i Nazwisko",
     "emailPlaceholder": "Adres Email",
-    "phonePlaceholder": "Numer Telefonu",
-    "submitButton": "Zamów Konsultację"
+    "submitButton": "Poproś o informacje",
+    "successTitle": "Dziękujemy!",
+    "successMessage": "Prośba o informacje została pomyślnie wysłana!",
+    "submitAnother": "Wyślij kolejną prośbę"
   },
   "Privacy": {
     "title": "Polityka prywatności",

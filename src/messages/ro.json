@@ -118,11 +118,13 @@
   },
   "LeadForm": {
     "title": "Începe să-ți Construiești Bogăția",
-    "subtitle": "Solicitați o consultație gratuită cu experții noștri.",
+    "subtitle": "Solicitați informații gratuite și aflați cum să creați active rezistente la criză.",
     "namePlaceholder": "Numele Complet",
     "emailPlaceholder": "Adresă de Email",
-    "phonePlaceholder": "Număr de Telefon",
-    "submitButton": "Solicită Consultație"
+    "submitButton": "Solicită informații",
+    "successTitle": "Mulțumim!",
+    "successMessage": "Solicitarea de informații a fost trimisă cu succes!",
+    "submitAnother": "Trimite o altă solicitare"
   },
   "Privacy": {
     "title": "Politica de confidențialitate",

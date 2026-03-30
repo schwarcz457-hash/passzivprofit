@@ -90,11 +90,6 @@ export function LeadForm() {
               <input required id="email" name="email" type="email" className="px-5 py-4 bg-white/5 rounded-xl border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-metallicGold/50 focus:ring-1 focus:ring-metallicGold/50 transition-all font-inter" placeholder="john@example.com" />
             </div>
 
-            <div className="flex flex-col">
-              <label htmlFor="phone" className="text-sm font-medium text-white/50 mb-2 pl-1">{t("phonePlaceholder")}</label>
-              <input required id="phone" name="phone" type="tel" className="px-5 py-4 bg-white/5 rounded-xl border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-metallicGold/50 focus:ring-1 focus:ring-metallicGold/50 transition-all font-inter" placeholder="+36 30 123 4567" />
-            </div>
-
             <div className="flex items-start gap-3 mt-2 pl-1">
               <input required type="checkbox" id="consent" name="consent" className="mt-1 w-5 h-5 rounded border-white/20 bg-charcoal text-metallicGold" />
               <label htmlFor="consent" className="text-sm font-medium text-white/60 leading-relaxed">

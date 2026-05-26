@@ -124,7 +124,8 @@
     "submitButton": "Demander des informations",
     "successTitle": "Merci !",
     "successMessage": "Demande d'informations réussie !",
-    "submitAnother": "Envoyer une autre demande"
+    "submitAnother": "Envoyer une autre demande",
+    "errorMessage": "Quelque chose s'est mal passé. Veuillez réessayer."
   },
   "Privacy": {
     "title": "Politique de confidentialité",

@@ -6,7 +6,11 @@ import { Send, CheckCircle2, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { useParams } from "next/navigation";
 
-export function LeadForm() {
+interface LeadFormProps {
+  type?: string;
+}
+
+export function LeadForm({ type = "gold" }: LeadFormProps) {
   const t = useTranslations("LeadForm");
   const tConsent = useTranslations("Consent");
   const locale = useLocale();
@@ -24,10 +28,11 @@ export function LeadForm() {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
-    // Összefűzzük az űrlap adatait az aktuális nyelvvel (kényszerített nagybetűs kód)
+    // Összefűzzük az űrlap adatait az aktuális nyelvvel és a kapott típussal
     const payload = {
       ...data,
-      lang: (currentLocale || "en").toUpperCase()
+      lang: (currentLocale || "en").toUpperCase(),
+      type: type
     };
 
     console.log(">>> [FRONTEND] Submitting LeadForm payload:", payload);
@@ -80,6 +85,8 @@ export function LeadForm() {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-5 text-left bg-charcoal p-8 md:p-10 rounded-3xl border border-white/10 shadow-2xl">
+            <input type="hidden" name="type" value={type} />
+            
             <div className="flex flex-col">
               <label htmlFor="name" className="text-sm font-medium text-white/50 mb-2 pl-1">{t("namePlaceholder")}</label>
               <input required id="name" name="name" type="text" className="px-5 py-4 bg-white/5 rounded-xl border border-white/10 text-white placeholder-white/30 focus:outline-none focus:border-metallicGold/50 focus:ring-1 focus:ring-metallicGold/50 transition-all font-inter" placeholder="John Doe" />

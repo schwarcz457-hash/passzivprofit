@@ -124,7 +124,8 @@
     "submitButton": "Poproś o informacje",
     "successTitle": "Dziękujemy!",
     "successMessage": "Prośba o informacje została pomyślnie wysłana!",
-    "submitAnother": "Wyślij kolejną prośbę"
+    "submitAnother": "Wyślij kolejną prośbę",
+    "errorMessage": "Coś poszło nie tak. Spróbuj ponownie."
   },
   "Privacy": {
     "title": "Polityka prywatności",

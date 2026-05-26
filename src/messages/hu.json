@@ -130,7 +130,8 @@
     "submitButton": "Tájékoztatás kérése",
     "successTitle": "Köszönjük!",
     "successMessage": "A tájékoztatás kérése sikeresen megtörtént!",
-    "submitAnother": "Új tájékoztatás kérése"
+    "submitAnother": "Új tájékoztatás kérése",
+    "errorMessage": "Valami hiba történt. Kérjük, próbálja meg újra."
   },
   "Privacy": {
     "title": "Adatkezelési Tájékoztató",

@@ -124,7 +124,8 @@
     "submitButton": "Solicită informații",
     "successTitle": "Mulțumim!",
     "successMessage": "Solicitarea de informații a fost trimisă cu succes!",
-    "submitAnother": "Trimite o altă solicitare"
+    "submitAnother": "Trimite o altă solicitare",
+    "errorMessage": "Ceva nu a mers bine. Vă rugăm să încercați din nou."
   },
   "Privacy": {
     "title": "Politica de confidențialitate",

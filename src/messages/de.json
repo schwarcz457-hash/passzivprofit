@@ -124,7 +124,8 @@
     "submitButton": "Informationen anfordern",
     "successTitle": "Vielen Dank!",
     "successMessage": "Informationen erfolgreich angefordert!",
-    "submitAnother": "Weitere Anfrage senden"
+    "submitAnother": "Weitere Anfrage senden",
+    "errorMessage": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
   },
   "Privacy": {
     "title": "Datenschutzerklärung",

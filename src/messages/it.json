@@ -124,7 +124,8 @@
     "submitButton": "Richiedi informazioni",
     "successTitle": "Grazie!",
     "successMessage": "Richiesta di informazioni inviata con successo!",
-    "submitAnother": "Invia un'altra richiesta"
+    "submitAnother": "Invia un'altra richiesta",
+    "errorMessage": "Qualcosa è andato storto. Per favore riprova."
   },
   "Privacy": {
     "title": "Informativa sulla privacy",

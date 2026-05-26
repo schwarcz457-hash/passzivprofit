@@ -124,7 +124,8 @@
     "submitButton": "Request Information",
     "successTitle": "Thank you!",
     "successMessage": "Information requested successfully!",
-    "submitAnother": "Submit another request"
+    "submitAnother": "Submit another request",
+    "errorMessage": "Something went wrong. Please try again."
   },
   "Privacy": {
     "title": "Privacy Policy",

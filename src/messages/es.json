@@ -124,7 +124,8 @@
     "submitButton": "Solicitar información",
     "successTitle": "¡Gracias!",
     "successMessage": "¡Solicitud de información realizada con éxito!",
-    "submitAnother": "Enviar otra solicitud"
+    "submitAnother": "Enviar otra solicitud",
+    "errorMessage": "Algo salió mal. Por favor, inténtelo de nuevo."
   },
   "Privacy": {
     "title": "Política de privacidad",

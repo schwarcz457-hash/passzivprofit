@@ -20,7 +20,7 @@ export async function POST(req: Request) {
       finalType = "mobile";
     }
 
-    const listId = finalType === "mobile" ? 8 : 15;
+    const listId = finalType === "mobile" ? 8 : 2;
 
     console.log(`>>> [API LEAD - ${requestId}] Incoming request absolute diagnostics:
       Email: ${email} (cleanEmail: ${cleanEmail})
